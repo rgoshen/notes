@@ -1,0 +1,19 @@
+
+7typescript:S3626e"Remove this redundant jump.(ûÁİ…
+ztypescript:S1488p"^Immediately return this expression instead of assigning it to the temporary variable "result".(ì¶Ó÷
+ztypescript:S1488z"^Immediately return this expression instead of assigning it to the temporary variable "result".(ì¶Ó÷
+{typescript:S1488„"^Immediately return this expression instead of assigning it to the temporary variable "result".(ì¶Ó÷
+{typescript:S1488õ"^Immediately return this expression instead of assigning it to the temporary variable "result".(»ˆóœ
+€typescript:S1488˜"^Immediately return this expression instead of assigning it to the temporary variable "result".(¾Ööµıÿÿÿÿ
+†typescript:S1488»"iImmediately return this expression instead of assigning it to the temporary variable "savedBankTransfer".(½ù¢á
+ntypescript:S4325‹"RThis assertion is unnecessary since it does not change the type of the expression.(¿ ½}
+ntypescript:S4325‹"RThis assertion is unnecessary since it does not change the type of the expression.(¿ ½}
+ttypescript:S4325Œ"RThis assertion is unnecessary since it does not change the type of the expression.(Û ªêşÿÿÿÿ
+ttypescript:S4325Œ"RThis assertion is unnecessary since it does not change the type of the expression.(Û ªêşÿÿÿÿ
+ntypescript:S4325İ"RThis assertion is unnecessary since it does not change the type of the expression.(¿ ½}
+ntypescript:S4325İ"RThis assertion is unnecessary since it does not change the type of the expression.(¿ ½}
+ttypescript:S4325Ş"RThis assertion is unnecessary since it does not change the type of the expression.(Û ªêşÿÿÿÿ
+ttypescript:S4325Ş"RThis assertion is unnecessary since it does not change the type of the expression.(Û ªêşÿÿÿÿ
+ƒtypescript:S1488ê"aImmediately return this expression instead of assigning it to the temporary variable "savedLike".(»œÃïøÿÿÿÿ
+typescript:S1488™"dImmediately return this expression instead of assigning it to the temporary variable "savedComment".(Š†Úó
+…typescript:S1172"cRemove the unused function parameter "userId" or rename it to "_userId" to make intention explicit.(Ë‡Â…ûÿÿÿÿ
