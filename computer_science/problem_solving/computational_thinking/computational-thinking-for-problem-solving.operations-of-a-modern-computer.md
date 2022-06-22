@@ -1,12 +1,8 @@
----
-id: AFwMxeTsi2OigkP4d1j6D
-title: Operations of a Modern Computer
-desc: 'Module 3'
-updated: 1645135563091
-created: 1645134856570
----
+# Operations of a Modern Computer
 
-# Table of Contents
+### Module 3
+
+## Table of Contents
 
 1. [Learning Outcomes](#learning-outcomes)
 1. [History of the computer](#history-of-the-computer)
@@ -28,3 +24,5 @@ created: 1645134856570
 ## Data representation and control flow in the von Neumann Architecture
 
 ## Expressing algorithms using pseudocode
+
+[![Main TOC](https://img.shields.io/badge/back%20to%20main-%E2%86%A9-red)](./computational-thinking-for-problem-solving.md)

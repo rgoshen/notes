@@ -1,12 +1,8 @@
----
-id: SRjLqz8xeDDKUkLQZ0DMs
-title: Applied Computational Thinking Using Python
-desc: ''
-updated: 1645135840639
-created: 1645135622747
----
+# Applied Computational Thinking Using Python
 
-# Table of Contents
+### Module 4
+
+## Table of Contents
 
 1. [Learning Outcomes](#learning-outcomes)
 1. [Data Representation: variables, lists](#data-representation-variables-lists)
@@ -31,3 +27,5 @@ created: 1645135622747
 ## Functions
 
 ## Classes and Objects
+
+[![Main TOC](https://img.shields.io/badge/back%20to%20main-%E2%86%A9-red)](./computational-thinking-for-problem-solving.md)

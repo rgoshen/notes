@@ -1,20 +1,17 @@
----
-id: R8IyZNP3B2JOtNOJ19sOR
-title: Computational Thinking for Problem Solving
-desc: 'Penn Engineering Coursera Course'
-updated: 1645136391278
-created: 1645134028963
----
+#  Computational Thinking for Problem-Solving
 
-# Table of Contents
+### Description: Penn Engineering Coursera Course
+
+## Table of Contents
 
 1. [Course Description](#course-description)
-1. [Course Learning Outcomes](#course-learning-outcomes)
-1. [[computational-thinking-for-problem-solving.pillars-of-computational-thinking]]
-1. [[computational-thinking-for-problem-solving.expressing-and-analyzing-algorithms]]
-1. [[computational-thinking-for-problem-solving.operations-of-a-modern-computer]]
-1. [Syllabus](/assets/files/penn-ctfps-syllabus.pdf)
-1. [Background Reading](#background-reading)
+2. [Course Learning Outcomes](#course-learning-outcomes)
+3. [Pillars of Computational Thinking](computational-thinking-for-problem-solving.pillars-of-computational-thinking.md)
+4. [Expressing and Analyzing Algorithms](computational-thinking-for-problem-solving.expressing-and-analyzing-algorithms.md)
+5. [Operations of a Modern Computer](computational-thinking-for-problem-solving.operations-of-a-modern-computer.md)
+6. [Applied Computational Thinking Using Python](computational-thinking-for-problem-solving.applied-computational-thinking-using-python.md)
+7. [Syllabus](../../../assets/files/penn-ctfps-syllabus.pdf)
+8. [Background Reading](#background-reading)
 
 ## Course Description
 
@@ -35,4 +32,4 @@ computational thinking to solve problems. You will engage with a unique communit
 
 ## Background Reading
 
-- Wing, J. M. (2006). [Computational thinking](/assets/files/Wing_2006_Computational_Thinking.pdf). Communications of the ACM, 49(3), 33-35.
+- Wing, J. M. (2006). [Computational thinking](../../../assets/files/Wing_2006_Computational_Thinking.pdf). Communications of the ACM, 49(3), 33-35.

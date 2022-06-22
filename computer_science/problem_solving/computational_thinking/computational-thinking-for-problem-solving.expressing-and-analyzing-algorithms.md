@@ -1,12 +1,8 @@
----
-id: PcnVjlUjd13vvDm7L2dEU
-title: Expressing and Analyzing Algorithms
-desc: 'Module 2'
-updated: 1646442914807
-created: 1645134660665
----
+# Expressing and Analyzing Algorithms
 
-# Table of Contents
+### Module 2
+
+## Table of Contents
 
 1. [Learning Outcomes](#learning-outcomes)
 1. [Common algorithms: find-max, linear search, binary search](#common-algorithms-find-max-linear-search-binary-search)
@@ -27,9 +23,9 @@ created: 1645134660665
 #### What Can A Computer Do?
 
 - computers can only perform binary operations that take two operands
-  - adding two numbers or
-  - multiplying two numbers or
-  - comparing two numbers
+    - adding two numbers or
+    - multiplying two numbers or
+    - comparing two numbers
 
 #### Finding the Maximum Value
 
@@ -184,10 +180,10 @@ So we found our target on the fourth iteration vs. a linear search we would not 
 **Problem:** Determine whether a sorted list of values contains a target value
 
 - Repeat these steps whether a sorted list of values contains a target value
-  - Compare the value in the middle fo the list to the target
-  - If they are equal, then we have found the target and can stop looking
-  - If the value in the middle of the list is greater than the target, remove the middle element and elements that are larger than it and repeat
-  - If the value in the middle of the list is less than the target, remove the middle element and elements that are smaller than it and repeat
+    - Compare the value in the middle fo the list to the target
+    - If they are equal, then we have found the target and can stop looking
+    - If the value in the middle of the list is greater than the target, remove the middle element and elements that are larger than it and repeat
+    - If the value in the middle of the list is less than the target, remove the middle element and elements that are smaller than it and repeat
 - If we remove all elements in the list, then it does not contain the target
 
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
@@ -222,7 +218,7 @@ The worst case scenario using linear search would take 15 comparisons before rea
 
 To describe the complexity, lets double the list size and evaluate the number of comparisons. This would only increase the number of comparisons by one from the original list.
 
-![linear-vs-binary](/assets/images/linear_vs_binary.png)
+![linear-vs-binary](../../../assets/images/linear_vs_binary.png)
 
 Here the linear search complexity is shown in red and the binary search is shown in orange. So, as the number of inputs increases, the linear search number of comparisons also increases at the same rate. But, notice the binary search does not, it eventually gets to a point where you increase the number of inputs and no appreciable increase in the number of comparisons. This is known as **logarithmic complexity**. The number of comparisons grow at the rate of the logarithm of the number of inputs increases.
 
@@ -294,7 +290,7 @@ How many comparisons were needed to find the max value?
 
 If we double the number of elements, we still must compare against all them. This would result in a total of 15 comparisons which is again no. of elements - 1. What this boils down to is if we double the number of elements then we also double the number of comparisons and so on. This is called linear growth. The number of comparisons roughly equals the number of elements. This algorithm has linear complexity.
 
-![linear_complexity](/assets/images/lineral_complexity.png)
+![linear_complexity](../../../assets/images/lineral_complexity.png)
 
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
@@ -416,3 +412,5 @@ Now, if we double the number of elements, then we also roughly double the number
 ## Approaches to solving optimization problems: brute force, greedy
 
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+
+[![Main TOC](https://img.shields.io/badge/back%20to%20main-%E2%86%A9-red)](./computational-thinking-for-problem-solving.md)
