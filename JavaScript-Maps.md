@@ -7,7 +7,7 @@
 - if you don't return anything from the callback function, it will automatically return undefined (i.e. `const ages = people.map(() => {}); // [undefined, undefined, undefined]`)
 - what ever is returned from the callback function is what will be stored in the new array
 
-click [here](examples/javascript/jsMapExample.js) for examples
+click [here](examples/javascript/jsExamples.js) for examples
 
 for preview click [here](examples/javascript/index.html)
 
