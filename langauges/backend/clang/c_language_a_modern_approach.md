@@ -30,9 +30,9 @@ int main(void)
 
 1. create a file name pun.c containing the program
 1. convert the program to a form that the machine can executable
-   1. **Preprocessing.** the program is given to a preprocessor which obeys commands that begin with # (known as **directives**)
-   1. **Compiling.** modified program now goes to a **compiler**, which translates it into machine instructions (**object code**)
-   1. **Linking.** a **linker** combines the object code produced by the compiler with any additional code needed to yield a complete executable program. This additional code includes library functions (like printf) that are used in the program
+    1. **Preprocessing.** the program is given to a preprocessor which obeys commands that begin with # (known as **directives**)
+    1. **Compiling.** modified program now goes to a **compiler**, which translates it into machine instructions (**object code**)
+    1. **Linking.** a **linker** combines the object code produced by the compiler with any additional code needed to yield a complete executable program. This additional code includes library functions (like printf) that are used in the program
 
 All this is usually automated. In fact, the preprocessor is usually integrated with the compiler.
 
