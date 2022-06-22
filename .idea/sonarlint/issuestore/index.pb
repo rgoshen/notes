@@ -1,9 +1,6 @@
 
 J
 .idea/jsLinters/eslint.xml,e/b/eb1f02ca8ef3d0da59c956a13898780dee950d48
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 m
 =scratch/javascript/node/user-authentication/package-lock.json,d/5/d548c3ded456ba5a30fe8922a551564d9c1b1616
 i
@@ -109,11 +106,7 @@ gscratch/javascript/react/testing/react_testing_crash_course/react-testing-demo/
 …
 Uscratch/javascript/react/testing/react_testing_crash_course/react-testing-demo/.nvmrc,e/a/eae0a1f91ba3f54a4625d1231a7fa90362121c01
 U
-%langauges/frontend/JavaScript-Maps.md,f/1/f1bbdb09892b9d605dd38cf050ca3732c0d3615d
-U
 %assets/examples/javascript/index.html,9/8/982e2111a35191b669d42dc754bef452b49b893f
-X
-(assets/examples/javascript/jsExamples.js,9/3/93036a664236e2fa83bf44cdbc78d6be305e81a8
 N
 assets/images/Go_Logo_Blue.svg,a/0/a0829d408ccd498f0c6a250f79bc40ad26a2a7c1
 P
@@ -488,5 +481,8 @@ J
 scratch/web-development.md,0/3/0336ada85fc13231214ae555f6ba7ada646c38e3
 A
 knowledge_base.mm,7/e/7e5d1023b5a71f0890527847cd3e2cf0b97c0cbc
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+X
+(assets/examples/javascript/jsExamples.js,9/3/93036a664236e2fa83bf44cdbc78d6be305e81a8
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
