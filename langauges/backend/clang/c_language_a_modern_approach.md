@@ -1,5 +1,7 @@
 # C Programming: A Modern Approach
 
+### References: C Programming: A Modern Approach by K. N. King
+
 ## TOC
 
 1. [C Fundamentals](#c-fundamentals)
