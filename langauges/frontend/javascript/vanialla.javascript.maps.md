@@ -1,3 +1,5 @@
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+
 # Vanilla JavaScript
 
 ## Maps
