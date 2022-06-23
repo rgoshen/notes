@@ -1,29 +1,25 @@
----
-id: 0ep01okVx9XrMugubUjUz
-title: Bootstrap
-desc: 'Bootstrap Lesson'
-updated: 1644359217089
-created: 1644352731963
----
+[![bootstrap-logo](../../../assets/images/bootstrap-logo.svg)](https://getbootstrap.com/)
 
-[![bootstrap-logo](/assets/images/bootstrap-logo.svg){display: block, margin: 0 auto, max-height: 400px}](https://getbootstrap.com/)
+# Bootstrap
+
+### Bootstrap Lesson
 
 [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/getting-started/introduction/) |
 [![FontAwesome](https://img.shields.io/badge/Docs-Font%20Awesome-%23528DD7.svg?style=flat&logo=fontawesome&logoColor=white)](https://fontawesome.com/docs)
 
 # Table of Contents
 
-1. [Abbreviations](#abbreviations)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Introduction](#introduction)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Using Bootstrap](#using-bootstrap)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Layout](#layout)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Images](#images)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Tables](#tables)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Alerts](#alerts)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [Buttons](#buttons)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [UI Components](#ui-components)
-1. ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) [JavaScript Components](#javascript-components)
-1. ![FontAwesome](https://img.shields.io/badge/Font%20Awesome-%23528DD7.svg?style=flat&logo=fontawesome&logoColor=white) [Font Awesome](#font-awesome)
+1.  [Abbreviations](#abbreviations)
+1.  [Introduction](#introduction)
+1.  [Using Bootstrap](#using-bootstrap)
+1.  [Layout](#layout)
+1.  [Images](#images)
+1.  [Tables](#tables)
+1.  [Alerts](#alerts)
+1.  [Buttons](#buttons)
+1.  [UI Components](#ui-components)
+1.  [JavaScript Components](#javascript-components)
+1.  [Font Awesome](#font-awesome)
 1. [Wrap-up](#wrap-up)
 1. [Tutorials](#tutorials)
 
@@ -81,7 +77,7 @@ In this subunit, we'll cover Twitter Bootstrap. Bootstrap is one of the most pop
 
 Used for table cells, text, buttons, & more
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Using Bootstrap
 
@@ -106,7 +102,7 @@ To use interactive components, include JS:
 ></script>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Layout
 
@@ -187,7 +183,7 @@ _auto-columns_
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/layout/grid/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Images
 
@@ -195,7 +191,7 @@ _auto-columns_
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/content/images/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Tables
 
@@ -209,7 +205,7 @@ _auto-columns_
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/content/tables/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Alerts
 
@@ -221,7 +217,7 @@ Useful for providing feedback/warnings:
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/components/alerts/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Buttons
 
@@ -237,7 +233,7 @@ Can use on `<a>` links to look like buttons—very useful!
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/components/buttons/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## UI Components
 
@@ -250,7 +246,7 @@ Can use on `<a>` links to look like buttons—very useful!
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## JavaScript Components
 
@@ -264,7 +260,7 @@ Can use on `<a>` links to look like buttons—very useful!
 
 **Learn more**: [![Bootstrap](https://img.shields.io/badge/Docs-bootstrap-%23563D7C.svg?style=flay&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Font Awesome
 
@@ -305,7 +301,7 @@ Use icons by name on a / or **span** tag
 
 [![FontAwesome](https://img.shields.io/badge/Docs-Font%20Awesome-%23528DD7.svg?style=flat&logo=fontawesome&logoColor=white)](https://fontawesome.com/start)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Wrap-up
 
@@ -327,6 +323,5 @@ Other popular frameworks:
 - Can find thousands of Bootstrap themes
 - Can easily use [Bootswatch](https://bootswatch.com/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-## Tutorials

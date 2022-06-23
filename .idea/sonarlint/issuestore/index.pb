@@ -201,8 +201,6 @@ J
 scratch/javascript.ajax.md,3/e/3ee09da90ec2a6811fd9d5bada5412e59ae29900
 L
 scratch/javascript.jquery.md,0/c/0c06233e33e8a6757828edad568ca5e78ff08546
-E
-scratch/javascript.md,c/7/c735ca913c639024bb47d2a5e1093b14ea32b24e
 w
 Gscratch/javascript.node-js.jwt-authentication.examples.authServer-js.md,d/f/dfe262d565f9c1fbc07a35b71bdf28ab2db0973c
 i

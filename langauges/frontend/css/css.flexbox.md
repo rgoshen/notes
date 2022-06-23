@@ -1,12 +1,6 @@
----
-id: 3EZXwLlbSH5Iv0DZrFxI4
-title: Flexbox
-desc: ''
-updated: 1645218185962
-created: 1645152761312
----
+![CSS](../../../assets/images/CSS3_and_HTML5_logos.png)
 
-![CSS](/assets/images/CSS3_and_HTML5_logos.png){display: block, margin: 0 auto, max-height: 400px}
+# Flexbox
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/cssref/default.asp) |
@@ -16,10 +10,10 @@ created: 1645152761312
 # Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Introduction](#introduction)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Growing and Shrinking](#growing-and-shrinking)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Axes](#axes)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Alignment](#alignment)
+1.  [Introduction](#introduction)
+1.  [Growing and Shrinking](#growing-and-shrinking)
+1.  [Axes](#axes)
+1.  [Alignment](#alignment)
 
 ## Abbreviations
 
@@ -50,7 +44,7 @@ Flexbox layouts can get a little complicated. In a previous lesson you learned h
 
 Flexbox is a way to arrange items into rows or columns, where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let’s look at a simple demonstration. For all of the exercises here, take your time to inspect the code and really understand what’s going on. Actually playing with the code yourself will make it much easier to retain this information.
 
-[![flex-example](/assets/images/flex-example.png)](https://codepen.io/TheOdinProjectExamples/pen/QWgNxrp)
+[![flex-example](../../../assets/images/flex-example.png)](https://codepen.io/TheOdinProjectExamples/pen/QWgNxrp)
 
 We’ll get into exactly what’s going on here soon enough, but for now, uncomment the two flex related lines in the above CSS and check out the result. All 3 divs should now be arranged horizontally. If you resize your browser you’ll also see that the divs will ‘flex’. They will fill the available area, and will each have equal width.
 
@@ -68,15 +62,15 @@ As you’ve seen, flexbox isn’t just a single CSS property, but a whole toolbo
 
 A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.
 
-![flexbox-exmaple](/assets/images/flexbox-example.png)
+![flexbox-exmaple](../../../assets/images/flexbox-example.png)
 
 Somewhat confusingly, any element can be both a flex container and a flex item. Said another way, you can also put `display: flex` on a flex item, and then use flexbox to arrange its children.
 
 This method of creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The next image was achieved using _only_ flexbox to arrange, size, and place the various elements. Flexbox is a _very_ powerful tool.
 
-![flexbox-example-2](/assets/images/flaxbox-example02.png)
+![flexbox-example-2](../../../assets/images/flaxbox-example02.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Growing and Shrinking
 
@@ -91,11 +85,11 @@ The **flex** declaration is actually a shorthand for 3 properties that you can s
 
 In this case, **flex** is actually a shorthand for **flex-grow**, **flex-shrink** and **flex-basis**.
 
-![flex-shorthand](/assets/images/flex-shorthand.png)
+![flex-shorthand](../../../assets/images/flex-shorthand.png)
 
 The default value of the **flex** property is shown in the above screenshot: `flex-grow: 0`, `flex-shrink: 1`, `flex-basis: 0%`. Very often you see the flex shorthand defined with only one value. In that case, that value is applied to **flex-grow**, so when we put **flex: 1** on our divs, we were actually specifying `flex: 1 1 0%`.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### flex-grow
 
@@ -103,9 +97,9 @@ The default value of the **flex** property is shown in the above screenshot: `fl
 
 In the following example the **flex** shorthand has values for **flex-shrink** and **flex-basis** specified with their default values.
 
-[![flex-shorthand-2](/assets/images/flex-shorthand2.png)](https://codepen.io/TheOdinProjectExamples/pen/YzQqvgK)
+[![flex-shorthand-2](../../../assets/images/flex-shorthand2.png)](https://codepen.io/TheOdinProjectExamples/pen/YzQqvgK)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### flex-shrink
 
@@ -115,11 +109,11 @@ The default shrink factor is `flex-shrink: 1`, which means all items will shrink
 
 Here’s an example. Note that we’ve also changed the **flex-basis** for reasons that will be explained shortly. If you shrink your browser window you’ll notice that **.two** never gets smaller than the given width of 250px, even though the **flex-grow** rule would otherwise specify that each element should be equally sized.
 
-[![flex-shrink](/assets/images/flex-shrink.png)](https://codepen.io/TheOdinProjectExamples/pen/JjJXZVz)
+[![flex-shrink](../../../assets/images/flex-shrink.png)](https://codepen.io/TheOdinProjectExamples/pen/JjJXZVz)
 
 An important implication to notice here is that when you specify **flex-grow** or **flex-shrink**, flex items do not necessarily respect your given values for **width**. In the above example, all 3 divs are given a width of 250px, but when their parent is big enough, they grow to fill it. Likewise, when the parent is too small, the default behavior is for them to shrink to fit. This is not a bug, but it could be confusing behavior if you aren’t expecting it.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### flex-basis
 
@@ -131,7 +125,7 @@ An important implication to notice here is that when you specify **flex-grow** o
 > The actual default value for **flex-basis** is **auto**, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`.
 > If you want to _only_ adjust an item’s **flex-grow** you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### In practice...
 
@@ -139,7 +133,7 @@ In practice you will likely not be using complex values for **flex-grow**, **fle
 
 It _is_ possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it’s useful to know that you can use other values, but those are relatively rare.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Axes
 
@@ -159,7 +153,7 @@ No matter which direction you’re using, you need to think of your flex-contain
 
 In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically.
 
-[![flex-direction-example](/assets/images/flex-direction.png)](https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw)
+[![flex-direction-example](../../../assets/images/flex-direction.png)](https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw)
 
 One thing to note is that in this example, `flex-direction: column` would not work as expected if we used the shorthand `flex: 1`. Try it out now (i.e. go change the flex value on the `flex: 1 1 auto`; line). Can you figure out why it does not work if `flex: 1` is used? The divs collapse, even though they clearly have a **height** defined there.
 
@@ -173,7 +167,7 @@ We’ve strayed from the point slightly… We were talking about flex-direction 
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Alignment
 
@@ -181,7 +175,7 @@ So far everything we’ve touched with flexbox has used the rule `flex: 1` on al
 
 Let's look at another example.
 
-[![alignment-example](/assets/images/alignment-example.png)](https://codepen.io/TheOdinProjectExamples/pen/MWoyBzR)
+[![alignment-example](../../../assets/images/alignment-example.png)](https://codepen.io/TheOdinProjectExamples/pen/MWoyBzR)
 
 You should be able to predict what happens if you put `flex: 1` on the `.item` by now. Give it a shot before we move on!
 
@@ -189,29 +183,29 @@ Adding `flex: 1` to **.item** makes each of the items grow to fill the available
 
 Remove `flex: 1` from **.item** and add `justify-content: space-between` to **.container**. Doing so should give you something like this:
 
-![space-between](/assets/images/space-between.png)
+![space-between](../../../assets/images/space-between.png)
 
 **justify-content** aligns items across the **main axis**. There are a few values that you can use here. You'll learnt the rest of them in the reading assignments, but for now try changing it to **center**, which should center the boxes along the main axis.
 
 To change the placement of items along the **cross axis** use **align-items**. Try getting the boxes to the center of the container by adding `align-items: center` to **.container**. The desired result looks like this:
 
-![align-items](/assets/images/align-items.png)
+![align-items](../../../assets/images/align-items.png)
 
 Because **justify-content** and **align-items** are based on the main and cross axis of your container, their behavior changes when you change the flex-direction of a flex-container. For example, when you change **flex-direction** to **column**, **justify-content** aligns vertically and **align-items** aligns horizontally. The most common behavior, however, is the default, i.e. **justify-content** aligns items horizontally (because the main axis defaults to horizontal), and **align-items** aligns them vertically. One of the biggest sticking points that beginners have with flexbox is confusion when this behavior changes.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### GAP
 
 One more very useful feature of flex is the **gap** property. Setting **gap** on a flex container simply adds a specified space between flex items, very similar to adding a margin to the items themselves. **gap** is a _very_ new property so it doesn't show up in very many resources yet, but it works reliably in all modern browsers, so it is safe to use and is very handy! Adding `gap: 8px;` to the centered example above produces the result below.
 
-[![flex-alignment-ex-2](/assets/images/flex-alignment2.png)](https://codepen.io/rgoshen/pen/rNYJdrq)
+[![flex-alignment-ex-2](../../../assets/images/flex-alignment2.png)](https://codepen.io/rgoshen/pen/rNYJdrq)
 
 There's more for you to learn in the reading below, but at this point surely you can see how immensely useful flexbox is. Using just the properties we've already covered you could already put together some impressive layouts!
 
 Take your time going through the reading. There will be some review of the items we've already covered here, but it goes into more depth and touches on a few things that haven't been mentioned yet. Don't stress too much about trying to memorize every little detail yet; just code along with the examples and do your best to internalize everything that is _possible_ with flexbox. You'll have to reach for these resources again once you get to the practice exercises, but that's perfectly acceptable. The more you use this stuff the better it will stick in your mind...anf you will be using it _constantly_. Have fun!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Further Reading
 

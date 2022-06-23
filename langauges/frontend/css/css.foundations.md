@@ -1,12 +1,6 @@
----
-id: clazZ7qlNA4EfoKKOMRnP
-title: Foundations
-desc: ''
-updated: 1645154334580
-created: 1644884014657
----
+![CSS](../../../assets/images/CSS3_and_HTML5_logos.png)
 
-![CSS](/assets/images/CSS3_and_HTML5_logos.png){display: block, margin: 0 auto, max-height: 400px}
+# Foundations
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/css) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/cssref/default.asp) |
@@ -14,14 +8,14 @@ created: 1644884014657
 [The Odin Project](https://www.theodinproject.com/) |
 [![Google Chrome](https://img.shields.io/badge/Docs-Google%20Chrome-4285F4?style=flat&logo=GoogleChrome&logoColor=white)](https://developer.chrome.com/docs/devtools/)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Introduction](#introduction)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [CSS Foundations](#css-foundations)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Inspecting HTML and CSS](#inspecting-html-and-css)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [The Box Model](#the-box-model)
-1. ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) [Block and Inline](#block-and-inline)
+1.  [Introduction](#introduction)
+1.  [CSS Foundations](#css-foundations)
+1.  [Inspecting HTML and CSS](#inspecting-html-and-css)
+1.  [The Box Model](#the-box-model)
+1.  [Block and Inline](#block-and-inline)
 
 ## Abbreviations
 
@@ -48,7 +42,7 @@ In the previous lesson you learned how to write the HTML that determines how a w
 - You’ll learn which elements default to **block** and which elements default to **inline**
 - You’ll learn what divs and spans are
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## CSS Foundations
 
@@ -56,20 +50,20 @@ In the previous lesson you learned how to write the HTML that determines how a w
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on these in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
 
-![css-basic-syntax](/assets/images/css-basic-syntax.jpeg)
+![css-basic-syntax](../../../assets/images/css-basic-syntax.jpeg)
 
 > **NOTE:** A `<div>` is one of the basic HTML elements. It is simply an empty container.
 > In general it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you’ll find that there are many cases where the thing you need is just a container for other elements.
 > Many of our exercises use plain `<div>`s for simplicity.
 > Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Selectors
 
 Selectors simply refer to the HTML elements to which CSS rules apply; they’re what is actually being “selected” for each rule. The following subsections don’t cover every selector available, but they’re by far the most common and the ones you should get comfortable using first.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Universal Selector
 
@@ -81,7 +75,7 @@ The universal selector will select elements of any type, hence the name “unive
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Type Selectors
 
@@ -106,7 +100,7 @@ div {
 
 Here, all three `<div>` elements would be selected, while the `<p>` element wouldn’t be.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Class Selectors
 
@@ -130,7 +124,7 @@ Note the syntax for class selectors: a period immediately followed by the case-s
 
 Another thing you can do with the class attribute is add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### ID Selectors
 
@@ -154,7 +148,7 @@ Instead of a period, we use a hashtag immediately followed by the case-sensitive
 
 The major difference between classes and IDs is that an element can only have **one** ID. An ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Grouping Selector
 
@@ -194,7 +188,7 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 
 Both of the examples above (with and without grouping) will have the same result, but the second example reduces repetition of declarations and makes it easier to edit either the **color** or **background-color** for both classes at once.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Chaining Selectors
 
@@ -219,7 +213,7 @@ What `.subsection.header` does is it selects any element that has both the **sub
 
 In general, you can’t chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p`, would give us the selector **divp**, which wouldn’t work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Descendant Combinator
 
@@ -254,7 +248,7 @@ In the above example, the first two elements with the **contents** class (B and 
 
 There’s really no limit to how many combinators you can add to a rule, so `.one` `.two` `.three` `.four` would be totally valid. This would just select an element that has a class of **four** if it has an ancestor with a class of **three**, and if that ancestor has its own ancestor with a class of **two**, and so on. You generally want to avoid trying to select elements that require this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Properties to Get Started With
 
@@ -279,7 +273,7 @@ p {
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Typography Basics and `text-align`
 
@@ -293,7 +287,7 @@ If a browser cannot find or does not support the first font in a list, it will u
 
 **text-align** will align text horizontally within an element, and you can use the common keywords you may have come across in word processors as the value for this property, e.g. `text-align: center`.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Image Height and Width
 
@@ -310,7 +304,7 @@ img {
 
 It’s best to include both of these properties for `<img>` elements, even if you don’t plan on adjusting the values from the image file’s original ones. When these values aren’t included, if an image takes longer to load than the rest of the page contents, the image won’t take up any space on the page at first, but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a **height** and **width** prevents this from happening, as space will be “reserved” on the page and will just appear as a blank space until the image loads.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### The Cascade of CSS
 
@@ -377,7 +371,7 @@ In this final example, both rules are using ID and class selectors, so neither r
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there’s no conflicting declaration for it.
 
-Note: when comparing selectors you may come across special symbols for the universal selector (\*) as well as combinators (+, ~, >, and an empty space). These symbols do not add any specificity in and of themselves.
+> Note: when comparing selectors you may come across special symbols for the universal selector (\*) as well as combinators (+, ~, >, and an empty space). These symbols do not add any specificity in and of themselves.
 
 ```css
 /* rule 1 */
@@ -421,7 +415,7 @@ h1 {
 
 In this example, rule 2 would have higher specificity and the orange value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (\*) which has no specificity value.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Inheritance
 
@@ -451,7 +445,7 @@ The exception to this is when directly targeting an element, as this always beat
 
 Despite the **parent** element having a higher specificity with an ID, the **child** element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Rule Order
 
@@ -473,7 +467,7 @@ Really simply, actually. Whichever rule was last defined is the winner.
 
 For an element that has both the **alert** and **warning** classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it’s the one that gets applied to the element.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Adding CSS to HTML
 
@@ -515,7 +509,7 @@ A couple of the pros to this method are:
 1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner.
 1. We only need to edit the CSS in one place, which is especially handy for websites with multiple pages that all share similar styles.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Internal CSS
 
@@ -543,7 +537,7 @@ Besides these differences, the syntax is exactly the same as the external method
 
 This method can be useful for adding unique styles to a single page of a website, but it doesn’t keep things separated like the external method, and depending how many rules and declarations there are it can cause the HTML file to get pretty big.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 #### Inline CSS
 
@@ -563,7 +557,7 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 - If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won’t dive into it here, this can actually be taken advantage of).
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Inspecting HTML and CSS
 
@@ -573,25 +567,25 @@ Being able to inspect and debug your HTML and CSS is critical to frontend develo
 
 To open up the inspector, you can right click on any element of a webpage and click “Inspect Element” or press F12. For example, if you navigate to our [homepage](https://www.theodinproject.com/) and open the inspector, you might see something that looks a little bit like the image below. (Note that if you are already logged in to TOP you will not see the page shown below. If you want to stay logged in, use Incognito mode or your browser’s equivalent to separately view the page.)
 
-![inspector](/assets/images/inspector.png)
+![inspector](../../../assets/images/inspector.png)
 
 Don’t get overwhelmed with all of the tools you’re now seeing! For this lesson, we want to focus on the Elements and Styles panes.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Inspecting Elements
 
 In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
-![elements](/assets/images/inpsector-elements.png)
+![elements](../../../assets/images/inpsector-elements.png)
 
 When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text). For example, if you use the inspector to click on the “Your Career in Web Development Starts Here” header on the TOP homepage, on the right hand side you’ll see all of the styles that are currently affecting the element, as seen below:
 
-![inspector-2](/assets/images/inspector-2.png)
+![inspector-2](../../../assets/images/inspector-2.png)
 
-![inpsector-css](/assets/images/inspector-css.png)
+![inpsector-css](../../../assets/images/inspector-css.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Testing Styles in The Inspector
 
@@ -599,9 +593,9 @@ The Styles pane also allows you to edit styles directly in the browser. You can 
 
 In the below image, we have altered the value of **margin-bottom** in the `.hero__main-heading` class, and the webpage responds with the changes in real time. This won’t affect the source code in your text editor, but it is extremely useful for quickly testing out various attributes and values without needing to reload the page over and over again.
 
-![inpsector-3](/assets/images/inspector-3.png)
+![inpsector-3](../../../assets/images/inspector-3.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## The Box Model
 
@@ -621,19 +615,19 @@ Basically, every single thing on a webpage is a rectangular box. These boxes can
 }
 ```
 
-![boxes](/assets/images/boxes.png)
+![boxes](../../../assets/images/boxes.png)
 
 You can use the browser’s inspector to add the CSS above to this web page if you want. Boxes in boxes!
 
-![odin-lined](/assets/images/odin-lined.png)
+![odin-lined](../../../assets/images/odin-lined.png)
 
 OK, so there might be some circles in the above image… but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all of its elements is basically just deciding how you are going to nest and stack these boxes.
 
 The only real complication here is that there are multiple ways to manipulate the size of these boxes, and the space between them, using **margin**, **padding**, and **border**. The assigned articles go into more depth on this concept, but to sum it up briefly: padding increases the space between the edge of a box and the content inside of it; margin increases the space between a box and any others that sit next to it; and border adds space (even if it’s only a pixel or two) between the margin and the padding. Be sure to study the diagrams carefully.
 
-![box-model](/assets/images/box-model.png)
+![box-model](../../../assets/images/box-model.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Block and Inline
 
@@ -647,7 +641,7 @@ Inline elements, however, do not start on a new line. They appear in line with w
 
 Inline-block elements behave like inline elements, but with block-style padding and margin. Inline-block is a useful tool to know about, but in practice you’ll probably end up reaching for flexbox more often if you’re trying to line up a bunch of boxes. Flexbox will be covered in depth in the next lesson.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Divs and Spans
 
@@ -657,10 +651,10 @@ Having elements like this available to us is a lot more useful than it may first
 
 Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allows us to _divide_ the page into different blocks and apply styling to those blocks.
 
-[![div-example](/assets/images/div-example.png)](https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR)
+[![div-example](../../../assets/images/div-example.png)](https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR)
 
 Span is an inline-level element by default. It is commonly used to group text content and inline HTML elements so we can apply styling to them.
 
-[![span-example](/assets/images/span-example.png)](https://codepen.io/TheOdinProjectExamples/pen/abLLPor)
+[![span-example](../../../assets/images/span-example.png)](https://codepen.io/TheOdinProjectExamples/pen/abLLPor)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
