@@ -1,22 +1,17 @@
----
-id: 7yw2xavrGr9jqmKKTbMJn
-title: Web Fundamentals
-desc: 'Web Fundamentals Refresher'
-updated: 1643849046817
-created: 1643768283556
----
+# Web Fundamentals
+
+### Web Fundamentals Refresher
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
 1. [Introduction](#introduction)
 1. [Web Fundamentals Refresher](#web-fundamentals-refresher)
-1. [[developer-fundamentals.web-fundamentals.debugging-and-errors]]
-1. [[developer-fundamentals.web-fundamentals.javascript-timers]]
-1. [Tutorials](#tutorials)
+1. [Debugging and Errors](./developer-fundamentals.web-fundamentals.debugging-and-errors.md)
+1. [JavaScript Timers](./developer-fundamentals.web-fundamentals.javascript-timers.md)
 
 ## Abbreviations
 
@@ -38,7 +33,7 @@ This unit will also look at a **JavaScript function called timers**. This is a f
 - Learn how to use Chrome's native debugger to find and fix problems in your code
 - Learn about how timers work in JavaScript
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Web Fundamentals Refresher
 
@@ -133,7 +128,7 @@ What is the difference between a `ul` and a `ol` tag?
   - placeholder
   - value
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### CSS Must Knows
 
@@ -256,7 +251,7 @@ div {
   - relative
   - absolute
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### JavaScript Must Knows
 
@@ -487,6 +482,5 @@ obj[arg] = 'there';
 - function scope vs global scope
 - placing functions on objects (methods)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-## Tutorials

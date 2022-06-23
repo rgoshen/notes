@@ -1,21 +1,14 @@
----
-id: zb8mUL5jNKJPomSSWX88F
-title: Developer Fundamentals
-desc: Table of Contents for Developer Fundamentals
-updated: 1644619907900
-created: 1643582478880
----
+# Developer Fundamentals
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
 1. [Introduction](#introduction)
-1. [[developer-fundamentals.web-fundamentals]]
-1. ![Terminal](https://img.shields.io/badge/Terminal-lightgrey?style=flat&logo=windowsterminal&logoColor=4d4d4d) [[developer-fundamentals.command-line]]
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [[developer-fundamentals.git-fundamentals]]
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [[developer-fundamentals.git-branching-and-merging]]
-1. ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) [[developer-fundamentals.github]]
-1. [Tutorials](#tutorials)
+1. [Web Fundamentals](./developer-fundamentals.web-fundamentals.md)
+1. [Command Line](./developer-fundamentals.command-line.md)
+1. [Git Fundamentals](./developer-fundamentals.git-fundamentals.md)
+1. [Git Branching and Merging](./developer-fundamentals.git-branching-and-merging.md)
+1. [GitHub](./developer-fundamentals.github.md)
 
 ## Abbreviations
 
@@ -40,6 +33,5 @@ If you’ve ever asked yourself how a team of developers collaboratively make ch
 
 You’ll be **pushing and pulling**, essentially saving and retrieving, code from GitHub through the command line.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-## Tutorials
