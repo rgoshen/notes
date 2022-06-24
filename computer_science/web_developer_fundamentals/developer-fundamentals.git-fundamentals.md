@@ -1,25 +1,18 @@
----
-id: 6YCuFhSwJayGHW5c7wrkE
-title: Git Fundamentals
-desc: 'Git Fundamentals Notes'
-updated: 1644635175526
-created: 1643590030369
----
+# Git Fundamentals
 
-![git-logo](/assets/images/git-logo.png)
+![git-logo](../../assets/images/git-logo.png)
 
 [![Git](https://img.shields.io/badge/Docs-git-%23F05033.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/docs)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [Introduction](#introduction)
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [Local Workflow](#local-workflow)
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [Committing Workflow](#committing-workflow)
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [gitconfig Settings](#gitconfig-settings)
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [Best Practices](#best-practices)
-1. ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) [[developer-fundamentals.git-fundamentals.cheat-sheet]]
-1. [Tutorials](#tutorials)
+2. [Introduction](#introduction)
+3. [Local Workflow](#local-workflow)
+4. [Committing Workflow](#committing-workflow)
+5. [git config Settings](#git-config-settings)
+6. [Best Practices](#best-practices)
+7. [Git Fundamentals Cheat Sheet](./developer-fundamentals.git-fundamentals.cheat-sheet.md)
 
 ## Abbreviations
 
@@ -27,9 +20,9 @@ created: 1643590030369
 
 ## Introduction
 
-In this subunit, we'll introduce you to **git**. Git is a **command line argument**, and **the most popular form of version control in the world**. It is the first of two tools you'll need to master work effectively with a team. At the end of the subunit, you'll have a short exercise so you can practice git to your heart's content.
+In this subunit, we'll introduce you to **git**. Git is a **command line argument**, and **the most popular form of version control in the world**. It is the first of two tools you'll need to master work effectively with a team. At the end of the subunit, you'll have a short exercise, so you can practice git to your heart's content.
 
-When you're working in a professional setting, you won't be the only developer on your team (unless you're the first hire at a startup). One of the most important professional skills you can have as a software engineer is effectively collaborating with your teammates. This doesn't just mean knowing how to communicate, there are tools you'll need to master to manage a large codebase and work on it simultaneously with other developers. If you don't regularly put the code you're working on in a place where others can access it, then people won't be able to build off of your improvements. If you don't regularly pull the code other people are working on, you won't be able to take advantage of the new features they're implementing or bugs they've fixed. But how will you be able to keep track of changes made across thousands of lines of code and hundreds of files?
+When you're working in a professional setting, you won't be the only developer on your team (unless you're the first hire at a startup). One of the most important professional skills you can have as a software engineer is effectively collaborating with your teammates. This doesn't just mean knowing how to communicate, there are tools you'll need to master to manage a large codebase and work on it simultaneously with other developers. If you don't regularly put the code you're working on in a place where others can access it, then people won't be able to build on your improvements. If you don't regularly pull the code other people are working on, you won't be able to take advantage of the new features they're implementing or bugs they've fixed. But how will you be able to keep track of changes made across thousands of lines of code and hundreds of files?
 
 ### Goals
 
@@ -39,7 +32,7 @@ When you're working in a professional setting, you won't be the only developer o
 - Initialize an empty git repository, and explain what the command `git init` does
 - Remove a git repository
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### What is Git
 
@@ -61,7 +54,7 @@ Git is a VCS because it lets you create different versions of your code and easi
 
 While Git is a hugely popular VCS, it’s not the only one. Subversion is another example.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Installing Git
 
@@ -75,7 +68,7 @@ If you’re on Linux, try running `sudo apt-get install git` or
 
 If you’re on Windows - [download](https://git-scm.com/downloads)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Getting started with Git
 
@@ -91,7 +84,7 @@ If you accidentally initialize a repository in the wrong directory, you can just
 
 You **don’t** want to make your Desktop or Home folder a git repository!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Local Workflow
 
@@ -110,11 +103,11 @@ You **don’t** want to make your Desktop or Home folder a git repository!
 ### Working Directory
 
 - The working directory holds files that we are working on but have not yet saved to git
-- As files are edited, git sees that they have been modified but thier changes are not recorded
-- Lets imagine we just created a new repository
+- As files are edited, git sees that they have been modified but their changes are not recorded
+- Let's imagine we just created a new repository
 - If we run the command `git status`, it would look something like this
 
-![untracked-files](/assets/images/untracked_files.jpg)
+![untracked-files](../../assets/images/untracked_files.jpg)
 
 - All files have been modified are shown in red text
 - These files are untracked until we move them to the staging area with the command `git add`
@@ -128,7 +121,7 @@ You **don’t** want to make your Desktop or Home folder a git repository!
 
 This is what git status would look like after adding ‘app.js’ and ‘index.html’
 
-![tracked-files](/assets/images/tracked_files.jpg)
+![tracked-files](../../assets/images/tracked_files.jpg)
 
 ‘main.css’ will not be included in the next commit unless it is moved to staging
 
@@ -149,9 +142,9 @@ This is what git status would look like after adding ‘app.js’ and ‘index.h
 
 After making the commit will see a message similar to this
 
-![committed-files](/assets/images/committed_files.jpg)
+![committed-files](../../assets/images/committed_files.jpg)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Committing Workflow
 
@@ -161,9 +154,9 @@ After making the commit will see a message similar to this
 - `git commit -m` - Commit the file with a message!
 - Optional: `git log` - See a log of all your commits
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-## gitconfig Settings
+## git config Settings
 
 If you take a look at `git log` you may not see any information for the author and email.
 
@@ -188,19 +181,15 @@ got config --global color.ui auto
 
 These global configuration settings live in a file call **.gitconfig** which typically lives in your home directory. Try running `cat ~/.gitconfig` to see all your settings!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Best Practices
 
 1. **Atomic Commits** - includes changes related to only one feature or task of your program
    - if something you change turns out ro cause some problems, it is easy to revert the specific change without losing other changes
    - enables you to write better commit messages
-1. leveraging those atomic commits to make your commit messages more useful
+2. leveraging those atomic commits to make your commit messages more useful
 
 [How to write a Git Commit Message](https://cbea.ms/git-commit/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
-
-None
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

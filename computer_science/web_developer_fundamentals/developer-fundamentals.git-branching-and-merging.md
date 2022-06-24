@@ -1,21 +1,14 @@
----
-id: RqGl2h3wcPZ9OUcCIhEgz
-title: Git Branching and Merging
-desc: 'Git Branching and Merging Notes'
-updated: 1643838310824
-created: 1643598583040
----
+# Git Branching and Merging
 
-![git-logo](/assets/images/git-logo.png)
+![git-logo](../../assets/images/git-logo.png)
 
 [![Git](https://img.shields.io/badge/Docs-git-%23F05033.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/docs)
 
-# Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Branching](#branching)
 3. [Merging](#merging)
-4. [Tutorials](#tutorials)
 
 ## Introduction
 
@@ -37,7 +30,7 @@ What if you want to go off on your own and work on some experimental new feature
 
 You want to be able to work without worrying about breaking the current code or conflicting with other coders
 
-- Typically everyone does not code on a single branch
+- Typically, everyone does not code on a single branch
 - A branch holds a collection of commits related to a specific purpose (bug fixes, new features, deployment)
 - A code base typically has multiple branches being worked on at once
 - Once the purpose of the branch is complete we merge the commits of the branch to the main codebase
@@ -72,7 +65,7 @@ All code on the branch you were on when you created the new branch will automati
 
 ### Deleting a branch
 
-- Typically we will delete a branch after
+- Typically, we will delete a branch after
   - The branch has been merged to the primary codebase
   - We decide we don't want to merge the code
 
@@ -82,8 +75,8 @@ Then we can run the command `git branch -d NAME_OF_BRANCH`
 
 - We may run into error message when trying to delete if we try to delete a branch that has unsaved work
 - This is git's way of warning us "are you sure you want to delete this branch, you didn't commit your work"
-- To force the delete use a capital `D` flag in our command `git branch -D NAME_OF_BRANCH`
-- To see all of the branches we have locally, we use the command `git branch`.
+- To force delete use a capital `D` flag in our command `git branch -D NAME_OF_BRANCH`
+- To see all the branches we have locally, we use the command `git branch`.
 - Sometimes we also want to see the branches others are working on remotely
 - To list all branches on GitHub or remote branch we pass the `-a` flag
 - The flag does not matter right now, but it’s good to get in the habit of using `git branch -a`.
@@ -114,8 +107,4 @@ Now that you are on the **feature** branch, create a file called **new.txt** => 
 - Note that the main branch has no awareness of **new.txt** or **another.txt**'.
 - Merge our changes from the feature branch into the **main** branch => `git merge feature`
 - Delete our branch called **feature** -> `git branch -d feature`
-- Now if you take a look at `git log -oneline —decorate` you’ll see that the commit history on feature has been merged into **main**'.
-
-## Tutorials
-
-None
+- Now if you take a look at `git log -oneline —decorate` you’ll see that the commit history on feature has been merged into **main**.

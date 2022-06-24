@@ -8,10 +8,10 @@
 ## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. [Introduction](#introduction)
-1. [Web Fundamentals Refresher](#web-fundamentals-refresher)
-1. [Debugging and Errors](./developer-fundamentals.web-fundamentals.debugging-and-errors.md)
-1. [JavaScript Timers](./developer-fundamentals.web-fundamentals.javascript-timers.md)
+2. [Introduction](#introduction)
+3. [Web Fundamentals Refresher](#web-fundamentals-refresher)
+4. [Debugging and Errors](./developer-fundamentals.web-fundamentals.debugging-and-errors.md)
+5. [JavaScript Timers](./developer-fundamentals.web-fundamentals.javascript-timers.md)
 
 ## Abbreviations
 
@@ -25,7 +25,7 @@ The **software engineering techniques** we’ll teach you in this course build o
 
 After that, we'll teach you about how to use **Chrome's Developer Tools** to debug your code. Debugging skills are arguably the most important part of being an engineer.
 
-This unit will also look at a **JavaScript function called timers**. This is a function that allows you to call a second function after a set amount of time elapses. For instance, if you wanted to create a pop up to collect the emails of visitors to your web page, a timer would be an easy way to schedule that.
+This unit will also look at a **JavaScript function called timers**. This is a function that allows you to call a second function after a set amount of time elapses. For instance, if you wanted to create a pop-up to collect the emails of visitors to your web page, a timer would be an easy way to schedule that.
 
 ### Goals
 
@@ -39,7 +39,7 @@ This unit will also look at a **JavaScript function called timers**. This is a f
 
 ### Web Review
 
-In this subunit, we'll be reviewing the fundamentals of web development in order to give you a good base knowledge to build upon.
+In this subunit, we'll be reviewing the fundamentals of web development in order to give you good base knowledge to build upon.
 
 Every page on the internet uses HTML for its content, text, and images, CSS for visual styling, and JavaScript for interactive elements. Before we move further in this course it is important you know how to use these languages. They are present everywhere in our online life. Every type of aspiring programmer must understand how these languages work and interact.
 
@@ -48,7 +48,7 @@ Every page on the internet uses HTML for its content, text, and images, CSS for 
 - Review essential topics in HTML and CSS
 - Review essential topics in JavaScript
 
-### HTML Must Knows
+### HTML Must Know
 
 - you should be familiar with the following **HTML** elements
 
@@ -86,7 +86,7 @@ What is the difference between a `ul` and a `ol` tag?
 
 - what is the `script` tag used for?
 - what is the difference between a `link` tag and an `a` tag?
-- why is it important to include an `alt` attribute inside of an `img` tag?
+- why is it important to include an `alt` attribute inside an `img` tag?
 
 - understand the main elements of an HTML table:
 
@@ -130,7 +130,7 @@ What is the difference between a `ul` and a `ol` tag?
 
 [![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-### CSS Must Knows
+### CSS Must Know
 
 #### CSS specificity
 
@@ -253,14 +253,14 @@ div {
 
 [![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-### JavaScript Must Knows
+### JavaScript Must Know
 
 #### Declaring variables
 
 You do not have to know all the details of var, let, and const. However, you should be familiar with these concepts:
 
 | Keyword | Can Reassign | Can Redeclare | Scope Rules |
-| ------- | ------------ | ------------- | ----------- |
+|---------|--------------|---------------|-------------|
 | var     | yes          | yes           | function    |
 | let     | yes          | no            | block       |
 | const   | no           | no            | block       |
@@ -358,7 +358,7 @@ if (n < 100) {
   - false
   - null
   - NaN
-- Know tow approaches for converting an expression to 'truthy' or 'falsy'
+- Know two approaches for converting an expression to 'truthy' or 'falsy'
   - `Boolean(<expression>)`
   - `!!<expression>`
 

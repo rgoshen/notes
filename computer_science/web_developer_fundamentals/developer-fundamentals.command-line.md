@@ -1,16 +1,10 @@
----
-id: tH5Bj3bins7neXffChmmR
-title: Command Line
-desc: Command Line Notes
-updated: 1644617176089
-created: 1643582601862
----
+# Command Line
 
 References
 
 - [git](https://git-scm.com/)
 
-# Table of Contents
+## Table of Contents
 
 - [Abbreviations](#abbreviations)
 - [Introduction](#introduction)
@@ -20,8 +14,7 @@ References
 - [Moving Around](#moving-around)
 - [Listing Files](#listing-files)
 - [Files and Folders](#files-and-folders)
-- [[developer-fundamentals.command-line.cheatsheet]]
-- [Tutorials](#tutorials)
+- [Command Line Cheat Sheet](./developer-fundamentals.command-line.cheatsheet.md)
 
 ## Abbreviations
 
@@ -32,7 +25,7 @@ References
 
 In this subunit, we'll introduce you to the Command Line, how to navigate with it, and create folders in it. The most essential part of working with the Terminal is knowing how to navigate around within it. We'll start by teaching you some essential commands like `ls`, `mkdir`, `pwd`, and `cd` so you can always know where you are and move to where you want to go.
 
-When you're starting to visualize how the Terminal and command line work, think about finder or windows explorer. You use these tools to navigate through the files, folders, and directories in your computer - and to open things like applications. The Terminal and command line offer you another way to explore these files and directories, through commands you type. Only the functionality you get from Terminal is far more powerful and robust - for instance, you can push your entire codebase to GitHub with one line... or pull down any updates that have been made. We'll explore how to do this in the next unit.
+When you're starting to visualize how the Terminal and command line work, think about finder or Windows explorer. You use these tools to navigate through the files, folders, and directories in your computer - and to open things like applications. The Terminal and command line offer you another way to explore these files and directories, through commands you type. Only the functionality you get from Terminal is far more powerful and robust - for instance, you can push your entire codebase to GitHub with one line... or pull down any updates that have been made. We'll explore how to do this in the next unit.
 
 ## Terminal Introduction
 
@@ -53,12 +46,12 @@ Everything you can do in Finder or Windows Explorer, you can do in Terminal, but
 
 ### What is a shell Bash/ZSH
 
-You will also hear the term "shell" when learning about Terminal so it is important to distinguish between these terms.
+You will also hear the term "shell" when learning about Terminal, so it is important to distinguish between these terms.
 
 **shell**
 : the program which actually processes commands adn returns output
 
-Most shells also manage foreground and background processes, command historyand command line editing.
+Most shells also manage foreground and background processes, command history and command line editing.
 
 These features (and many more) are standard in bash, the most common shell in modern linux systems
 
@@ -87,11 +80,11 @@ Inside the root directory are essential files/folders that your machine needs, b
 
 ### The users folder
 
-Inside of the root directory, we have a folder called **Users** which contains all of the user accounts on your computer.
+Inside the root directory, we have a folder called **Users** which contains all the user accounts on your computer.
 
 If you move into the directory for your user account, you will be in the **home** directory, which is denoted by `~`.
 
-For example, if your user name on the computer is **colt**, then your home directory would be `/Users/colt`.
+For example, if your username on the computer is **colt**, then your home directory would be `/Users/colt`.
 
 A synonym for the `/Users/colt` path is `~` when you are logged in as **colt**.
 
@@ -125,10 +118,10 @@ A path is simply the way to reach a file or folder; it's like an address for the
 
 When we specify a path starting from the root directory `/`, we call that an absolute path.
 
-If you’re currently in the `~` home directory and you want to change directories into the Desktop folder, here are two following ways:
+If you’re currently in the `~` home directory, and you want to change directories into the Desktop folder, here are two following ways:
 
 1. `cd Desktop` - relative to where I am currently
-1. `cd /Users/colt/Desktop` - absolute, starting from the root (first `/`, then **Users**, then **colt**, then **Desktop**)
+2. `cd /Users/colt/Desktop` - absolute, starting from the root (first `/`, then **Users**, then **colt**, then **Desktop**)
 
 ### Moving around the terminal efficiently
 
@@ -150,7 +143,7 @@ If you hold down the alt/option key you can click on a line in the terminal to m
 
 One of the most important commands you are going to be using is `ls`, which lists the contents of a directory.
 
-Typing `ls` in your home directory will show you all of the files and folders inside of that directory.
+Typing `ls` in your home directory will show you all the files and folders inside that directory.
 
 Sometimes the default `ls` command does not give us all the information we want. In such cases, we'll need to add some flags to get more details.
 
@@ -174,7 +167,7 @@ Let’s try it with `ls`
 man ls
 ```
 
-![cli_example](/assets/images/cli_example.png)
+![cli_example](../../assets/images/cli_example.png)
 
 ## Files and Folders
 
@@ -283,7 +276,3 @@ It turns out that `rm` is for a file, while the command `rmdir` is used to remov
 If there is anything inside the folder, you will have to use `rm -rf`.
 
 Like we saw with `cp`, the `r` and `f` in `-rf` are examples of flags
-
-## Tutorials
-
-None

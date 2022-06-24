@@ -1,10 +1,4 @@
----
-id: JiSbBVpwgzdpAnoDAKQEQ
-title: Debugging and Errors
-desc: ''
-updated: 1643854456494
-created: 1643840913127
----
+# Debugging and Errors
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
@@ -16,7 +10,6 @@ created: 1643840913127
 - [JavaScript Debugger](#javascript-debugger)
 - [Tips to Avoid Bugs](#tips-to-avoid-bugs)
 - [Error Handling](#error-handling)
-- [Tutorials](#tutorials)
 
 ## Introduction
 
@@ -102,7 +95,7 @@ console.log('We made it!');
 console.log('The value of x is --->', x);
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## JavaScript Debugger
 
@@ -154,7 +147,7 @@ Shows current value of variables
 
 Can click to change value
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Tips to Avoid Bugs
 
@@ -191,7 +184,7 @@ Can click to change value
 - Bugs are an opportunity to improve debugging skills & to learn something
 - You will have lots of chances to practice this valuable skill!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Error Handling
 
@@ -347,6 +340,4 @@ try {
 
 You will rarely find yourself using this, but it’s good to know if you want to be explicit about what to run no matter what in a try/catch block
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

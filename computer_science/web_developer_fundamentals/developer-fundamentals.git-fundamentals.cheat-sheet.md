@@ -1,14 +1,8 @@
----
-id: UM3oVtRFUXueHmMwQMSSe
-title: Cheat Sheet
-desc: ''
-updated: 1644635405291
-created: 1644619277317
----
+# Git Fundamentals Cheat Sheet
 
 [Setting up Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git)
 
-# Table of Contents
+## Table of Contents
 
 - [Git Config](#git-config)
 - [Remote Repository](#commands-related-to-remote-repository)

@@ -1,27 +1,20 @@
----
-id: 8YZq2cNVvIeWWIS4oE4YD
-title: GitHub
-desc: 'GitHub Notes'
-updated: 1643838341254
-created: 1643600336512
----
+# GitHub
 
-[![github-logo](/assets/images/github-logo.png)](https://github.com/)
+[![github-logo](../../assets/images/github-logo.png)](https://github.com/)
 
 [![GitHub](https://img.shields.io/badge/Docs-github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://docs.github.com/en)
 
-# Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Creating Remote Repositories on GitHub](#create-remote-repositories-on-github)
+2. [Creating Remote Repositories on GitHub](#creating-remote-repositories-on-github)
 3. [Pushing Your Code](#pushing-your-code)
-4. [Tutorials](#tutorials)
 
 ## Introduction
 
 In the last subunit, you learned how to manage repositories locally. But what happens if your computer gets stolen or destroyed, or more likely, if you want to access our codebase from a new machine?
 
-In this subunit, we'll introduce you to GitHub a the cloud based code repository built around Git. Though there are other code repositories, GitHub is the most popular in the world and is the industry standard. Combined with effective use of Git you learned about in the last subunit, GitHub will allow you to master working effectively with a team.
+In this subunit, we'll introduce you to GitHub a cloud based code repository built around Git. Though there are other code repositories, GitHub is the most popular in the world and is the industry standard. Combined with effective use of Git you learned about in the last subunit, GitHub will allow you to master working effectively with a team.
 
 ### Goals
 
@@ -73,7 +66,7 @@ You’ll run into some minor annoyances if there’s a mismatch between the emai
 
 ## Creating Remote Repositories on GitHub
 
-- Navigate to [github new](https://github.com/new)
+- Navigate to [GitHub new](https://github.com/new)
 - After naming and creating a new repository click **create repository**
 - Follow the second block of instructions for pushing an existing repository from the command line
 
@@ -86,7 +79,7 @@ You’ll run into some minor annoyances if there’s a mismatch between the emai
 
 - It’s a nickname for a URL where your repository lives!
 - Instead of typing/remembering the entire URL, we give it a nickname
-- By default this nickname is **‘origin’**
+- By default, this nickname is **‘origin’**
 - `git remote add NAME_OF_REMOTE URL_FOR_REPOSITORY`
   - **NAME_OF_REMOTE**: origin
   - **[URL_FOR_REPOSITORY]**: https://github.com/YOUR_USERNAME/YOUR_REPO
@@ -132,5 +125,3 @@ The `-u` flag allows us in the future to only have to type `git push` instead of
 Now when you type in `git push`, you will be prompted to enter your username and password for GitHub. While that is fine once or twice, it becomes quite a nuisance if you are pushing or pulling (retrieving code) frequently.
 
 It would be nice if we could establish some trust between our computer and GitHub so that when we run `git push` or `git pull`, GitHub does not need to authenticate us. To do that we are going to create an SSH key.
-
-## Tutorials

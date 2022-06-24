@@ -1,10 +1,4 @@
----
-id: xIWqHRwmRR1wv0FVvwhTG
-title: JavaScript Timers
-desc: ''
-updated: 1643854658158
-created: 1643849012386
----
+# JavaScript Timers
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
@@ -16,7 +10,6 @@ created: 1643849012386
 - [First Class Functions](#first-class-functions)
 - [Higher Order Functions](#higher-order-functions)
 - [Callbacks](#callbacks)
-- [Tutorials](#tutorials)
 
 ## Abbreviations
 
@@ -69,7 +62,7 @@ function myHOF() {
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Callbacks
 
@@ -140,6 +133,4 @@ doMath(5, 5, add); // 10
 doMath(5, 5, subtract); // 0
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

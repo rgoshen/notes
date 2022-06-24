@@ -1,15 +1,12 @@
----
-id: l797ATxMCsSjrCn6AvgGw
-title: Cheat Sheet
-desc: 'CLI Cheatsheet'
-updated: 1644619157428
-created: 1644617130355
----
+# CLI Cheat Sheet
 
 [Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands/frontmatter) |
 [Unix/Linux Command reference](https://files.fosswire.com/2007/08/fwunixref.pdf)
 
-# Table of Contents
+## Table of Contents
+
+- [Moving Around](#moving-around)
+- [Commands](#commands)
 
 ## Moving Around
 
