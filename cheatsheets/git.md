@@ -32,7 +32,7 @@
 - Add remote repo: `git remote add <remote_name> <remote-repo-url>`
     - map to a remote repo to a reference in your local repo
 - Push local branches to remote: `git push -u <remote_name><local_branch_name>`
-    - push the local repo branch under `<local_branch_name>` to teh remote repo @ `<remote_name>`
+    - push the local repo branch under `<local_branch_name>` to the remote repo @ `<remote_name>`
 
 [Back](#toc)
 
