@@ -139,10 +139,6 @@ F
 scratch/PR-Workflow.md,9/1/91ebaac5cd868f64caa4d4ed52b93fdcd3c1906e
 A
 scratch/README.md,f/b/fb996ef6d8f639904c09f965eae69957f73b5a9a
->
-scratch/git.md,a/5/a5eca821fceb04514e7b1def2a15f66e7bfc9530
-K
-scratch/html.foundations.md,5/9/592168373fbd995e273433498dcd4397fc02ac53
 ?
 scratch/html.md,e/f/ef5260668501a14ed45169d7e4c8a38484c2395c
 a
