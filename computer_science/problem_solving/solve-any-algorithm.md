@@ -1,10 +1,4 @@
----
-id: cfJ5rxYV4XhErtLAIUbjV
-title: Solve Any Algorithm
-desc: 'Solve any algorithm'
-updated: 1644104638190
-created: 1644102166861
----
+# Solve Any Algorithm
 
 1. Ask questions - establish an understanding of the problem
    - does this look like a problem you have seen before?
