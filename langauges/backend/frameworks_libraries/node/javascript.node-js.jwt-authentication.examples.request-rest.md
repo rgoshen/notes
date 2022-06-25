@@ -1,10 +1,6 @@
----
-id: CwAOx5yeqjl0k2wLJZzna
-title: request.rest
-desc: 'JWT Authentication Example request.rest'
-updated: 1643171599995
-created: 1642956629202
----
+# request.rest
+
+###  JWT Authentication Example request.rest
 
 ```bash
 GET http://localhost:3000/posts Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjQyOTA4NzE3LCJleHAiOjE2NDI5MDg3MzJ9.xutbIjvfjsJksXpkZGpGBjJ_6ga7mDboA9voHDgki8w

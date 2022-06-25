@@ -1,10 +1,5 @@
----
-id: VvReWQBTQ4lmpf29Beu4Y
-title: server.js
-desc: 'User Authentication Examples server.js'
-updated: 1643169678758
-created: 1642994141596
----
+# server.js
+### User Authentication Examples server.js
 
 Reference
 
@@ -20,7 +15,7 @@ Reference
       1. you can also use a variable constant `PORT` and pass that in to `app.listen(PORT);` as well or save it in a .env file and pull that file in (but must install `npm i dotenv` to make this work)
 
 1. create first route to test the server is working properly
-1. create a [[javascript.node-js.user-authentication.examples.requests-rest]] file to test the routes in the editor
+1. create a [request.rest](./javascript.node-js.user-authentication.examples.requests-rest.md) file to test the routes in the editor
 
    1. you need to have [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension installed
    1. allows you to make REST requests to your api right inside vscode instead of using Postman or Insomnia

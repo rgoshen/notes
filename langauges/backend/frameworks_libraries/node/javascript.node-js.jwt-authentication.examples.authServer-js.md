@@ -1,10 +1,6 @@
----
-id: kc27Kqdvdjppet18TMohV
-title: authServer.js
-desc: 'JWT Authentication Example authServer.js'
-updated: 1643171557360
-created: 1642957003746
----
+# authServer.js
+
+### JWT Authentication Example authServer.js
 
 1. create a function to generate an access token and add expiration date to it (usually 10-15 mins)
 1. create a refresh token and return to user inside login route

@@ -1,12 +1,8 @@
----
-id: Wp3DiZU7Hg8LYkJv0aMLf
-title: Jwt Authentication
-desc: 'JWT Authentication tutorial using Node.js/Express.js'
-updated: 1643839596949
-created: 1643170789240
----
+# Jwt Authentication
 
-[![nodejs](/assets/images/nodejs.png){display: block, margin: 0 auto, max-height: 400px}](https://nodejs.org/en/)
+### 'JWT Authentication tutorial using Node.js/Express.js'
+
+[![nodejs](../../../../assets/images/nodejs.png)](https://nodejs.org/en/)
 
 [![Youtube Gaming](https://img.shields.io/badge/Youtube-FF0000?style=flat&logo=Youtube&logoColor=white)](https://www.youtube.com/watch?v=mbsmsi7l3r4) |
 [![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens)](https://github.com/auth0/node-jsonwebtoken#readme) |
@@ -30,7 +26,7 @@ created: 1643170789240
 
 JSON web tokens are one of the more popular ways to secure applications, especially in micro-services, but JWT is much more complex than a simple session based user authentication. In this tutorial I will be breaking down exactly how to set up authentication with JWT and how to ensure the authentication is secure. I will also be showing how to setup refresh tokens with JWT so that your application is even more resilient and secure. Lastly, I will show how to invalidate refresh tokens which is the ultimate last step in securing an application.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Part 1: Simple JWT authentication
 
@@ -74,7 +70,7 @@ npm init -y
 npm i nodemon --save-dev
 ```
 
-6. create [[javascript.node-js.jwt-authentication.examples.server-js]]
+6. create [server.js](./javascript.node-js.jwt-authentication.examples.server-js.md)
 
    1. this will be the main server in node.js
 
@@ -96,7 +92,7 @@ npm i nodemon --save-dev
 npm run devServer
 ```
 
-9. create a [[javascript.node-js.jwt-authentication.examples.request-rest]] file
+9. create a [request.rest](./javascript.node-js.jwt-authentication.examples.request-rest.md) file
 
    1. you need to have [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension installed
    1. allows you to make REST requests to your api right inside vscode instead of using Postman or Insomnia
@@ -110,13 +106,13 @@ node
 '7d95ffc652289719329cfc607e66998d07aaccfaa691077b47aa16d86be8b988c2816ff3c5f14b8e18290a9d522e01b4611b24a730de609ac6c08c5cb1abfffa'
 ```
 
-11. copy [[javascript.node-js.jwt-authentication.examples.server-js]] file and rename to [[javascript.node-js.jwt-authentication.examples.authServer-js]] and change port number
+11. copy [server.js](./javascript.node-js.jwt-authentication.examples.server-js.md) file and rename to [authServer.js](./javascript.node-js.jwt-authentication.examples.authServer-js.md) and change port number
 
-12. in [[javascript.node-js.jwt-authentication.examples.server-js]] remove login route
+12. in [server.js](./javascript.node-js.jwt-authentication.examples.server-js.md) remove login route
 
-13. in [[javascript.node-js.jwt-authentication.examples.authServer-js]] remove get post route and `authenticateToken` middleware
+13. in [authServer.js](./javascript.node-js.jwt-authentication.examples.authServer-js.md) remove get post route and `authenticateToken` middleware
 
-14. add start script in `package.json'
+14. add start script in `package.json`
 
 ```json
 {
@@ -134,7 +130,7 @@ npm run devServer
 npm run authServer
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Part 2: Refresh Tokens
 
@@ -149,4 +145,4 @@ npm run authServer
   1. take all your authentication and authorization and remove it away from your normal server
      1. allows scaling of servers separately
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

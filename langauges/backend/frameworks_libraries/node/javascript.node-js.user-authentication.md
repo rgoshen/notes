@@ -1,14 +1,7 @@
----
-id: KEyb57Z9GWOe2q3mgEes0
-title: User Authentication
-desc: >-
-  A tutorial for user authentication with password in Node.js using bcrypt
-  library
-updated: 1643839640416
-created: 1642993510541
----
+# User Authentication
+### A tutorial for user authentication with password in Node.js using bcrypt library
 
-[![nodejs](/assets/images/nodejs.png){display: block, margin: 0 auto, max-height: 400px}](https://nodejs.org/en/)
+[![nodejs](../../../../assets/images/nodejs.png)](https://nodejs.org/en/)
 
 [![Youtube Gaming](https://img.shields.io/badge/Youtube-FF0000?style=flat&logo=Youtube&logoColor=white)](https://www.youtube.com/watch?v=Ud5xKCYQTjM&t=0s) |
 [![bcrypt](https://img.shields.io/badge/-bcrypt-blue?style=flat&?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.npmjs.com/package/bcrypt) |
@@ -37,7 +30,7 @@ In this tutorial we are going to build a secure Node.js user authentication syst
 
 - allows multiple users to have the same password but when stored they look different from each other
 
-- Ex with out salt:
+- Ex without salt:
 
 ```nodejs
 //user 1 password
@@ -64,7 +57,7 @@ hash(salt + 'password');    // stores as asdoifaosidk
 - the bcrypt library takes care of all this for us
   - bcrypt is an async library
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## How to properly hash a password
 
@@ -97,7 +90,7 @@ bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
 })
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## User login
 
@@ -129,19 +122,19 @@ cd example
 
 2. initialize npm
 
-   1. this will setup the inital project structure and create package.json
+   1. this will set up the initial project structure and create package.json
 
 ```bash
 npm init -y
 ```
 
-3. install required dependancies
+3. install required dependencies
 
 ```bash
    npm i express bcrypt
 ```
 
-4. install `nodemon` as a developer dependancy
+4. install `nodemon` as a developer dependency
 
    1. anytime a change is made to a file, it will automatically refresh the server instead of manually having to do it
 
@@ -161,14 +154,14 @@ npm i nodemon --save-dev
 }
 ```
 
-6. create [[javascript.node-js.user-authentication.examples.server-js]]
+6. create [server.js](./javascript.node-js.user-authentication.examples.server-js.md)
 
    1. this will be the main server in [node.js](https://nodejs.org/en/)
 
-7. start up the server (see [[javascript.node-js.user-authentication.examples.server-js]] for steps)
+7. start up the server (see [server.js](./javascript.node-js.user-authentication.examples.server-js.md) for steps)
 
 ```bash
 npm run devServer
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

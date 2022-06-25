@@ -1,10 +1,5 @@
----
-id: iM18NUnNYms8VDoSg494g
-title: server.js
-desc: 'JWT Authentication Example server.js'
-updated: 1643171284013
-created: 1642954952687
----
+# server.js
+### JWT Authentication Example server.js
 
 Reference
 
@@ -24,7 +19,7 @@ Reference
   - `require('dotenv').config()` load `.env` file
 - create a middleware function to attach to what ever routes we want to protect
 - attach `authenticateToken` middleware to all routes that need an authenticated user to access
-  - `authHeader && authHeader.split(' ')[1]` checks for the presence of an `authHeader` and if there return the token portion of the authHeader array ([BEARER JWT_TOKEN]) after it is split otherwise returns undefined
+  - `authHeader && authHeader.split(' ')[1]` checks for the presence of an `authHeader` and if there return the token portion of the authHeader array (`[BEARER JWT_TOKEN]`) after it is split otherwise returns undefined
   - `jwt.verify()` takes the token, SECRET and callback function
   - the callback function which takes in the error and serialized obj parameters
   - `next()` passes control on to the next piece of code whether that is another middleware or back to the main file

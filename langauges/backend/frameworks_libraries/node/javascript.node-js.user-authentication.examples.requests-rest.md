@@ -1,10 +1,5 @@
----
-id: bPSef7Xo3SVZTbF5RORJc
-title: requests.rest
-desc: 'User Authentication Example resquests.rest'
-updated: 1643169650122
-created: 1642994404721
----
+# requests.rest
+### User Authentication Example requests.rest
 
 ```bash
 GET http://localhost:3000/users
