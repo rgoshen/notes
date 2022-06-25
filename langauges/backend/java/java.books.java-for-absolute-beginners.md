@@ -1,12 +1,6 @@
----
-id: 0gxTdp7w22A1Ije8AklN4
-title: Java for Absolute Beginners
-desc: ''
-updated: 1644192331374
-created: 1644189428308
----
+# Java for Absolute Beginners
 
-[Book](https://link.springer.com/book/10.1007/978-1-4842-3778-6)
+[Java for Absolute Beginners](https://link.springer.com/book/10.1007/978-1-4842-3778-6)
 
 # Table of Contents
 
@@ -21,11 +15,11 @@ created: 1644189428308
 
 ## An Introduction to Java and Its History
 
-![Java Timeline](/assets/images/java-timeline.png)
+![Java Timeline](../../../assets/images/java-timeline.png)
 
 ### Portability
 
-![portability](/assets/images/java-portability.png)
+![portability](../../../assets/images/java-portability.png)
 
 Other languages compile source code directly into machine code designed to run on a specific microprocessor architecture or OS (i.e. such as windows)
 
