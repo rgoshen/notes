@@ -389,8 +389,6 @@ $scratch/javascript/testing/readme.md,8/b/8bc2edb2d9175d9438cf9faeba4ad97a3580c
 scratch/jwt.md,2/0/20f450d0bdc612ed7078a6cef0080c15a58dbab0
 E
 scratch/jwt/readme.md,f/2/f2b8d2912dc3104b365f96713fa0c40bd5273b72
-M
-scratch/keyboard-shortcuts.md,0/5/058c8207849f18afc479c32b373e07844de5fac4
 E
 scratch/postgresql.md,7/2/725b518bc5f15974579c7f7b1cfe216d964ed774
 T

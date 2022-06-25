@@ -1,12 +1,6 @@
----
-id: cfMqhGiBpaUzGf0rIOhVQ
-title: Keyboard Shortcuts
-desc: 'Keyboard Shortcuts'
-updated: 1643761069575
-created: 1643681891529
----
+# Keyboard Shortcuts
 
-# Table of Contents
+## Table of Contents
 
 - [Command Line](#command-line)
 
