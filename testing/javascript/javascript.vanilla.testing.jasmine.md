@@ -1,12 +1,6 @@
----
-id: 1tG0weRDbjG7pKZDQTamA
-title: Jasmine Testing
-desc: Testing with Jasmine Library in JavaScript
-updated: 1643839935269
-created: 1643652252234
----
+# Jasmine Testing
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![jasmine](../../assets/images/jasmine-white-horizontal.svg)
 
 [![Jasmine](https://img.shields.io/badge/-Jasmine-%238A4182?style=flat&logo=Jasmine&logoColor=white)](https://jasmine.github.io/)
 
@@ -15,7 +9,6 @@ created: 1643652252234
 1. [Abbreviations](#abbreviations)
 2. [Introduction](#introduction)
 3. [Writing Tests](#writing-tests)
-4. [Tutorials](#tutorials)
 
 ## Abbreviations
 
@@ -36,7 +29,7 @@ You'll be testing code every day on the job, and testing is the #1 skill that em
 - Understand why we write tests
 - Write tests with [Jasmine](https://jasmine.github.io/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Writing Tests
 
@@ -44,7 +37,7 @@ You'll be testing code every day on the job, and testing is the #1 skill that em
 
 ### Why test
 
-- Manual testing is boring and error prone
+- Manual testing is boring and error-prone
   - So we tend to not re-run things that “work”
   - And therefore don’t notice when they break
   - small programs we can manually check all pieces of functionality before pushing our code
@@ -54,7 +47,7 @@ You'll be testing code every day on the job, and testing is the #1 skill that em
 - Tests are often a great way to understand what code does
 - It’s a core skill for professional developers
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Testing Tools
 
@@ -70,7 +63,7 @@ You'll be testing code every day on the job, and testing is the #1 skill that em
 - We’ll use [Jasmine](https://jasmine.github.io/) for testing until we get to Python
 - We’ll see another framework, [Jest](https://jestjs.io/), with Node and React
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Running Tests in the Browser with Jasmine
 
@@ -96,7 +89,7 @@ You'll be testing code every day on the job, and testing is the #1 skill that em
 
 Then open this HTML page in browser
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Testing Process
 
@@ -178,10 +171,10 @@ it('should calculate higher-bracket taxes', function () {
 - Test cases can contain any normal code plus “expectations”
   - we pass the function we want to test as the argument to the `except()`
     - When we call `calculateTaxes()` we are invoking the actual function
-    - typically is a function we pass but it can be any JavaScript we want to test
+    - typically is a function we pass, but it can be any JavaScript we want to test
 - Format is `expect(someValue).someMatcher(...)`
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Matchers
 
@@ -201,7 +194,7 @@ For complete documentation on [matchers](https://jasmine.github.io/api/edge/matc
   - What if the file can’t be found?
   - Is the first case/last case handled differently?
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Testable Code
 
@@ -242,8 +235,4 @@ function announceWinner(winner) {
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
-
-None
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

@@ -1,12 +1,8 @@
----
-id: HBCghZbUNi1wQtcaQ95hG
-title: React Testing Crash Course
-desc: 'A tutorial on testing React Apps'
-updated: 1643839739421
-created: 1643512825890
----
+# React Testing Crash Course
 
-[![reactjs](/assets/images/reactjs.png){display: block, margin: 0 auto, max-height: 400px}](https://reactjs.org/)
+### A tutorial on testing React Apps
+
+[![reactjs](../../assets/images/reactjs.png)](https://reactjs.org/)
 
 [![Youtube](https://img.shields.io/badge/Youtube-FF0000?style=flat&logo=Youtube&logoColor=white)](https://www.youtube.com/watch?v=OVNjsIto9xM) |
 [![GitHub](https://img.shields.io/badge/repo-github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/MitchelSt/react-testing-starter) |
@@ -24,6 +20,7 @@ created: 1643512825890
 6. [Unit Tests](#unit-tests)
 7. [Integration Tests](#integration-tests)
 8. [End-to-End Tests](#end-to-end-tests)
+9. [Example Tests](./javascript.react-js.testing.react-testing-crash-course.examples.md)å
 
 ## Abbreviations
 
@@ -51,7 +48,7 @@ Have a test priority (example):
    - Conditional rendering - Integration / Unit [![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=flat&logo=testing-library&logoColor=white)](https://testing-library.com/docs/react-testing-library/intro/)
    - Utils/Hooks - Integration / Unit [![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=flat&logo=testing-library&logoColor=white)](https://testing-library.com/docs/react-testing-library/intro/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Demo App Setup
 
@@ -89,7 +86,7 @@ Test a very small part of the code, usually a function.
 
 Here we tested user interaction and conditional rendering by first seeing if the 'pay' button was disabled on initial render, added user interaction by typing in values to the two inputs and then testing to make sure the 'pay' button became enabled.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Integration Tests
 
@@ -116,7 +113,7 @@ This does not mean this is how integration tests are to be written, but if combi
 
 Often, a few integration tests are better than numerous, small and concise unit tests.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## End-to-End Tests
 
@@ -159,9 +156,9 @@ yarn run cypress open
 **NOTE:** biggest thing to note here is that there are not assertion statements per se not like in Jest or React-testing-library
 **NOTE:** in cypress all queries are 'find' and not 'get'
 
-line 37 in [[javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs]] `cy.findByText(note).click({ force: true });` forces cypress to click regardless. If this if the `.click({ force: true })` is not included, cypress may error out since it takes the page some time to fully load and the element it is supposed to click maybe hidden from view by the navbar.
+line 37 in [paymentSpec Example](./javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs.md) `cy.findByText(note).click({ force: true });` forces cypress to click regardless. If this if the `.click({ force: true })` is not included, cypress may error out since it takes the page some time to fully load and the element it is supposed to click maybe hidden from view by the navbar.
 
-lines 40 & 41 in [[javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs]]
+lines 40 & 41 in [paymentSpec Example](./javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs.md)
 
 ```nodejs
 cy.findByText(`-$${paymentAmount}`).should("be.visible");
@@ -170,6 +167,6 @@ cy.findByText(note).should("be.visible");
 
 are cypress version of assertion statements
 
-line 47 in [[javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs]] `expect(convertedOldBalance - convertedNewBalance).to.equal(parseFloat(paymentAmount));` is a custom assertion
+line 47 in [paymentSpec Example](./javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs.md) `expect(convertedOldBalance - convertedNewBalance).to.equal(parseFloat(paymentAmount));` is a custom assertion
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

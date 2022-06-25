@@ -1,10 +1,4 @@
----
-id: 8MuKRueN2AO48DV5M4xSh
-title: payment_spec.js
-desc: ''
-updated: 1643513508807
-created: 1643513484036
----
+# payment_spec.js
 
 ```nodejs
 const { v4: uuidv4 } = require("uuid");

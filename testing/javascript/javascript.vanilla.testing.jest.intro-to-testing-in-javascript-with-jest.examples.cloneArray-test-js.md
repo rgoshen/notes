@@ -1,10 +1,6 @@
----
-id: 1PPLjdFkBJtsbFFR4ZD8D
-title: cloneArray.test.js
-desc: cloneArray.test.js Jest Example
-updated: 1643436146425
-created: 1643435226999
----
+# cloneArray Test Example
+
+### cloneArray.test.js Jest Example
 
 ```nodejs
 const { expect } = require('@jest/globals');

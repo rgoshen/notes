@@ -1,10 +1,6 @@
----
-id: pcI95csmSVLXYu1AcH6Du
-title: sum.test.js
-desc: Jest test example for sum.js
-updated: 1643436279509
-created: 1643434989737
----
+# sum Test Example
+
+###  Jest test example for sum.js
 
 1. import file you want to test
 1. `test('describe what you are testing, callback)`

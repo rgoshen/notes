@@ -1,10 +1,6 @@
----
-id: PvnP81BojIjyHTNkg9PO9
-title: subtract.test.js
-desc: Jest test eaxmple for subtract.js
-updated: 1643436209710
-created: 1643435092111
----
+# subtract Test Example
+
+### Jest test example for subtract.js
 
 ```nodejs
 const subtract = require('./subtract');

@@ -1,10 +1,4 @@
----
-id: FpKluieypfkCEELej7B7K
-title: TransactionCreateStepTwo.test.js
-desc: ''
-updated: 1643513415185
-created: 1643513377697
----
+# TransactionCreateStepTwo.test.js
 
 ```nodejs
 import { render, screen } from "@testing-library/react";
