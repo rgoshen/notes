@@ -1,6 +1,6 @@
 # JavaScript Testing
 
-![javascript](../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../assets/images/javaScript.jpeg)
 
 ## Table of Contents
 
