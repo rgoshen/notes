@@ -12,7 +12,7 @@
 4. [Committing Workflow](#committing-workflow)
 5. [git config Settings](#git-config-settings)
 6. [Best Practices](#best-practices)
-7. [Git Fundamentals Cheat Sheet](./developer-fundamentals.git-fundamentals.cheat-sheet.md)
+7. [Git Fundamentals Cheat Sheet](../../cheatsheets/developer-fundamentals.git-fundamentals.cheat-sheet.md)
 
 ## Abbreviations
 

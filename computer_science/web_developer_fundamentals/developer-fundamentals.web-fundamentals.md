@@ -278,9 +278,11 @@ You should understand 'js expressions' are always converted to a boolean value w
 
 ```javascript
 if(<js expression>){
-
+  // do something
 } else if(<js expression>){
-
+    // do something else
+    } else {
+    // do something else
 } else {
 
 }

@@ -381,14 +381,6 @@ J
 scratch/web-development.md,0/3/0336ada85fc13231214ae555f6ba7ada646c38e3
 X
 (assets/examples/javascript/jsExamples.js,9/3/93036a664236e2fa83bf44cdbc78d6be305e81a8
-‚
-Rcomputer_science/web_developer_fundamentals/developer-fundamentals.command-line.md,e/3/e3a7527ebec34a03b6fbaa5e214c9e21168a1abf
-˜
-hcomputer_science/web_developer_fundamentals/developer-fundamentals.web-fundamentals.javascript-timers.md,4/0/400f5a9b0c01980930486585ed31793b825d04b2
-†
-Vcomputer_science/web_developer_fundamentals/developer-fundamentals.web-fundamentals.md,5/6/56c870ed33f89ab15d36f8ea533fd6a972347311
-u
-Ecomputer_science/web_developer_fundamentals/developer-fundamentals.md,f/b/fb9abb9384aa9dfda38c8f5170bb52df4cd0f081
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

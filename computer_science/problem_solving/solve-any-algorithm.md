@@ -22,15 +22,15 @@
 1. Distill the problem to its essence
    - be able to summarize problem into a sentence
    - break larger more complex problems into smaller, distinct pieces [^7][^8]
-1. Psuedocode
-   1. Two types of psuedocode
+1. Pseudocode
+   1. Two types of pseudocode
       1. high-level in plain abbreviated english [^9]
          1. answers the "what" you are going to do
       1. low-level
          1. answers the "how"
          1. lays out step-by-step
          1. spell out any additional variables
-         1. auxillary data structures or actions
+         1. auxiliary data structures or actions
             1. algorithm needs to perform adding, swapping, traversing, instantiating
          1. written in such a way that you can code out each line one at a time and not have to hold too much info about the rest of your solution in your head
 1. Time to do some coding
