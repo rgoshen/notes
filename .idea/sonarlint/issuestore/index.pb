@@ -133,8 +133,6 @@ Q
 !scratch/Linux.manjaro.postgres.md,d/4/d4afdeebade08359b749eb9e5edf873808edfa19
 @
 scratch/Linux.md,c/a/ca2b3456cfd3e6f6b1bd50897cff4fe7d8a4a723
-F
-scratch/PR-Workflow.md,9/1/91ebaac5cd868f64caa4d4ed52b93fdcd3c1906e
 A
 scratch/README.md,f/b/fb996ef6d8f639904c09f965eae69957f73b5a9a
 a
@@ -397,8 +395,6 @@ K
 scratch/project-planning.md,7/f/7f0443368e8568a2ccd8d356014c86d1817e5d19
 M
 scratch/python.cheat-sheet.md,0/c/0c63155f4c2add5495fb65d8d8683a89c7c40634
-A
-scratch/python.md,0/6/0657c739fe41d807acd60c1661891b5eae40963d
 I
 scratch/python.testing.md,c/7/c72fdeeea6e6e0baed0538541967b95fb287cebc
 N

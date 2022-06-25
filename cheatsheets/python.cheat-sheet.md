@@ -1,12 +1,8 @@
----
-id: pIbhgIUxeq6954gu7KAuV
-title: Cheat Sheet
-desc: 'My Python Cheat Sheet'
-updated: 1644616714883
-created: 1644599198598
----
+# Python Cheat Sheet
 
-[![python-logo](/assets/images/python-logo.png)](https://www.python.org/)
+### 'My Python Cheat Sheet'
+
+[![python-logo](../assets/images/python-logo.png)](https://www.python.org/)
 
 # Table of Contents
 
@@ -33,7 +29,7 @@ pip3 freeze > requirements.txt # save list of installed packaged to requirements
 deactivate # deactivates virtual environment
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Recreate Virtual Environment
 
@@ -46,23 +42,23 @@ pip3 install -r requirements.txt
 deactivate # deactivates virtual environment
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Run Python Programs
 
 - cli: `python3 <file.py>`
 - iPython: `% run <file.py>`
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Run tests
 
 - doctests: `python3 -m doctest -v <file.test.py>`
 - unittests: `python3 -m unittest`
 
-[[python.testing]] for more options on testing
+[Testing](../langauges/backend/python/python.testing.md) for more options on testing
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Run Flask Apps
 
@@ -94,7 +90,7 @@ def home():
 >
 > `export FLASK_ENV=development`
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Generate a Secret Key
 
@@ -108,4 +104,4 @@ or
 os.urandom(<int>)
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
