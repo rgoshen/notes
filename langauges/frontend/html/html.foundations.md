@@ -1,12 +1,6 @@
----
-id: HQzC6BADYqLO2rpBoW5c5
-title: Foundations
-desc: ''
-updated: 1645154864503
-created: 1644635792302
----
+# HTML Foundations
 
-![HTML](![CSS](/assets/images/CSS3_and_HTML5_logos.png){display: block, margin: 0 auto, max-height: 400px})
+![HTML](../../../assets/images/html5-topper.png)
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/html/default.asp) |
@@ -16,13 +10,12 @@ created: 1644635792302
 # Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) [Introduction](#introduction)
-1. ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) [Elements & Tags](#elements-and-tags)
-1. ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) [HTML Boilerplate](#html-boilerplate)
-1. ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) [Working with Text](#working-with-text)
-1. ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) [Lists](#lists)
-1. ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) [Links & Images](#links-and-images)
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [Elements & Tags](#elements-and-tags)
+1. [HTML Boilerplate](#html-boilerplate)
+1. [Working with Text](#working-with-text)
+1. [Lists](#lists)
+1. [Links & Images](#links-and-images)
 
 ## Abbreviations
 
@@ -60,7 +53,7 @@ So here it is: it’s time to actually start making things. This section will te
 - CSS adds the style to all those HTML data
   - used to position that information, give it color, change font, etc.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Elements and Tags
 
@@ -76,7 +69,7 @@ HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/do
 
 Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the curriculum.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## HTML Boilerplate
 
@@ -86,7 +79,7 @@ To demonstrate HTML boilerplate, we first need an HTML file to work with.
 
 To let the computer know we want to create an HTML file, we need to append the filename with the **.html** extension as we have done when creating the **index.html** file.
 
-It is worth noting that we named our HTML file index. We should always name the HTML file that will contain the homepage of our websites **index.html**. This is because web servers will by default look for an **index.htm**l page when users land on our websites - and not having one will cause big problems.
+It is worth noting that we named our HTML file index. We should always name the HTML file that will contain the homepage of our websites' **index.html**. This is because web servers will by default look for an **index.htm**l page when users land on our websites - and not having one will cause big problems.
 
 _example/index.html_
 
@@ -94,13 +87,13 @@ _example/index.html_
 <!DOCTYPE html>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### The DOCTYPE
 
 Every HTML page starts with a doctype declaration. The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply `<!DOCTYPE html>`.
 
-The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
+The `doctypes` for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
 
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -116,7 +109,7 @@ _example/index.html_
 <!DOCTYPE html>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### HTML Element
 
@@ -135,7 +128,7 @@ Back in the index.html lets add the <html> element by typing out its opening and
 
 <span style="color:red">lang</span> specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Head Element
 
@@ -173,7 +166,7 @@ Back in our **index.html**, let’s add a head element with a title and a charse
 </html>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Body Element
 
@@ -192,13 +185,13 @@ To complete the boilerplate, add a body element to the **index.html** file. The 
 </html>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Viewing HTML Files in the Browser
 
 The HTML boilerplate in the **index.html** file is complete at this point, but how do you view it in the browser? There are a couple of different options:
 
-> A note: In order to avoid branching our lesson’s instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.
+> A note: In order to avoid branching our lesson’s instructions to accommodate for all the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.
 > All references to the browser will pertain specifically to Google Chrome.
 > We **strongly** suggest that you use Google Chrome for all of your testing going forward.
 
@@ -227,17 +220,17 @@ Back in the index.html file, lets add a heading (more on these later) to the bod
 
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading “Hello World!” will be displayed.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### VSCode Shortcut
 
-VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the’.html’ extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the **index.html** file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the’.html’ extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the **index.html** file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voilà, you should have all the boilerplate populated for you.
 
 But it’s still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn’t have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory of how to write the boilerplate code.
 
 Resource: [HTML Validator](https://validator.w3.org/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Working with Text
 
@@ -259,19 +252,19 @@ What would you expect the following text to output on an HTML page?
 </body>
 ```
 
-It looks like two paragraphs of text, and so you might expect it to display in that way. However that is not the case, as you can see in the output below:
+It looks like two paragraphs of text, and so you might expect it to display in that way. However, that is not the case, as you can see in the output below:
 
-[![output](/assets/images/body-output-ex.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
+[![output](../../../assets/images/body-output-ex.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
 
-When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
+When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all the text is clumped together into one long line.
 
 If we want to create paragraphs in HTML, we need to use the paragraph element, which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
 
 Changing our example from before to use paragraph elements fixes the issue:
 
-[![output-2](/assets/images/body-output-2.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
+[![output-2](../../../assets/images/body-output-2.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Headings
 
@@ -279,13 +272,13 @@ Headings are different from other HTML text elements: they are displayed larger 
 
 There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading’s level. h1 is the most important and is larger than the other headings, and h6 is the lowest level and therefore the smallest of the headings.
 
-Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
+Headings are defined much like paragraphs. For example, to create a h1 heading, we wrap our heading text in a `<h1>` tag.
 
-[![headings](/assets/images/headings.png)](https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg)
+[![headings](../../../assets/images/headings.png)](https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg)
 
-Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
+Using the correct level of heading is important as levels provide a hierarchy to the content. A h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Strong Element
 
@@ -293,15 +286,15 @@ The `<strong>` element makes text bold. It also semantically marks text as impor
 
 You can use strong on its own:
 
-[![strong](/assets/images/strong.png)](https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB)
+[![strong](../../../assets/images/strong.png)](https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB)
 
 But you will probably find yourself using the strong element much more in combination with other text elements, like this:
 
-[![strong2](/assets/images/strong-2.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqJr)
+[![strong2](../../../assets/images/strong-2.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqJr)
 
 Sometimes you will want to make text bold without giving it an important meaning. You’ll learn how to do that in the CSS lessons later in the curriculum.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Em Element
 
@@ -309,13 +302,13 @@ The em element makes text italic. It also semantically places emphasis on the te
 
 To use em on its own:
 
-[![em](/assets/images/em.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqpp)
+[![em](../../../assets/images/em.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqpp)
 
 Again, like the strong element, you will find yourself mostly using the em element with other text elements:
 
-[![em-2](/assets/images/em-2.png)](https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj)
+[![em-2](../../../assets/images/em-2.png)](https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Nesting and Indentation
 
@@ -325,19 +318,19 @@ When we nest elements within other elements, we create a parent and child relati
 
 In the following example, the body element is the parent and the paragraph is the child:
 
-[![indentation-example](/assets/images/indentation-example-1.png)](https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO)
+[![indentation-example](../../../assets/images/indentation-example-1.png)](https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO)
 
 Just as in human relationships, HTML parent elements can have many children. Elements at the same level of nesting are considered to be siblings.
 
 For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are at the same level of nesting as each other:
 
-[![sibling](/assets/images/silbling.png)](https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx)
+[![sibling](../../../assets/images/silbling.png)](https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx)
 
 We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. It is recommended to indent any child elements by two spaces.
 
 The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### HTML Comments
 
@@ -345,13 +338,13 @@ HTML comments are not visible to the browser; they allow us to _comment_ on our 
 
 Writing an HTML comment is simple: we just put `<!-- and -->` at either end of the comment. For example:
 
-[![comment](/assets/images/comment.png)](https://codepen.io/TheOdinProjectExamples/pen/abwoyBg)
+[![comment](../../../assets/images/comment.png)](https://codepen.io/TheOdinProjectExamples/pen/abwoyBg)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Lists
 
-Whether it be IMDB’s top 250 movies or the FBI’s most wanted, lists are everywhere on the web and you are going to need one eventually in your webpages.
+Whether it be IMDB’s top 250 movies or the FBI’s most wanted, lists are everywhere on the web, and you are going to need one eventually in your webpages.
 
 Luckily, with HTML there are a couple of different types of lists at your disposal.
 
@@ -363,9 +356,9 @@ Unordered lists are created using the `<ul>` element, and each item within the l
 
 Each list item in an unordered list begins with a bullet point:
 
-[![ul](/assets/images/ul.png)](https://codepen.io/TheOdinProjectExamples/pen/powjajd)
+[![ul](../../../assets/images/ul.png)](https://codepen.io/TheOdinProjectExamples/pen/powjajd)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Ordered Lists
 
@@ -373,9 +366,9 @@ If you instead want to create a list of items where the order does matter, like 
 
 Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
 
-[![ol](/assets/images/ol.png)](https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp)
+[![ol](../../../assets/images/ol.png)](https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Links and Images
 
@@ -396,7 +389,7 @@ To get some practice using links and images throughout this lesson we need an HT
 <h1>Homepage</h1>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Anchor Elements
 
@@ -422,7 +415,7 @@ By default, any text wrapped with an anchor tag without a **href** attribute wil
 
 It’s worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Absolute and Relative Links
 
@@ -474,7 +467,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can simply use the name of the about.html file <span style="color:blue">about.html</span> as the value of the href in the link.
+This works because the index and about page are in the same directory. That means we can simply use the name of the `about.html` file <span style="color:blue">about.html</span> as the value of the href in the link.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
@@ -482,7 +475,7 @@ Create a directory named pages within the <span style="color:blue">odin-links-an
 
 Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
 
-To fix this, we just need to update the about link href value to include the **pages/** directory since that is the new location of the about file relative to the index file.
+To fix this, we just need to update the about link href value to include the **pages/** directory since that is the new location of the `about.html` file relative to the index file.
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
 
@@ -501,7 +494,7 @@ Absolute and relative links are a tricky concept to build a good mental model of
 
 Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions to an entirely different house.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Images
 
@@ -513,12 +506,12 @@ Instead of wrapping content with an open and closing tag, it embeds an image int
 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
-[![absolute-image-path](/assets/images/absolute-image-path.png)](https://codepen.io/TheOdinProjectExamples/pen/gORbExZ)
+[![absolute-image-path](../../../assets/images/absolute-image-path.png)](https://codepen.io/TheOdinProjectExamples/pen/gORbExZ)
 
 To use images that we have on our own websites, we can use a relative path.
 
 1. Create a new directory named <span style="color:blue">images</span> with in <span style="color:blue">odin-links-and-images</span> project
-1. Next, download this [image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created
+1. Next, download this [image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the `images` directory we just created
 1. Rename the image to dog.jpg
 
 Finally add the image to the <span style="color:blue">index.html</span> file:
@@ -536,13 +529,13 @@ Finally add the image to the <span style="color:blue">index.html</span> file:
 
 Save the <span style="color:blue">index.html</span> file and open it in a browser to view Charles in all his glory.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Parent Directories
 
-What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
+What if we want to use the dog image in the about page? We would first have to go up one level out of the `pages` directory into its parent directory, so we could then access the `images` directory.
 
-To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the <span style="color:blue">about.html</span> file, add the following image below the heading we added earlier:
+To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the <span style="color:blue">about.html</span> file, add the following image below the heading we added earlier:
 
 ```html
 <img src="../images/dog.jpg" />
@@ -550,13 +543,13 @@ To go to the parent directory we need to use two dots in the relative filepath l
 
 To break this down:
 
-1. First, we are going to the parent directory of the pages directory which is <span style="color:blue">odin-links-and-images</span>
+1. First, we are going to the parent directory of the `pages` directory which is <span style="color:blue">odin-links-and-images</span>
 1. Then, from the parent directory, we can go into the <span style="color:blue">images</span> directory
 1. Finally, we can access the **dog.jpg** file
 
-Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
+Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway, so you can go to another room.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Alt attribute
 
@@ -564,12 +557,10 @@ Besides the src attribute, every image element should also have an alt (alternat
 
 The alt attribute is used to describe an image, it will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
-This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
+This is how The Odin Project logo example we used earlier looks with an alt attribute included:
 
-[![alt-attribute](/assets/images/alt-attribute.png)](https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp)
+[![alt-attribute](../../../assets/images/alt-attribute.png)](https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp)
 
 As a bit of practice, add an alt attribute to the dog image we added to the <span style="color:blue">odin-links-and-images</span> project.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

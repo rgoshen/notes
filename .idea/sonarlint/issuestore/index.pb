@@ -113,8 +113,6 @@ P
  assets/images/bootstrap-logo.svg,4/f/4f5b69a8f05156ba6a15d0309171f28a35ebece8
 L
 assets/images/call-stack.svg,3/6/36fc8568658d1358634f2240156489ffac6e7cdb
-G
-assets/images/html5.svg,a/f/afe8137ecd443909ebea096ed23be8e1b372e31a
 M
 assets/images/jQuery_logo.svg,4/e/4ecb674f126d2e18f337fc22dd02a5dc40dce850
 Q
@@ -139,8 +137,6 @@ F
 scratch/PR-Workflow.md,9/1/91ebaac5cd868f64caa4d4ed52b93fdcd3c1906e
 A
 scratch/README.md,f/b/fb996ef6d8f639904c09f965eae69957f73b5a9a
-?
-scratch/html.md,e/f/ef5260668501a14ed45169d7e4c8a38484c2395c
 a
 1scratch/java.books.java-for-absolute-beginners.md,7/e/7eb47f36d6f6949b9e0ff8ee5cbe80ec40d0c87a
 E
@@ -409,14 +405,8 @@ A
 scratch/python.md,0/6/0657c739fe41d807acd60c1661891b5eae40963d
 I
 scratch/python.testing.md,c/7/c72fdeeea6e6e0baed0538541967b95fb287cebc
-?
-scratch/root.md,c/0/c0fa772051aebb6524e31f6a086978357316e47b
 N
 scratch/solve-any-algorithm.md,b/1/b12c4b1d823f0013ce3fcc542da508f1166b24fb
-O
-scratch/templates.javascript.md,4/0/40c0e6d2775653cfd36f8e0076fe316e58921ee1
-H
-scratch/templates.toc.md,c/3/c32939ec8993bb6c1fd7f3c1e596828e95428e5b
 D
 scratch/tutorials.md,4/e/4ef55937a42adccab1a79aed84238f89f489e809
 O
