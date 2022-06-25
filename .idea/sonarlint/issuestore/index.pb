@@ -367,8 +367,6 @@ V
 +scratch/javascript/testing/jest/sum.test.js,c/5/c52d222145e43261356a1dacfb3241a2f287a141
 T
 $scratch/javascript/testing/readme.md,8/b/8bc2edb2d9175d9438cf9faeba4ad97a3580c288
-E
-scratch/jwt/readme.md,f/2/f2b8d2912dc3104b365f96713fa0c40bd5273b72
 T
 $scratch/problem-solving-technique.md,4/4/44caa005dbda050468dbc81d05320b04fbee8d15
 N
@@ -402,8 +400,6 @@ P
  operating_systems/linux/Linux.md,d/5/d5acfc234da7929e5c93ceadd14ee7b02cadf634
 d
 4langauges/frontend/frameworks_libraries/bootstrap.md,c/6/c6a155274fb39db664f6b511133c8a4fc7d1c8ff
-^
-.langauges/frontend/frameworks_libraries/jwt.md,f/f/ffebd68df71835a915b0cc608e779cb061999f49
 Q
 !cheatsheets/python.cheat-sheet.md,8/c/8c173aaae0207fd42af81209b43aed0ca8e0465b
 R
