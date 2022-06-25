@@ -8,8 +8,8 @@ created: 1643686376661
 
 # Table of Contents
 
-- [Build from Aur Package](#build-from-aur-package)
-- [Upgrade packages installed from Aur](#upgrade-packages-installed=from=aur)
+- [Build from Aur Package](#build-of-aur-package)
+- [Upgrade packages installed from Aur](#upgrade-packages-installed-from-aur)
 
 ## Build of Aur Package
 

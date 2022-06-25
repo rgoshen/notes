@@ -1,16 +1,15 @@
----
-id: 5wneiVEoGldDOsipouM0h
-title: Linux
-desc: ''
-updated: 1643840186880
-created: 1643683101053
----
+# Linux
 
-# Table of Contents
+### Basic Linux CLI Commands
+
+## Table of Contents
 
 - [Basic Commands](#basic-commands)
 - [PostgreSQL Commands](#postgresql-commands)
-- [[Linux.manjaro]]
+
+## Linux Flavors
+
+- [Manjaro](./Linux.manjaro.md)
 
 ## Basic Commands
 
@@ -34,7 +33,7 @@ u = user g = group o = other
 
 r = read w = write x = execute
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## PostgreSQL Commands
 
@@ -69,4 +68,4 @@ sudo -u postgres psql
 psql < filename.sql
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
