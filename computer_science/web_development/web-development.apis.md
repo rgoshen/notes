@@ -1,12 +1,6 @@
----
-id: EhXVzOLFEcmIAtj4os7y1
-title: APIs
-desc: 'APIs Notes'
-updated: 1644448136561
-created: 1644376661888
----
+# APIs
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
 1. [Introduction](#introduction)
@@ -29,7 +23,7 @@ created: 1644376661888
 
 ## Introduction
 
-In this subunit, we'll cover the all-important concept of **APIs**. You might have heard the term API before; they're simpler to work with than they are to explain. Essentially, APIs are a way for you to access data that a company or website has made publicly available. In the coming resources, you'll learn a bit more about what an API is, the different kinds of APIs, and how you can fetch and send data to APIs using AJAX. We'll also explore some of the challenges of working with APIs.
+In this subunit, we'll cover the all-important concept of **APIs**. You might have heard the term API before; they're simpler to work with than they are to explain. Essentially, APIs are a way for you to access data that a company or website has made publicly available. In the coming resources, you'll learn a bit more about what an API is, the different kinds of APIs, and how you can fetch and send data to APIs using AJAX. We'll also explore some challenges of working with APIs.
 
 ### Goals
 
@@ -38,7 +32,7 @@ In this subunit, we'll cover the all-important concept of **APIs**. You might ha
 - Understand the limitations
 - Use Terminal and GUI clients for making HTTP requests
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## APIs
 
@@ -48,7 +42,7 @@ A set of clearly defined methods of communication between various components.
 
 An API may be for a web-based system, operating system, database system, computer hardware, or software library.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### APIs You Have Used
 
@@ -69,7 +63,7 @@ Companies will provide access to their data (sometimes not for free)
 - [![Google Nearby](https://img.shields.io/badge/-Google%20Nearby-%234285F4?style=flat&logo=googlenearby)](https://developers.google.com/maps/documentation/places/web-service/overview)
 - [![yelp](https://img.shields.io/badge/Yelp-%23D32323?style=flat&logo=yelp)](https://www.yelp.com/developers)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Data Formats
 
@@ -91,7 +85,7 @@ Syntactically similar to HTML, but does not describe presentation like HTML, and
 </person>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### JSON
 
@@ -114,7 +108,7 @@ JSON looks similar to JS objects, but all the keys must be “double-quoted”.
 
 A JSON payload must be sent as a string over HTTP requests.
 
-To convert JavaScript object to JSON string:
+To convert a JavaScript object to JSON string:
 
 ```javascript
 JSON.stringify(myObject); // "...string of JSON..."
@@ -128,7 +122,7 @@ JSON.parse(jsonString); // {prop: value, ...}
 
 Most libraries do this for you.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### JSON vs XML
 
@@ -136,7 +130,7 @@ We’ll primarily use JSON: it’s easier to parse & works great with JavaScript
 
 JSON is also the contemporary standard for most RESTful APIs.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## API Security
 
@@ -160,15 +154,15 @@ What constitutes a “different” origin?
 - Different protocol
 - Different port
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### CORS
 
 You can’t use AJAX if the API requires the same origin But the backend
 
-API server can opt-in using “CORS”
+API server can opt in using “CORS”
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Curl
 
@@ -192,9 +186,9 @@ This will return the entire HTML document that the URL holds.
 curl https://api.github.com/users/elie
 ```
 
-This will return a JSON response from the Github API
+This will return a JSON response from the GitHub API
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Flags with Curl
 
@@ -223,7 +217,7 @@ curl --header "Content-Type: application/json" \
 - When you’re doing scripting
 - You will also see it in almost all API documentation for examples
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Insomnia
 
@@ -241,6 +235,4 @@ A GUI for making HTTP requests.
 
 If you want extra practice, check out [JSONPlaceHolder](https://jsonplaceholder.typicode.com/)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

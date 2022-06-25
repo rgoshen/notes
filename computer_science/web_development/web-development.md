@@ -1,19 +1,11 @@
----
-id: xJMcU1KXscjIwDPJ7stCb
-title: Web Development
-desc: 'Web Development TOC'
-updated: 1644449313682
-created: 1644360006648
----
+# Web Development
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![general](https://img.shields.io/badge/general-blue?style=flat&logo=appveyor&logoColor=white) [Introduction](#introduction)
-1. ![general](https://img.shields.io/badge/general-blue?style=flat&logo=appveyor&logoColor=white) [[web-development.how-the-web-works]]
-1. ![general](https://img.shields.io/badge/general-blue?style=flat&logo=appveyor&logoColor=white) [[web-development.apis]]
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [[javascript.ajax]]
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [How the Web Works](./web-development.how-the-web-works.md)
+1. [APIs](./web-development.apis.md)
 
 ## Abbreviations
 
@@ -35,6 +27,4 @@ This unit will explore how the internet works and the various protocols that ena
 - Learn how JavaScript can be used to request and receive data
 - Learn about AJAX and how to write asynchronous code
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

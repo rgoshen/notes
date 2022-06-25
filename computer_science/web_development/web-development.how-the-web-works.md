@@ -1,12 +1,6 @@
----
-id: frrgAWzE1nRd5mRfrNFn2
-title: How the Web Works
-desc: 'How the Web Works'
-updated: 1644376045018
-created: 1644360645238
----
+# How the Web Works
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
 1. [Introduction](#introduction)
@@ -18,7 +12,6 @@ created: 1644360645238
 1. [Multiple Requests](#multiple-requests)
 1. [Trying on Command Line](#trying-on-command-line)
 1. [Methods: GET and POST](#methods-get-and-post)
-1. [Tutorials](#tutorials)
 
 ## Abbreviations
 
@@ -35,7 +28,7 @@ created: 1644360645238
 
 If you want to be a web developer, you've got to know how the web works. Luckily, the internet was designed by incredibly smart people with accessibility in mind.
 
-In this subunit, we'll teach you all the fundamentals of how the internet works: what happens behind the scenes when you type in a URL, how data passes between computers, what IP addresses are and how they work, the Domain Name Server, and much much more. You've been using all of these services for years!
+In this subunit, we'll teach you all the fundamentals of how the internet works: what happens behind the scenes when you type in a URL, how data passes between computers, what IP addresses are and how they work, the Domain Name Server, and much, much more. You've been using all of these services for years!
 
 ### Goals
 
@@ -58,12 +51,12 @@ Really, really complicated.
 Fortunately, to be a software developer, you only need to know a bit.
 For people who want to work in "development operations," or as a system administrator, it's typical to have to learn more about the details here.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Networks
 
 A _network_ is a set of computers that can intercommunicate.
-The internet is just a really, really big network.
+The internet is just a really, huge network.
 The internet is made up of smaller, "local" networks.
 
 ### Hostnames
@@ -71,7 +64,7 @@ The internet is made up of smaller, "local" networks.
 We often talk to servers by "hostname" — [site.com]() or [computer-a.site.com]().
 That's just a nickname for the server, though — and the same server can have many hostnames.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### IP Addresses
 
@@ -82,14 +75,14 @@ There are a lot of advanced edges here that make this more complicated, but most
 - some computers can have multiple IP addresses they can be reached by
 - under some circumstances, multiple computers can share an IP address and have this be handled by a special kind of router. If you're interested in system administration details, you can learn about this by reading about "Network Address Translation".
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### 127.0.0.1
 
 `127.0.0.1` is special - it's "this computer that you're on".
 In addition to their IP address on the network, all computers can reach themselves at this address. The name **localhost** always maps to `127.0.0.1`.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## URLs
 
@@ -98,13 +91,13 @@ In addition to their IP address on the network, all computers can reach themselv
 turn into:
 
 | Protocol | Hostname | Port | Resource        | Query |
-| -------- | -------- | ---- | --------------- | ----- |
+|----------|----------|------|-----------------|-------|
 | http     | site.com | 80   | /some/page.html | ?x=1  |
 
 ### Protocols
 
 | <span style="color:red">**Protocol**</span> | Hostname | Port | Resource        | Query |
-| ------------------------------------------- | -------- | ---- | --------------- | ----- |
+|---------------------------------------------|----------|------|-----------------|-------|
 | <span style="color:red">**http** </span>    | site.com | 80   | /some/page.html | ?x=1  |
 
 "Protocols" are the conventions and ways of one thing talking to another.
@@ -118,24 +111,24 @@ turn into:
 There are many others, but these are the common ones.
 In this lecture, we'll focus only on HTTP
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Hostname
 
 | Protocol | <span style="color:red">**Hostname**</span> | Port | Resource        | Query |
-| -------- | ------------------------------------------- | ---- | --------------- | ----- |
+|----------|---------------------------------------------|------|-----------------|-------|
 | http     | <span style="color:red">**site.com**</span> | 80   | /some/page.html | ?x=1  |
 
 DNS (domain name service) turns this into an IP address
 
 So [site.com]() might resolve to `123.45.67.89`
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Port
 
 | Protocol | Hostname | <span style="color:red">**Port**</span> | Resource        | Query |
-| -------- | -------- | --------------------------------------- | --------------- | ----- |
+|----------|----------|-----------------------------------------|-----------------|-------|
 | http     | site.com | <span style="color:red">**80**</span>   | /some/page.html | ?x=1  |
 
 - Every server has 65,535 unique "ports" you can talk to
@@ -145,24 +138,24 @@ So [site.com]() might resolve to `123.45.67.89`
 - You don't have to specify in URL unless you want a different port
   - To do: http://site.com:12345/some/page.html
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Resource
 
 | Protocol | Hostname | Port | <span style="color:red">**Resource**</span>        | Query |
-| -------- | -------- | ---- | -------------------------------------------------- | ----- |
+|----------|----------|------|----------------------------------------------------|-------|
 | http     | site.com | 80   | <span style="color:red">**/some/page.html**</span> | ?x=1  |
 
 - This always talks to some "web server" program on the server
   - For some servers, may just have them read an actual file on disk: **/some/page.html**
   - For many servers, "dynamically generates" a page
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Query String
 
 | Protocol | Hostname | Port | Resource        | <span style="color:red">**Query**</span> |
-| -------- | -------- | ---- | --------------- | ---------------------------------------- |
+|----------|----------|------|-----------------|------------------------------------------|
 | http     | site.com | 80   | /some/page.html | <span style="color:red">**?x=1**</span>  |
 
 - This provides "extra information" — search terms, info from forms, etc
@@ -171,7 +164,7 @@ So [site.com]() might resolve to `123.45.67.89`
 - Multiple arguments are separated by &: `?x=i&y=2`
   - Argument can be given several times: `?x=i&x=2`
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### So
 
@@ -186,15 +179,15 @@ means
 - Ask for **/some/page.html**
 - Pass along query string: x=1
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## DNS
 
 I want to talk to [site.com]()
 
-![web-works](/assets/images/web-works.png)
+![web-works](../../assets/images/web-works.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 Unix (and OSX and Linux) systems ship with a utility, **dig**, which will translate a hostname into an IP address for you, and provide debugging information about the process by which it answered this.
 
@@ -213,32 +206,32 @@ site.com. 631 IN A 123.45.67.89 # Answer
 ;; WHEN: Mon Apr 20 00:48:16 2018 ;; MSG SIZE rcvd: 46
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Browsers and Servers
 
 ### Request and Response
 
 When you point your browser to a webpage on a server, your browser makes a **request** to that server.
-This is almost always a **GET** request and it contains the exact URL you want.
+This is almost always a **GET** request, and it contains the exact URL you want.
 
-![get-request](/assets/images/get-request.jpg)
+![get-request](../../assets/images/get-request.jpg)
 
 The server then responds with the exact HTML for that page:
 
-![request-response](/assets/images/request-response.png)
+![request-response](../../assets/images/request-response.png)
 
 It's often the case, though, that the web server itself will have to do some work to get the page you want, often interacting with other things, such as database servers.
 
-![get-request](/assets/images/get-request.jpg)
+![get-request](../../assets/images/get-request.jpg)
 
-![internal-server-work](/assets/images/server-internal.png)
+![internal-server-work](../../assets/images/server-internal.png)
 
 And then it can give back the response you want:
 
-![request-response](/assets/images/request-response.png)
+![request-response](../../assets/images/request-response.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### What's in a Request
 
@@ -252,7 +245,7 @@ And then it can give back the response you want:
   - Any cookies that server has sent
   - And more!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### What's in a Response
 
@@ -265,7 +258,7 @@ And then it can give back the response you want:
   - Any caching information
   - And more!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Watch a Request/Response
 
@@ -292,7 +285,7 @@ Content-Type: text/html                # This is HTML content
   </html>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Response Codes
 
@@ -304,7 +297,7 @@ Content-Type: text/html                # This is HTML content
 
 **500** - Server has an internal problem
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Serving Over HTTP
 
@@ -325,7 +318,7 @@ python3 -m http.server
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)...
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Multiple Requests
 
@@ -347,7 +340,7 @@ _demo/demo.html_
 </html>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### CSS
 
@@ -391,7 +384,7 @@ body {
 ...
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Image
 
@@ -420,7 +413,7 @@ Date: [date browser thinks it is]
 Cookie: [any cookies browser is storing for tinyurl.com]
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### JavaScript
 
@@ -450,12 +443,12 @@ Cookie: [any cookies browser is storing for that host]
 **Hey, That's a Lot of Work!**
 
 - Yes, it is
-- Requesting 1 webpage often involves many separate requests!
+- Requesting 1 webpage often involves many requests!
 - Browsers issue these requests asynchronously
   - They'll assemble the final result as requests come back
 - You can view this in browser console --> Network
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Trying on Command Line
 
@@ -490,7 +483,7 @@ Content-Type: text/html; charset=UTF-8
 
 **Everything is a string!**
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Methods GET and POST
 
@@ -505,10 +498,10 @@ Content-Type: text/html; charset=UTF-8
 - **POST**: requests with side effects (i.e. change data on server)
   - Typically, arguments sent as body of the request (not in query string)
   - Some form submissions (but never entering-URL-in-browser of links)
-  - Always do this if there's a side-effect: sending mail, charge credit card, etc
+  - Always do this if there's a side effect: sending mail, charge credit card, etc
   - "Are you sure want to resubmit?"
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Sample GET Requests
 
@@ -542,12 +535,10 @@ POST requests are always form submissions:
 
 They're the most common, by far, but there are others
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Further Study
 
 - [![You Tube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Dxcc6ycZ73M&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7) How the Internet Works: A Code.org Video Series
 - [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 - [How DNS Works](https://howdns.works/)
-
-## Tutorials
