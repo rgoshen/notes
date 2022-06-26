@@ -1,3 +1,53 @@
+# linkedList.test.js
+
+1. import LinkedList class `const LinkedList = require('./[LinkedList](/javascript/data_structures/linked_lists_with_TDD/notes/linkedListjs.md)');`
+1. write a describe block `describe('#insertAtHead'() => {});`
+   1. first parameter is a string of the name of the method/function to be tested - '#' is just a convention to be used when testing a method of a class
+   1. second parameter is callback function that contains all the test information we want
+1. inside of callback function create first test `test('adds node to beginning of the list', () => {});`
+   1. similar to the describe block first parameter is a string saying what the test does and second parameter is another callback function that contains the code to run to test whatever we want to test
+1. to run the tests inside the `package.json()` file and replace existing test script with `"jest --coverage"`
+
+```json
+{
+  "scripts": {
+    "test": "jest --coverage"
+  }
+}
+```
+
+1. then run test
+
+```bash
+❯ npm run test
+
+> linked_lists_with_tdd@1.0.0 test
+> jest --coverage
+
+ PASS  ./linkedList.test.js
+  #insertAtHead
+    ✓ adds node to the beginning of list (1 ms)
+
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+---------------|---------|----------|---------|---------|-------------------
+All files      |     100 |      100 |     100 |     100 |
+ linkedList.js |     100 |      100 |     100 |     100 |
+---------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.236 s
+Ran all test suites.
+```
+
+**NOTE:** `npm run test` will run all tests
+
+**NOTE:** try to get 100% test coverage if possible but not necessary - 100% test coverage means all lines of code in object file were tested
+
+1. From here on out you write tests, test by `npm run test`, tests should fail and then write the method based on your test cases, run the tests again `npm run test` and now they should pass - keep doing this until you have created all your methods you need to write.
+
+```nodejs
 const { expect } = require('@jest/globals');
 const LinkedList = require('./linkedList');
 
@@ -144,3 +194,7 @@ describe('#removeAtIndex', () => {
     });
   });
 });
+
+```
+
+> **NOTE:** when writing tests for a class you do not want to use other methods of that class to test current method because if other method fails then all tests for current method would fail whether the method logic was written correctly or not - here is where you would create a helper function see [linkedList.js](./linkedListjs.md)

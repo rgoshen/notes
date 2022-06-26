@@ -14,7 +14,7 @@
 1. inside the `insertAtHead()` method create a newNode
    1. pass in data and `this.head` since this is going in front of the head
 1. then set head to `newNode` and 1 to length
-1. perform first manual test in [app.js](/javascript/data_structures/linked_lists_with_TDD/notes/appjs.md)
+1. perform first manual test in [app.js](./appjs.md)
 
 ```nodejs
 class LinkedList {
@@ -96,7 +96,6 @@ LinkedList.fromValues = function (...values) {
 };
 
 module.exports = LinkedList;
-
 ```
 
-support files [app.js](/javascript/data_structures/linked_lists_with_TDD/notes/appjs.md)
+support files [app.js](./appjs.md)

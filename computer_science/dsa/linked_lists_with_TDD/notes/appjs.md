@@ -6,7 +6,7 @@
 1. insert the value 20 at the head `ll.insertAtTheHead(20);`
 1. log 'll' to console `console.log(ll);`
 1. run app.js `node app.js`
-1. go to [linkedList.test.js](/javascript/data_structures/linked_lists_with_TDD/notes/linkedList.testjs.md)
+1. go to [linkedList.test.js](./linkedList.testjs.md)
 
 ```nodejs
 const LinkedList = require('./linkedList');
@@ -25,5 +25,4 @@ ll.print();
 // ll.removeHead();
 ll.removeAtIndex(2);
 ll.print();
-
 ```

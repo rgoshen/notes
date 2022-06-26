@@ -28,7 +28,7 @@ On top of covering linked lists in this tutorial, I will also be covering how yo
 
 The image below represents a high-level TDD approach towards development:
 
-![tdd_high_level](/imgs/tdd_high_level_flow_chart.png)
+![tdd_high_level](../../../assets/images/tdd_high_level_flow_chart.png)
 
 Image taken from [Browserstack.com](https://www.browserstack.com/guide/what-is-test-driven-development)
 
@@ -49,7 +49,7 @@ Image taken from [Browserstack.com](https://www.browserstack.com/guide/what-is-t
   - doubly linked list - each node references the next node and its previous node except for the head node which starts the list
   - circular linked list - this is similar to a singly linked list except the tail node references back to the head node
 
-![linked-lists](/imgs/types-of-linked-list.png)
+![linked-lists](../../../assets/images/types-of-linked-list.png)
 image from [faceprep.in](https://www.faceprep.in/data-structures/linked-list-introduction/)
 
 #### Why use a linked list instead of an array?
@@ -90,12 +90,12 @@ npm init -y
 npm i jest --save-dev
 ```
 
-1. create [linkedList.js](/javascript/data_structures/linked_lists_with_TDD/notes/linkedListjs.md)
-1. create [linkedList.test.js](/javascript/data_structures/linked_lists_with_TDD/notes/linkedList.testjs.md) for automated testing and to drive writing the file
-1. create [app.js](/javascript/data_structures/linked_lists_with_TDD/notes/appjs.md) see we can run code to manually test the `linkedList` file
+1. create [linkedList.js](./notes/linkedListjs.md)
+1. create [linkedList.test.js](./notes/linkedList.testjs.md) for automated testing and to drive writing the file
+1. create [app.js](./notes/appjs.md) see we can run code to manually test the `linkedList` file
 
-1. go to [linkedList.js](/javascript/data_structures/linked_lists_with_TDD/notes/linkedListjs.md) for remaining instructions
+1. go to [linkedList.js](./notes/linkedListjs.md) for remaining instructions
 
 ### How to write proper tests
 
-1. go to [linkedList.test.js](/javascript/data_structures/linked_lists_with_TDD/notes/linkedList.testjs.md) on writing tests
+1. go to [linkedList.test.js](./notes/linkedList.testjs.md) on writing tests

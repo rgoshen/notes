@@ -195,10 +195,6 @@ Gscratch/javascript/data_structures/linked_lists_with_TDD/notes/appjs.md,5/9/59
 Sscratch/javascript/data_structures/linked_lists_with_TDD/notes/linkedList.testjs.md,3/5/359ee9d745e27124c6e9e79168c958f23ccdb727
 ~
 Nscratch/javascript/data_structures/linked_lists_with_TDD/notes/linkedListjs.md,e/4/e41a9850c61595bd736de551b04c91a08688bf45
-r
-Bscratch/javascript/data_structures/linked_lists_with_TDD/readme.md,2/4/24c836e4600a948903b7e031f91f96ed076db0a7
-\
-,scratch/javascript/data_structures/readme.md,6/3/63f14d4f5b9810f05f5f5eadb98c8fd7335148ce
 h
 8scratch/javascript/node/jwt-authentication/authServer.js,3/1/31878d5258b71fcfa9455bad6bf7e516b77954dd
 p
@@ -283,8 +279,6 @@ jscratch/javascript/react/testing/react_testing_crash_course/react-testing-demo/
 gscratch/javascript/react/testing/react_testing_crash_course/react-testing-demo/scripts/seedDataUtils.ts,a/9/a978a4caa524b406d3d9cd9dab65cbf86435b9e4
 u
 Escratch/javascript/react/testing/react_testing_crash_course/readme.md,a/6/a63ae388118a614af8e4bd092843c5ad397d237f
-L
-scratch/javascript/readme.md,c/d/cd6970d53b142e523dce7330b59b309dac6e4fa0
 ]
 -scratch/javascript/testing/jest/cloneArray.js,c/a/cae95082a0d18ac1d32dbf7f7e3775ba763ff45b
 b
