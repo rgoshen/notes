@@ -4,11 +4,11 @@
 
 1. [Abbreviations](#abbreviations)
 2. [Introduction](#introduction)
-3. [Web Fundamentals](./developer-fundamentals.web-fundamentals.md)
-4. [Command Line](./developer-fundamentals.command-line.md)
-5. [Git Fundamentals](./developer-fundamentals.git-fundamentals.md)
-6. [Git Branching and Merging](./developer-fundamentals.git-branching-and-merging.md)
-7. [GitHub](./developer-fundamentals.github.md)
+3. [Web Fundamentals](developer-fundamentals.web-fundamentals.md)
+4. [Command Line](developer-fundamentals.command-line.md)
+5. [Git Fundamentals](developer-fundamentals.git-fundamentals.md)
+6. [Git Branching and Merging](developer-fundamentals.git-branching-and-merging.md)
+7. [GitHub](developer-fundamentals.github.md)
 
 ## Abbreviations
 

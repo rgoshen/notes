@@ -56,7 +56,7 @@ deactivate # deactivates virtual environment
 - doctests: `python3 -m doctest -v <file.test.py>`
 - unittests: `python3 -m unittest`
 
-[Testing](../langauges/backend/python/python.testing.md) for more options on testing
+[Testing](../testing/python/python.testing.md) for more options on testing
 
 [![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 

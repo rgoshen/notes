@@ -1,6 +1,6 @@
 # Git Fundamentals
 
-![git-logo](../../assets/images/git-logo.png)
+![git-logo](../../../assets/images/git-logo.png)
 
 [![Git](https://img.shields.io/badge/Docs-git-%23F05033.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/docs)
 
@@ -12,7 +12,7 @@
 4. [Committing Workflow](#committing-workflow)
 5. [git config Settings](#git-config-settings)
 6. [Best Practices](#best-practices)
-7. [Git Fundamentals Cheat Sheet](../../cheatsheets/developer-fundamentals.git-fundamentals.cheat-sheet.md)
+7. [Git Fundamentals Cheat Sheet](../../../cheatsheets/developer-fundamentals.git-fundamentals.cheat-sheet.md)
 
 ## Abbreviations
 
@@ -107,7 +107,7 @@ You **don’t** want to make your Desktop or Home folder a git repository!
 - Let's imagine we just created a new repository
 - If we run the command `git status`, it would look something like this
 
-![untracked-files](../../assets/images/untracked_files.jpg)
+![untracked-files](../../../assets/images/untracked_files.jpg)
 
 - All files have been modified are shown in red text
 - These files are untracked until we move them to the staging area with the command `git add`
@@ -121,7 +121,7 @@ You **don’t** want to make your Desktop or Home folder a git repository!
 
 This is what git status would look like after adding ‘app.js’ and ‘index.html’
 
-![tracked-files](../../assets/images/tracked_files.jpg)
+![tracked-files](../../../assets/images/tracked_files.jpg)
 
 ‘main.css’ will not be included in the next commit unless it is moved to staging
 
@@ -142,7 +142,7 @@ This is what git status would look like after adding ‘app.js’ and ‘index.h
 
 After making the commit will see a message similar to this
 
-![committed-files](../../assets/images/committed_files.jpg)
+![committed-files](../../../assets/images/committed_files.jpg)
 
 [![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 

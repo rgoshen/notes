@@ -122,27 +122,27 @@ function myFunction() {
 
 ### Step Over
 
-![step-over-outline](../../assets/images/step-over-outline.svg)
+![step-over-outline](../../../assets/images/step-over-outline.svg)
 Run current line, but don’t debug into any function calls
 
 ### Step Into
 
-![step-into-outline](../../assets/images/step-into-outline.svg)
+![step-into-outline](../../../assets/images/step-into-outline.svg)
 Run current line, stepping into any function calls
 
 ### Step Out
 
-![step-out-outline](../../assets/images/step-out-outline.svg)
+![step-out-outline](../../../assets/images/step-out-outline.svg)
 Return from this function to caller
 
 ### Call Stack
 
-![call-stack](../../assets/images/call-stack.svg)
+![call-stack](../../../assets/images/call-stack.svg)
 Shows stack of function calls that got you here
 
 ### Scope
 
-![scope](../../assets/images/scope.svg)
+![scope](../../../assets/images/scope.svg)
 Shows current value of variables
 
 Can click to change value

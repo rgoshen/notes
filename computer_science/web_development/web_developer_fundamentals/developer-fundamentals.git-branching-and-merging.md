@@ -1,6 +1,6 @@
 # Git Branching and Merging
 
-![git-logo](../../assets/images/git-logo.png)
+![git-logo](../../../assets/images/git-logo.png)
 
 [![Git](https://img.shields.io/badge/Docs-git-%23F05033.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/docs)
 

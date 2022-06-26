@@ -1,6 +1,6 @@
 # GitHub
 
-[![github-logo](../../assets/images/github-logo.png)](https://github.com/)
+[![github-logo](../../../assets/images/github-logo.png)](https://github.com/)
 
 [![GitHub](https://img.shields.io/badge/Docs-github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://docs.github.com/en)
 

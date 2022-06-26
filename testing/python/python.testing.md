@@ -2,7 +2,7 @@
 
 ### Python Testing Commands
 
-[![python-logo](../../../assets/images/python-logo.png)](https://www.python.org/)
+[![python-logo](../../assets/images/python-logo.png)](https://www.python.org/)
 
 [![Python](https://img.shields.io/badge/Doctests-python-3670A0?style=flat&logo=python&logoColor=ffdd54)](https://docs.python.org/3/library/doctest.html) |
 [![Python](https://img.shields.io/badge/Unittests-python-3670A0?style=flat&logo=python&logoColor=ffdd54)](https://docs.python.org/3/library/unittest.html)

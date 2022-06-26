@@ -14,7 +14,7 @@ References
 - [Moving Around](#moving-around)
 - [Listing Files](#listing-files)
 - [Files and Folders](#files-and-folders)
-- [Command Line Cheat Sheet](./developer-fundamentals.command-line.cheatsheet.md)
+- [Command Line Cheat Sheet](developer-fundamentals.command-line.cheatsheet.md)
 
 ## Abbreviations
 
@@ -167,7 +167,7 @@ Let’s try it with `ls`
 man ls
 ```
 
-![cli_example](../../assets/images/cli_example.png)
+![cli_example](../../../assets/images/cli_example.png)
 
 ## Files and Folders
 

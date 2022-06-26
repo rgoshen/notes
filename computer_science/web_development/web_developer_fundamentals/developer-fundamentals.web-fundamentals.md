@@ -10,8 +10,8 @@
 1. [Abbreviations](#abbreviations)
 2. [Introduction](#introduction)
 3. [Web Fundamentals Refresher](#web-fundamentals-refresher)
-4. [Debugging and Errors](./developer-fundamentals.web-fundamentals.debugging-and-errors.md)
-5. [JavaScript Timers](./developer-fundamentals.web-fundamentals.javascript-timers.md)
+4. [Debugging and Errors](developer-fundamentals.web-fundamentals.debugging-and-errors.md)
+5. [JavaScript Timers](developer-fundamentals.web-fundamentals.javascript-timers.md)
 
 ## Abbreviations
 
