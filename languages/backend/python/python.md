@@ -12,7 +12,7 @@
 - [Cheat Sheet](../../../cheatsheets/python.cheat-sheet.md)
 - [Misc](#misc)
 - [Packages](#packages)
-- [Testing](./python.testing.md)
+- [Testing](../../../testing/python/python.testing.md)
 
 ## Misc
 

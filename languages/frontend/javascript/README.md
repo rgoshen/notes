@@ -11,5 +11,5 @@
 
 ### Frameworks/Libraries
 
-1. [AJAX](./javascript.ajax.md)
-2. [jQuery](./javascript.jquery.md)
+1. [AJAX](../frameworks_libraries/javascript.ajax.md)
+2. [jQuery](../frameworks_libraries/javascript.jquery.md)

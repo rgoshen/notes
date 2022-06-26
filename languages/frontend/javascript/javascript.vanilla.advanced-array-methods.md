@@ -21,5 +21,5 @@ To succeed in this unit, make sure you do your homework exercises, code along to
 ### Goals
 
 - Learn and get comfortable with advanced array methods
-- Dive deeper into callback functions and higher order functions,introduced in [Web Fundamentals](../../../computer_science/web_developer_fundamentals/developer-fundamentals.md)
+- Dive deeper into callback functions and higher order functions,introduced in [Web Fundamentals](../../../computer_science/web_development/web_developer_fundamentals/developer-fundamentals.md)
 - Learn methods like **sum**, **find**, **index**, and **reduce**
