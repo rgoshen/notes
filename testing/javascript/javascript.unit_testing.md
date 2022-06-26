@@ -28,7 +28,7 @@
 
 ## Section 1 Getting Started
 
-[Slides](/slides/section-1-slides.pdf)
+[Slides](../../assets/slides/section-1-slides.pdf)
 
 ### What is testing?
 
@@ -90,7 +90,7 @@ Why:
 ### Unit, Integration & End-to-End (E2E) Testing
 
 | Unit Testing                                          | Integration Testing                                           | End-to-End (E2E) Testing                                       |
-| ----------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+|-------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
 | Test the individual building blocks of an application | Test the combination of building blocks                       | Test entire flows and application features                     |
 | Every building block (unit) is tested standalone      | Verify if building blocks (units) work together               | Test the actual "things" real users would do                   |
 |                                                       |                                                               |                                                                |
@@ -99,11 +99,11 @@ Why:
 **You should combine all kinds of tests.**
 
 | Unit Testing                                        | Integration Testing                               | End-to-End (E2E) Testing                           |
-| --------------------------------------------------- | ------------------------------------------------- | -------------------------------------------------- |
+|-----------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
 | Quickly spot and pinpoint breaking changes & errors | Test (parts of) processes & combinations of units | Test realistic user flows & behaviors              |
 | Ignore actual user flows and interferences          | Spotting the exact root of an error can be tricky | Covering all possible behaviors can be challenging |
 
-![testing pyramid](images/test-automation-pyramid.jpeg)
+![testing pyramid](../../assets/images/test-automation-pyramid.jpeg)
 [source](https://3fxtqy18kygf3on3bu39kh93-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/test-automation-pyramid.jpg)
 
 ### Test-Driven Development (TDD)
@@ -119,7 +119,7 @@ flowchart TD
 
 ## Section 2 Setup and Testing Software
 
-[Slides](/slides/section-2-slides.pdf)
+[Slides](../../assets/slides/section-2-slides.pdf)
 
 ### Which Tools Are Needed for Testing?
 
@@ -144,20 +144,24 @@ flowchart TD
 
 ## Section 3 Testing Basics
 
+[slides](../../assets/slides/section-3-slides.pdf)
+
 ### AAA - Arrange, Act, Assert
 
 |     |         |                                                                                 |
-| --- | ------- | ------------------------------------------------------------------------------- |
+|-----|---------|---------------------------------------------------------------------------------|
 | A   | Arrange | Define the testing environment & values                                         |
 | A   | Act     | Run the actual code/function that should be tested                              |
 | A   | Assert  | Evaluate the produced value/results and compare it to the expected value/result |
 |     |         |                                                                                 |
 
-Writing good tests is an interative process
+Writing good tests is an integrative process
 
 [back to top](#toc)
 
 ## Section 4 Writing Good Tests
+
+[slides](../../assets/slides/section-4-slides.pdf)
 
 ### What To Test & What Not To Test
 
@@ -200,6 +204,8 @@ What is "one thing"?
 
 ## Section 7 Mocking and Spies Dealing with Side Effects
 
+[slides](../../assets/slides/section-7-slides.pdf)
+
 ### Spies & Mocks
 
 **Spies**:
@@ -235,6 +241,8 @@ What is "one thing"?
 [back to top](#toc)
 
 ## Section 9 Testing and The DOM
+
+[slides](../../assets/slides/section-9-slides.pdf)
 
 [back to top](#toc)
 

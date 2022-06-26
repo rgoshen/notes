@@ -340,8 +340,6 @@ c
 3misc/project_planning/project-planning.fullstack.md,2/1/215ce952e12a84436d367c7ec0244a14c42ed44b
 Y
 )misc/project_planning/project-planning.md,e/6/e6370e81c5e3020913f976f7e92f619a250378cd
-A
-scratch/README.md,f/b/fb996ef6d8f639904c09f965eae69957f73b5a9a
 ç
 ]computer_science/web_developer_fundamentals/developer-fundamentals.command-line.cheatsheet.md,3/5/35fb7fdca3f7e2135a27fec4b942a7d0bb8f76ce
 Ç
