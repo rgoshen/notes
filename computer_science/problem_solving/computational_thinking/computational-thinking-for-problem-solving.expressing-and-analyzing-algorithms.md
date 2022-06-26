@@ -1,6 +1,6 @@
 # Expressing and Analyzing Algorithms
 
-### Module 2
+## Module 2
 
 ## Table of Contents
 
@@ -18,14 +18,14 @@
 
 ## Common algorithms: find-max, linear search, binary search
 
-### Finding the Maximum Value
+### Finding the Largest Value
 
 #### What Can A Computer Do?
 
 - computers can only perform binary operations that take two operands
-    - adding two numbers or
-    - multiplying two numbers or
-    - comparing two numbers
+  - adding two numbers or
+  - multiplying two numbers or
+  - comparing two numbers
 
 #### Finding the Maximum Value
 
@@ -180,10 +180,10 @@ So we found our target on the fourth iteration vs. a linear search we would not 
 **Problem:** Determine whether a sorted list of values contains a target value
 
 - Repeat these steps whether a sorted list of values contains a target value
-    - Compare the value in the middle fo the list to the target
-    - If they are equal, then we have found the target and can stop looking
-    - If the value in the middle of the list is greater than the target, remove the middle element and elements that are larger than it and repeat
-    - If the value in the middle of the list is less than the target, remove the middle element and elements that are smaller than it and repeat
+  - Compare the value in the middle fo the list to the target
+  - If they are equal, then we have found the target and can stop looking
+  - If the value in the middle of the list is greater than the target, remove the middle element and elements that are larger than it and repeat
+  - If the value in the middle of the list is less than the target, remove the middle element and elements that are smaller than it and repeat
 - If we remove all elements in the list, then it does not contain the target
 
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
@@ -410,6 +410,70 @@ Now, if we double the number of elements, then we also roughly double the number
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Approaches to solving optimization problems: brute force, greedy
+
+### Brute Force Algorithms
+
+- one way that will always work is to try all possible solutions and choose the one that's best (aka Brute Force)
+
+#### Example 1
+
+Problem: I love to go there and always want to see as many exhibits and attend as many events as possible, but we can only make it one day a month, and sometimes exhibits and events are only held on different days of the week or in different months.
+So, figuring out which day we should go each month is an optimization problem. We want to figure out on which day we should go each month so that we can do as many different things as possible.
+
+Data: January - 21, 22; February - 11,18, 25, 26, 27; March - 3, 10, 11, 12; April - 12, 19, 26
+
+Brute Force: choose one day from each of the four months adn then figure out how many different exhibits I'll be able to see using that combination of visits. I can do this for all possible combinations of days. Once I've looked at all those possible solutions, I can choose the one that allows me to see and do the most things at the museum.
+
+One solution is: Jan 22, Feb 18, Mar 11, Apr 12
+
+How many ways are there to choose one day from each month? Just looking at months of January and February
+
+- there are two days in January and 5 days in February, so 2 \* 5 = 10 (multiply the number of individual options). There are 10 possible combinations of days
+- now adding March for each of those 10 possibilities, there are four days possible in March. Now, we have 10 \* 4 = 40
+- now adding in April, for each the 40 possible combinations there 3 days in April, so 40 \* 3 = 120
+
+Therefore, I can look at all 120 combinations and find the one that allows me to see the most exhibits. Although this approach would definitely work, that is a lot of combinations to consider.
+
+#### Example 2
+
+Problem: Need to meet with 8 TAs at least once per week. Available times to meet with each TA based on my schedule comes out to certain times Mon-Thurs. I also want to minimize the number of meetings. So, there are two out comes for each time. I can either include it or not include it.
+
+Data: Mon - 16:00, Tues = 18:00, Wed - 13:00, Wed - 16:00, Thurs - 18:00
+
+So, once again there 2 options for each time above and 5 times total. This is 2 x 2 x 2 x 2 x 2 = 32 (2\*\*5).
+
+Brute force has exponential complexity. For every additional time added, the number of possible combinations doubles.
+
+![exp complexity](../../../assets/images/brute_force_exp_complexity.png)
+
+Although this seems bad, for some problems, this maybe the only way to get at the solution. And sometimes, it may even grow faster than exponentially.
+
+#### Example 3
+
+Problem: Determine the shortest path. Starting from a single mulch pile you have a yard with eight flower beds that needs mulch. You need to mulch all eight beds and you need to do this with the least amount of walking in between those beds.
+
+![shortest path](../../../assets/images/shortest-path.png)
+
+So, what's the best route for you to take? One way we can solve this problem is by looking at all the possible routes between the flower beds and then finding the one that's shortest. So, how many possible routes are there? Well, a route here is a sequence of the eight locations where the order matters.
+Each route is a possible solution to this problem. When the order matters, we say that this is a permutation. So, how many different permutations of those eight things exist? So, as I said, you have to start at the mulch deposit, and then from here, there are eight places where you can go. That is, each of the eight different flowerbeds. Let's say that from the deposit, you decides to go to the tree first. After the tree, now there are seven places where you can go for the second flower bed. Regardless of which one of the eight you picked as the first flowerbed, after that there are seven possible places to go for the second, because you can't go back to the mulch deposit yet and you can't stay where you are. So, now let's say that after the deposit and then the tree,
+you'd goes to the patio next. After that, now you have six different flower beds to choose from since you can't go back to one of the two you already done and you're not finished yet. So, regardless of which of the seven, you picked for the second flowerbed, there are six possible flower beds for the third and so on.
+
+So, how many possible solutions are there? Well, for the first flowerbed, there are eight possible options. For the second choice, there are seven. For the third, there are six and so on. This gives us a total of 40,320 different possible routes through the eight flower beds (8!).
+
+Another flowerbed is added to your garden and now instead we have nine options. How many permutations would there be now? Well, if we increase it by one to nine options, then we'd have nine factorial possible solutions or permutations. That's nine times eight times seven times six and so on, and this is over 360,000 (9!) possible paths through the garden. This approach exhibits factorial complexity.
+
+![factorial complexity](../../../assets/images/factorial_complexity.png)
+
+#### Summary
+
+- **Brute force algorithms** can be used for solving optimization problems
+  - try all possible solutions
+  - identify the ones that solve the problem
+  - determine the one that is best
+- There can be many solutions
+- For an input of n elements:
+  - **Exponential** complexity: 2*n* possible solutions
+  - **Factorial** complexity: _n!_ possible solutions
 
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
