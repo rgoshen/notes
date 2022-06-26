@@ -1,27 +1,16 @@
----
-id: EHkvg5550KaY2hB9pqg9g
-title: Object Oriented Programming
-desc: 'Vanilla JS OOP'
-updated: 1644281692883
-created: 1644201419444
----
+# Object Oriented Programming
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg)
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [[javascript.vanilla.object-oriented-programming.es2015-classes]]
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [[javascript.vanilla.object-oriented-programming.this]]
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [ES2015 Classes](./javascript.vanilla.object-oriented-programming.es2015-classes.md)
+1. [this](./javascript.vanilla.object-oriented-programming.this.md)
 
 ## Abbreviations
 
@@ -46,6 +35,4 @@ This whole unit will be very conceptual, and some of the concepts may be difficu
 - Learn the ins and outs of Object-Oriented Programming
 - Learn how to use the **this** keyword
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

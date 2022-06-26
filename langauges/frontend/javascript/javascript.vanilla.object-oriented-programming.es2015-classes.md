@@ -1,37 +1,21 @@
----
-id: C4gGDlBm5TjA65A4X06ar
-title: ES2015 Classes
-desc: 'ES2015 Classes Notes'
-updated: 1644270140320
-created: 1644204920081
----
+# ES2015 Classes
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [JS Objects Review](#js-object-review)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Mixing Data and Functionality](#mixing-data-and-functionality)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Classes](#classes)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Constructors](#constructors)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Methods](#methods)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Inheritance and Super](#inheritance-and-super)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Terminology](#terminology)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [JS Objects Review](#js-objects-review)
+1. [Mixing Data and Functionality](#mixing-data-and-functionality)
+1. [Classes](#classes)
+1. [Constructors](#constructors)
+1. [Methods](#methods)
+1. [Inheritance and Super](#inheritance-and-super)
+1. [Terminology](#terminology)
 
 ## Abbreviations
 
@@ -54,7 +38,7 @@ In this subunit, **we'll explore how ES2015 implements classes**. First, we'll c
 - Describe inheritance
 - Define commonly used OOP (object-orientated programming) terms
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## JS Objects Review
 
@@ -115,7 +99,7 @@ o1[l]; // "goodbye"
 
 (This gets even more confusing when using things like nested arrays as keys)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Mixing Data and Functionality
 
@@ -183,7 +167,7 @@ So, we can helpfully mix data & functionality!
 - This is tidy: related functionality lives together
 - Annoying when we want more than one triangle
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Classes
 
@@ -246,7 +230,7 @@ But JS knows it's an "instance of" the **Triangle** class:
 myTri instanceof Triangle; // true
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Constructors
 
@@ -259,7 +243,7 @@ myTri.a = 3;
 myTri.b = 4;
 ```
 
-_demo/triangle-contructor.js_
+_demo/triangle-constructor.js_
 
 ```javascript
 class Triangle {
@@ -307,7 +291,7 @@ constructor(a,b){
 
 (Note you don't return anything from constructor function)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Methods
 
@@ -343,7 +327,7 @@ Note: to call a method, you need to call it on **this**
 
 Without **this**, calling **getArea** throws a ReferenceError - it is not in scope!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Inheritance and Super
 
@@ -438,7 +422,7 @@ class ColorTriangle extends Triangle {
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Multi-Level Inheritance
 
@@ -492,7 +476,7 @@ graph TB
     Triangle --> RightTriangle
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Terminology
 
@@ -520,10 +504,8 @@ Child/Subclass
 Inherit
 : ability to call methods/get properties defined on ancestors
 
-Object Oriented Programming
+Object-Oriented Programming
 : using classes & instances to manage data & functionality together
 : often makes it easier to manage complex software requirements
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

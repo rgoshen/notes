@@ -1,33 +1,19 @@
----
-id: gp97SHbjRVbCivrXH4hzt
-title: Destructuring
-desc: 'Desctructuring notes'
-updated: 1644011074645
-created: 1644008181567
----
+# Destructuring
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Object Destructuring](#object-destructuring)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Destructuring and Spread](#destructuring-and-spread)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Renaming with Destructuring](#renaming-with-destructuring)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Defaults with Destructuring](#defaults-with-destructuring)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Destructuring Nested Objects](#destructuring-nested-objects)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Destructuring Functions](#destructuring-functions)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+2. [Object Destructuring](#object-destructuring)
+3. [Destructuring and Spread](#destructuring-and-spread)
+4. [Renaming with Destructuring](#renaming-with-destructuring)
+5. [Defaults with Destructuring](#defaults-with-destructuring)
+6. [Destructuring Nested Objects](#destructuring-nested-objects)
+7. [Destructuring Functions](#destructuring-functions)
 
 ## Introduction
 
@@ -41,7 +27,7 @@ In this subunit, **you'll learn how to use destructuring to easily unpack values
 - Use object destructuring to write less code
 - Use array destructuring to swap values and extract nested values
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Object Destructuring
 
@@ -90,7 +76,7 @@ console.log(username); // smith
 console.log(id); // 12345
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Destructuring and Spread
 
@@ -120,7 +106,7 @@ is Legit: undefined }
 */
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Renaming with Destructuring
 
@@ -131,7 +117,7 @@ instructorName; // "Colt"
 occupation; // "Instructor"
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Defaults with Destructuring
 
@@ -143,7 +129,7 @@ console.log(refreshTime); // 200 - initialized in options
 console.log(waitTime); // 1000 - fallback to default
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Destructuring Nested Objects
 
@@ -163,7 +149,7 @@ const {
 console.log(favoriteFood); // 'Burrito'
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Destructuring Functions
 
@@ -217,6 +203,4 @@ console.log(a); // 3
 console.log(b); // 1
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

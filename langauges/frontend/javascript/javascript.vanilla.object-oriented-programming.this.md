@@ -1,33 +1,20 @@
----
-id: 10qUf2qPSh8AfWtsaGD6O
-title: this
-desc: 'JS this'
-updated: 1644287983828
-created: 1644281611291
----
+# this
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg)
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
+1. [Introduction](#introduction)
+1. [This and Bind](#this-and-bind)
+1. [JavaScript "Functions"](#javascript-functions)
+1. [Where This Comes Up](#where-this-comes-up)
+1. [Arrow Functions](#arrow-functions)
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [This and Bind](#this-and-bind)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [JavaScript "Functions"](#javascript-functions)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Where This Comes Up](#where-this-comes-up)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Arrow Functions](#arrow-functions)
-
-1. [Tutorials](#tutorials)
-
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Abbreviations
 
@@ -46,7 +33,7 @@ understand. Make a note, this is a favorite topic that interviewers love to quiz
 - Explain what **.bind** does
 - Use **.call** and **.bind** to reassign the value of the keyword **this**
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## This and Bind
 
@@ -95,7 +82,7 @@ let fDance = fluffy.dance;
 fDance('salsa'); // error?
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## JavaScript Functions
 
@@ -115,7 +102,7 @@ o.myFunc(); // get "this = o"
 whatIsThis(); // wtf?
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Global Object
 
@@ -140,7 +127,7 @@ Therefore, a "function" called at the top level is same as:
 window.whatIsThis();
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Undefined Fluffy
 
@@ -223,7 +210,7 @@ Nowadays, however, this is much easily done with the spread operator:
 Math.max(...myNums);
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Bind
 
@@ -240,7 +227,7 @@ betterDance('tango'); // ok -- bound so that 'this' is Fluffy
 
 `bind` is a method on functions that returns a bound copy of the function
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Binding Arguments
 
@@ -257,7 +244,7 @@ const applyCASalesTax = applySalesTax.bind(null, 0.0725);
 applyCASalesTax(50); // 53.63
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Where This Comes Up
 
@@ -277,7 +264,7 @@ myBtn.addEventListener('click', fluffy.dance.bind(fluffy));
 
 That will work — when it calls that callback, it will always be on Fluffy!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Pre-Binding Calls
 
@@ -317,7 +304,7 @@ get('b').addEventListener('click', popUp.bind(null, 'Berry'));
 get('c').addEventListener('click', popUp.bind(null, 'Cherry'));
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Arrow Functions
 
@@ -348,6 +335,4 @@ let kitty = new Cat('Kitty');
 kitty.superGreet();
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

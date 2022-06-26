@@ -15,8 +15,8 @@
 1. [Arrow Functions](./javascript.vanilla.es2015.arrow-functions.md)
 1. [Rest/Spread](./javascript.vanilla.es2015.rest-spread.md)
 1. [Object Enhancements](./javascript.vanilla.es2015.object-enhancements.md)
-1. [[javascript.vanilla.es2015.destructuring]]
-1. [[javascript.vanilla.es2015.maps-and-sets]]
+1. [Destructuring](./javascript.vanilla.es2015.destructuring.md)
+1. [Maps and Sets](./javascript.vanilla.es2015.maps-and-sets.md)
 
 ## Abbreviations
 

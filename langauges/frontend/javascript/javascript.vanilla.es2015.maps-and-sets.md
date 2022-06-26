@@ -1,31 +1,16 @@
----
-id: gfAUrTr498AiSLbTD72Ai
-title: Maps and Sets
-desc: ''
-updated: 1644020139303
-created: 1644013889100
----
+# Maps and Sets
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
 # Table of Contents
 
-1. [Abbreviations](#abbreviations)
+1. [Introduction](#introduction)
+1. [Maps](#maps)
+1. [Sets](#sets)
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Maps](#maps)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Sets](#sets)
-
-1. [Tutorials](#tutorials)
-
-## Abbreviations
-
-- \*[]:
 
 ## Introduction
 
@@ -39,7 +24,7 @@ In this subunit, we'll teach you what you need to know to get up and running wit
 - So far we've seen Arrays and Objects
 - ES2015 introduces two new ones, Maps and Sets
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Maps
 
@@ -116,7 +101,7 @@ for (let [key, value] of m.entries()) {
 - Are key-value pairs frequently added or removed?
 - If you are operating on multiple keys at a time
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Sets
 
@@ -216,6 +201,4 @@ for(let val of annoyingHashTags){
 - Uniqueness required
 - Efficiently checking if an item is in a collection (much better than arrays)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
