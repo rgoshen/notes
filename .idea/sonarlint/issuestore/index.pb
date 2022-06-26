@@ -414,8 +414,6 @@ Ptesting/react/javascript.react-js.testing.react-testing-crash-course.examples.m
 _testing/react/javascript.react-js.testing.react-testing-crash-course.examples.payment_specjs.md,f/e/fe67a66e939c3e117799d8ca4dd4cb92797cb890
 `
 0testing/javascript/javascript.vanilla.testing.md,7/d/7dc02a1f5613b18e5cf25f7f5c9b3bc6d4c49156
-w
-Gtesting/react/javascript.react-js.testing.react-testing-crash-course.md,2/a/2a9485fd2b83e3ea49821994299061d2a46663e5
 ^
 .langauges/frontend/frameworks_libraries/jwt.md,f/f/ffebd68df71835a915b0cc608e779cb061999f49
 n
