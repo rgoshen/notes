@@ -1,23 +1,16 @@
----
-id: h7sGsMeykQ1mJ8WAupEfF
-title: Advanced Array Methods
-desc: 'Vanilla JS advanced array methods'
-updated: 1643926845253
-created: 1643859625317
----
+# Advanced Array Methods
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
 # Table of Contents
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction](#introduction)
-2. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [[javascript.vanilla.advanced-array-methods.foreach-map-filter]]
-3. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [[javascript.vanilla.advanced-array-methods.some-every-find-findindex]]
-4. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [[javascript.vanilla.advanced-array-methods.reduce]]
-5. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+2. [foreach, map and filter](./javascript.vanilla.advanced-array-methods.foreach-map-filter.md)
+3. [some, every, find, and findindex](./javascript.vanilla.advanced-array-methods.some-every-find-findindex.md)
+4. [reduce](./javascript.vanilla.advanced-array-methods.reduce.md)
 
 ## Introduction
 
@@ -28,9 +21,5 @@ To succeed in this unit, make sure you do your homework exercises, code along to
 ### Goals
 
 - Learn and get comfortable with advanced array methods
-- Dive deeper into callback functions and higher order functions,introduced in [[developer-fundamentals.web-fundamentals]]
+- Dive deeper into callback functions and higher order functions,introduced in [Web Fundamentals](../../../computer_science/web_developer_fundamentals/developer-fundamentals.md)
 - Learn methods like **sum**, **find**, **index**, and **reduce**
-
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials

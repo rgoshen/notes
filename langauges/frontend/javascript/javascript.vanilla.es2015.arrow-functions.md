@@ -1,29 +1,17 @@
----
-id: caes74z3GXhkxdoIRbLLg
-title: Arrow Functions
-desc: 'Arrow Functions'
-updated: 1643944789992
-created: 1643937035952
----
+# Arrow Functions
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[What are they](#what-are-they)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Gotcha with Arrow Function](#gotcha-with-arrow-function)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Arrow Functions and this](#arrow-functions-and-this)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Arrow Functions usefullness](#arrow-functions-usefullness)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [What are they](#what-are-they)
+1. [Gotcha with Arrow Function](#gotcha-with-arrow-function)
+1. [Arrow Functions and this](#arrow-functions-and-this)
+1. [Arrow Functions Usefulness](#arrow-functions-usefulness)
 
 ## Introduction
 
@@ -75,7 +63,7 @@ let nums = [1, 2, 3];
 let arrSquared = nums.map((n) => n ** 2); // [1, 4, 9]
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Gotcha with Arrow Function
 
@@ -106,7 +94,7 @@ const makeInstructor2 = (name) => ({ name: 'Colt' });
 makeInstructor2(); // {name: "Colt"}
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Arrow Functions and this
 
@@ -134,9 +122,9 @@ student.sayHi(); // Hello undefined
 
 The keyword **this** refers to the global object (window/global) not the strudent object - that's not good!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-## Arrow Functions usefullness
+## Arrow Functions Usefulness
 
 Use arrow functions when you **don't** want the keyword **this** that a function normally creates.
 Arrow functions are a replacement for the **bind** function in the example below.
@@ -154,6 +142,4 @@ const student = {
 student.sayHi(); // Hello Melissa
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

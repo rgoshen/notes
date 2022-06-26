@@ -1,37 +1,22 @@
----
-id: cgyHOV38ykvwdsdPiVauL
-title: ES2015
-desc: 'ES2015 TOC and Intro'
-updated: 1644013967576
-created: 1643928714241
----
+# ES2015
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg)
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp) |
 [ECMA](https://www.ecma-international.org/)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[ES2015 Introduction](#es2015-introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[[javascript.vanilla.es2015.let-and-const]]
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[[javascript.vanilla.es2015.arrow-functions]]
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[[javascript.vanilla.es2015.rest-spread]]
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[[javascript.vanilla.es2015.object-enhancements]]
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[[javascript.vanilla.es2015.destructuring]]
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[[javascript.vanilla.es2015.maps-and-sets]]
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [ES2015 Introduction](#es2015-introduction)
+1. [let and const](./javascript.vanilla.es2015.let-and-const.md)
+1. [Arrow Functions](./javascript.vanilla.es2015.arrow-functions.md)
+1. [Rest/Spread](./javascript.vanilla.es2015.rest-spread.md)
+1. [Object Enhancements](./javascript.vanilla.es2015.object-enhancements.md)
+1. [[javascript.vanilla.es2015.destructuring]]
+1. [[javascript.vanilla.es2015.maps-and-sets]]
 
 ## Abbreviations
 
@@ -49,13 +34,12 @@ You will need to know how to use the features in ES2015 in any interview project
 
 ### Goals
 
-- FamiliarizeyourselfwiththenewfeaturesofES2015
-- Getsomecontextforwhythesefeatureswereadded
-- Prepareyourselfforreading,understanding,andwritingcodeonmodern
-  codebases
-- Gainamorein-depthunderstandingofJavaScript
+- Familiarize yourself with the new features of ES2015
+- Get some context for why these features we readded
+- Prepare yourself for reading, understanding, and writing code on modern codebase
+- Gain a more in-depth understanding of JavaScript
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## ES2015 Introduction
 
@@ -103,7 +87,7 @@ This subunit will give you some background on ES2015. It will explain the ration
 - Versions named by year (ES2016, ES2017, etc.)
 - Introduced a new, formalized proposal process
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Stages of TC39
 
@@ -140,6 +124,4 @@ Proposals get to this stage when there are at least two independent implementati
 
 And has been implemented by almost all modern browsers
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

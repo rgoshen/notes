@@ -1,24 +1,18 @@
----
-id: mSVKdHBYY78j3EbsOAtzC
-title: Fundamentals Part 1
-desc: 'From the Odin Project'
-updated: 1645842466546
-created: 1645468876489
----
+# Fundamentals Part 1
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp) |
 [The Odin Project](https://www.theodinproject.com/)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Learning Outcomes](#learning-outcomes)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [How to Run JavaScript Code](#how-to-run-javascript-code)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Variables](#variables)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Numbers](#numbers)
+1. [Learning Outcomes](#learning-outcomes)
+1. [How to Run JavaScript Code](#how-to-run-javascript-code)
+1. [Variables](#variables)
+1. [Numbers](#numbers)
 
 ## Abbreviations
 
@@ -72,7 +66,7 @@ Save and open this file up in a web browser (you can use Live Server to do this!
 
 > `console.log()` is the command to print something to the developer console in your browser.
 > You can use this to print the results from any of the following articles and exercises to the console.
-> We encourage you to code along with all of the examples in this and future lessons.
+> We encourage you to code along with all the examples in this and future lessons.
 
 Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website.
 
@@ -88,7 +82,7 @@ JavaScript files have the extension `.js` similar to `.css` for stylesheets. Ext
 
 You can think of variables as simply “storage containers” for data in your code. Until recently there was only one way to create a variable in JavaScript — the <span style="color:red">var</span> statement. But in the newest JavaScript versions we have two more ways — <span style="color:red">let</span> and <span style="color:red">const</span>.
 
-1. This [variable tutorial](https://javascript.info/variables) will explain you everything you need to know! Be sure to do the Tasks at the end. Information won’t stick without practice!
+1. This [variable tutorial](https://javascript.info/variables) will explain to you everything you need to know! Be sure to do the Tasks at the end. Information won’t stick without practice!
 
 The above tutorial mentioned this, but it’s important enough to note again: <span style="color:red">let</span> and <span style="color:red">const</span> are both relatively new ways to declare variables in JavaScript. In _many_ tutorials (and code) across the internet you’re likely to encounter <span style="color:red">var</span> statements. Don’t let it bother you! There’s nothing inherently wrong with <span style="color:red">var</span>, and in most cases <span style="color:red">var</span> and <span style="color:red">let</span> behave the same way. But sometimes the behavior of <span style="color:red">var</span> is _not_ what you would expect. Just stick to <span style="color:red">let</span> (and <span style="color:red">const</span>) for now. The precise differences between <span style="color:red">var</span> and <span style="color:red">let</span> will be explained later.
 
@@ -130,7 +124,7 @@ let user = 'John',
   message = 'Hello!';
 ```
 
-The above is not recommended though due to harder readibility, best to keep each declaration to its own link.dendron.so
+The above is not recommended though due to harder readability, best to keep each declaration to its own line
 
 ```javascript
 let user = 'John';
@@ -211,7 +205,7 @@ Some good-to-follow rules are:
 > Who knows?
 > We need to come closer and check.
 >
-> Such programmers save a little bit on variable declaration but lose ten times more on debugging.
+> Such programmers save a little on variable declaration but lose ten times more on debugging.
 >
 > An extra variable is good, not evil.
 >
@@ -467,7 +461,7 @@ alert(n); // 16  (right part evaluated first, same as n *= 8)
 Arithmetic operators perform arithmetic on numbers (literals or variables).
 
 | Operator | Description          |
-| -------- | -------------------- |
+|----------|----------------------|
 | +        | Addition             |
 | -        | Subtraction          |
 | \*       | Multiplication       |
@@ -510,7 +504,7 @@ The numbers (in an arithmetic operation) are called **operands**.
 The operation (to be performed between the two operands) is defined by an **operator**.
 
 | Operand | Operator | Operand |
-| ------- | -------- | ------- |
+|---------|----------|---------|
 | 100     | +        | 50      |
 
 [![back-to-top](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
@@ -782,7 +776,7 @@ let x = 100 + 50 - 3;
 ### JavaScript Operator Precedence Values
 
 | Value | Operator   | Description                  | Example              | Associativity |
-| ----- | ---------- | ---------------------------- | -------------------- | ------------- |
+|-------|------------|------------------------------|----------------------|---------------|
 | 19    | ()         | Express grouping             | (3 + 4)              | n/a           |
 |       |            |                              |                      |
 | 18    | .          | Member                       | person.name          | left-to-right |
@@ -817,13 +811,13 @@ let x = 100 + 50 - 3;
 | 12    | -          | Subtraction                  | 10-5                 | left-to-right |
 |       |            |                              |                      |
 | 11    | <<         | Bitwise Shift left           | x<<2                 | left-to-right |
-| 11    | >>         | Bitwise Shift right          | x>>2                 | left-to-right |
-| 11    | >>>        | Bitwise Shift right unsigned | x>>>2                | left-to-right |
+| 11    | \>>        | Bitwise Shift right          | x>>2                 | left-to-right |
+| 11    | \>>>       | Bitwise Shift right unsigned | x>>>2                | left-to-right |
 |       |            |                              |                      |
 | 10    | <          | Less than                    | x < y                | left-to-right |
 | 10    | <=         | Less than or equal           | x <= y               | left-to-right |
-| 10    | >          | Greater than                 | x > y                | left-to-right |
-| 10    | >=         | Greater than or equal        | x >= y               | left-to-right |
+| 10    | \>         | Greater than                 | x > y                | left-to-right |
+| 10    | \>=        | Greater than or equal        | x >= y               | left-to-right |
 | 10    | in         | Property in Object (ES2016)  | "PI" in Math         | left-to-right |
 | 10    | instanceof | Instance of Object (ES2016)  | instanceof Array     | left-to-right |
 |       |            |                              |                      |
@@ -836,11 +830,11 @@ let x = 100 + 50 - 3;
 |       |            |                              |                      |               |
 | 7     | ^          | Bitwise XOR                  | x ^ y                | left-to-right |
 |       |            |                              |                      |               |
-| 6     | \|         | Bitwise OR                   | x \| y               | left-to-right |
+| 6     | \          |                              | Bitwise OR           | x \           | y               | left-to-right |
 |       |            |                              |                      |               |
 | 5     | &&         | Logical AND                  | x && y               | left-to-right |
 |       |            |                              |                      |               |
-| 4     | \|\|       | Logical OR                   | x \|\| y             | left-to-right |
+| 4     | \          | \                            |                      | Logical OR    | x \|\| y             | left-to-right |
 | 4     | ??         | Nullish Coalescing           | x ?? y               | left-to-right |
 |       |            |                              |                      |               |
 | 3     | ?:         | Condition (ternary)          | ? "Yes" : "No"       | right-to-left |
@@ -852,11 +846,11 @@ let x = 100 + 50 - 3;
 | 2     | \*=        | Assignment                   | x\*=y                | right-to-left |
 | 2     | %=         | Assignment                   | x%=y                 | right-to-left |
 | 2     | <<=        | Assignment                   | x<<=y                | right-to-left |
-| 2     | >>=        | Assignment                   | x>>=y                | right-to-left |
-| 2     | >>>=       | Assignment                   | x>>>=y               | right-to-left |
+| 2     | \>>=       | Assignment                   | x>>=y                | right-to-left |
+| 2     | \>>>=      | Assignment                   | x>>>=y               | right-to-left |
 | 2     | &=         | Assignment                   | x&=y                 | right-to-left |
 | 2     | ^=         | Assignment                   | x ^= y               | right-to-left |
-| 2     | \|=        | Assignment                   | x \|= y              | right-to-left |
+| 2     | \          | =                            | Assignment           | x \           |= y              | right-to-left |
 | 2     | yield      | Pause Function (ES2016)      | yield x              | right-to-left |
 |       |            |                              |                      |
 | 1     | ,          | Comma                        | 5, 6                 | left-to-right |

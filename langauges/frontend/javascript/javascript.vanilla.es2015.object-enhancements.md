@@ -1,33 +1,19 @@
----
-id: cpGwCZq3oVsz7wSK7CJX2
-title: Object Enhancements
-desc: ''
-updated: 1644008154487
-created: 1644000489996
----
+# Object Enhancements
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Object Shorthand](#object-shorthand)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Object Methods](#object-methods)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Computed Property Names](#computed-property-names)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Current Usage](#current-usage)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Computed Property Names in the Wild](#computed-property-names-in-the-wild)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [Object Shorthand](#object-shorthand)
+1. [Object Methods](#object-methods)
+1. [Computed Property Names](#computed-property-names)
+1. [Current Usage](#current-usage)
+1. [Computed Property Names in the Wild](#computed-property-names-in-the-wild)
 
 ## Abbreviations
 
@@ -67,7 +53,7 @@ let instructor = {
 };
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Object Methods
 
@@ -93,7 +79,7 @@ let instructor = {
 };
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Computed Property Names
 
@@ -120,7 +106,7 @@ let instructor = {
 instructor.Mary; // "That’s me!"
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Current Usage
 
@@ -128,7 +114,7 @@ instructor.Mary; // "That’s me!"
 - Object shorthand and methods allow for writing less code
 - Computed property names are everywhere in modern web frameworks.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Computed Property Names in the Wild
 
@@ -144,6 +130,4 @@ function changeValueInObj(obj, event) {
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

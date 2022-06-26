@@ -1,12 +1,6 @@
----
-id: ihyb1ykTqUJ3la25GDd5w
-title: JavaScript Events
-desc: 'Vanilla JavaScript Events'
-updated: 1643920010961
-created: 1643560626599
----
+# JavaScript Events
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
@@ -14,16 +8,15 @@ created: 1643560626599
 ## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-2. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction](#introduction)
-3. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Events](#events)
-4. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [So How Do We Do It](#so-how-do-we-do-it)
-5. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Accessing the Event Object](#accessing-the-event-object)
-6. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [What Is Inside Of The Event Object](#what-is-inside-of-the-event-object)
-7. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Adding Multiple Event Listeners](#adding-multiple-event-listeners)
-8. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Event Bubbling and Capturing](#event-bubbling-and-capturing)
-9. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Removing Event Listeners](#removing-event-listeners)
-10. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Data Attributes](#data-attributes)
-11. [Tutorials](#tutorials)
+2. [Introduction](#introduction)
+3. [Events](#events)
+4. [So How Do We Do It](#so-how-do-we-do-it)
+5. [Accessing the Event Object](#accessing-the-event-object)
+6. [What Is Inside Of The Event Object](#what-is-inside-of-the-event-object)
+7. [Adding Multiple Event Listeners](#adding-multiple-event-listeners)
+8. [Event Bubbling and Capturing](#event-bubbling-and-capturing)
+9. [Removing Event Listeners](#removing-event-listeners)
+10. [Data Attributes](#data-attributes)
 
 ## Abbreviations
 
@@ -42,7 +35,7 @@ In this subunit, you'll learn about **JavaScript events**, how to **listen for t
 - Add event listeners efficiently
 - Explore data attributes
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Events
 
@@ -70,7 +63,7 @@ This is commonly called Event Driven Programming
 
 What kinds of web pages have you used recently that have JavaScript that listens for events?
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## So How Do We Do It
 
@@ -130,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Accessing the Event Object
 
@@ -145,7 +138,7 @@ h1.addEventListener('click', function (event) {
 });
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## What Is Inside Of The Event Object
 
@@ -214,7 +207,7 @@ document.addEventListener('keypress', function (event) {
 });
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Adding Multiple Event Listeners
 
@@ -347,7 +340,7 @@ friendList.addEventListener('click', function (event) {
 
 Exact same behavior with only one event listener!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Event Bubbling and Capturing
 
@@ -357,7 +350,7 @@ When an event happens on an element, it first runs the handlers on it, then on i
 
 This is called bubbling.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Removing Event Listeners
 
@@ -413,7 +406,7 @@ for (let button of buttons) {
 
 anonymous functions will not work here!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Data Attributes
 
@@ -435,7 +428,7 @@ _demo/data-attributes/index.html_
   <body>
     <ul id="cars">
       <li data-model="model 3" data-year="2014">Tesla</li>
-      <li data-model="crv" data~year="2017">Honda</li>
+      <li data-model="crv" data-year="2017">Honda</li>
       <li data-model="focus" data-year="2011">Ford</li>
       <li data-model="prius" data-year="2015">Toyota</li>
     </ul>
@@ -459,8 +452,4 @@ ul.addEventListener('click', function (event) {
 });
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
-
-None
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

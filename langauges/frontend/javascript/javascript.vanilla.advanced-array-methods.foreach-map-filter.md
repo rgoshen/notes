@@ -1,34 +1,23 @@
----
-id: XdrlqIon2gQM5Oqhy7Rny
-title: forEach, map, and filter
-desc: 'Notes'
-updated: 1643864135350
-created: 1643861875191
----
+# forEach, map, and filter
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
 # Table of Contents
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [forEach](#foreach)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [map](#map)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [filter](#filter)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [forEach](#foreach)
+1. [map](#map)
+1. [filter](#filter)
 
 ## Introduction
 
 In this subunit, we'll take a look at three of the most common array
 methods: **forEach**, **map**, and **filter**. We'll explore the functionality of these methods and when to use them. We touched on higher order functions when we taught you about JavaScript functions back in the Web Fundamentals unit, in this subunit we'll dive deeper into what they are and how they can be used to write more elegant code. You'll do some practice with each of these methods as we go along because they are essential for working with modern JavaScript frameworks and codebases.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## forEach
 
@@ -99,7 +88,7 @@ Remember - forEach always returns undefined!
 - You want to iterate over an array, but the return value of your callback is not important
 - Almost all of the time there are better options...
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## map
 
@@ -175,7 +164,7 @@ extractcourse([
 - You want to "transform” an array into another array of the same length
 - You do not want to overwrite an existing array and instead return a new copy
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## filter
 
@@ -268,6 +257,4 @@ onlyInstructors([
 - You want to see how many elements in an array satisfy a certain condition
 - You do not want to modify the existing array you are filtering
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

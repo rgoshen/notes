@@ -1,12 +1,6 @@
----
-id: 2KXJjtdKu8fqK2WX6FOsr
-title: Rest/Spread
-desc: 'Rest and Spread Operators'
-updated: 1643946138508
-created: 1643943741631
----
+# Rest/Spread
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
@@ -14,18 +8,11 @@ created: 1643943741631
 # Table of Contents
 
 1. [Abbreviations](#abbreviations)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[What we used to do](#what-we-used-to-do)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[What are they](#what-are-they)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Collecting Remaining arguments](#collecting-remaining-arguments)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Spread Operator](#spread-operator)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [What we used to do](#what-we-used-to-do)
+1. [What are they](#what-are-they)
+1. [Collecting Remaining arguments](#collecting-remaining-arguments)
+1. [Spread Operator](#spread-operator)
 
 ## Abbreviations
 
@@ -124,7 +111,7 @@ sumMany(1); // 1
 
 `...nums` collects additional arguments into single **nums** array.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Collecting Remaining arguments
 
@@ -142,13 +129,13 @@ function onOrMoreArguments(first, ...more) {
 
 Here, **first** will be first item and **more** will be array of everything else.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Spread Operator
 
 `...` syntax, in a different context, is called the _spread operator_.
 
-For example: when calling a function, you can "spread out" array elements🧮
+For example: when calling a function, you can "spread out" array elements:
 
 ```javascript
 function takesFour(one, two, three, four) {
@@ -207,7 +194,7 @@ console.log(gandalfTheDog);
 
 ### Spreading Objects Warning
 
-This is a newer feature of JavaScript so it may not work in older browseers - specifically Internet Explorer and Microsoft Edge
+This is a newer feature of JavaScript, so it may not work in older browsers - specifically Internet Explorer and Microsoft Edge
 
 ### Spreading and copies
 
@@ -232,7 +219,7 @@ console.log(collection[0][0]); // "REPLACED"
 
 ### Where this is commonly used
 
-For built in methods like Math.max that do not accept an array
+For built in methods like `Math.max()` that do not accept an array
 
 ```javascript
 Math.max([1, 2, 3]); //NaN
@@ -241,6 +228,4 @@ Math.max(...[1, 2, 3]); // 3
 
 Spreading object and arrays in incredibly common in React and Redux and other modern front-end frameworks!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

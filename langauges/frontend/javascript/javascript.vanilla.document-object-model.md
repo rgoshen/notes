@@ -1,24 +1,17 @@
----
-id: qqQJSXUGkB4xjWbI9zQan
-title: Document Object Model
-desc: Document Object Model Topics
-updated: 1643919939193
-created: 1643516135663
----
+# Document Object Model
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp) |
 [TechTerms](https://techterms.com/)
 
-# Table of Contents
+## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-2. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction to the DOM](#introduction-to-the-dom)
-3. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Modifying the DOM](#modifying-the-dom)
-4. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Working with the DOM](#working-with-the-dom)
-5. [Tutorials](#tutorials)
+2. [Introduction to the DOM](#introduction-to-the-dom)
+3. [Modifying the DOM](#modifying-the-dom)
+4. [Working with the DOM](#working-with-the-dom)
 
 ## Abbreviations
 
@@ -35,17 +28,17 @@ created: 1643516135663
 - Select HTML elements using document methods
 - Compare and contrast elements and nodes
 
-In this subunit, we'll give you an introduction to **what the DOM is and how it's created**! We'll start with a conceptual overview of the Document Object Model and then move to more technical concepts like selecting elements in the DOM by id and class. We'll finish up with some hand-on practice exercises so you can apply these concepts yourself. **Once you grasp these DOM basics, you can start doing more complex and interesting DOM operations, which you'll start working on in the next subunit**.
+In this subunit, we'll give you an introduction to **what the DOM is and how it's created**! We'll start with a conceptual overview of the Document Object Model and then move to more technical concepts like selecting elements in the DOM by id and class. We'll finish up with some hand-on practice exercises, so you can apply these concepts yourself. **Once you grasp these DOM basics, you can start doing more complex and interesting DOM operations, which you'll start working on in the next subunit**.
 
 ### What is the DOM?
 
 - Document Object Model
 - It is the programming interface for HTML
-- A representation of our HTML that can be accessed using [[javascript]]
+- A representation of our HTML that can be accessed using javascript
 
 [further reading](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### How does it get created?
 
@@ -58,7 +51,7 @@ In this subunit, we'll give you an introduction to **what the DOM is and how it'
 
 The structure of the DOM uses something called a tree, where the topmost mode is the **_document_** object.
 
-![DOM](/assets/images/dom.png)
+![DOM](../../../assets/images/dom.png)
 Source: [PlainEnglish.io](https://miro.medium.com/max/618/1*0poukmfxSJxjiY3-b6CKIA.png)
 
 #### Using the document object
@@ -74,7 +67,7 @@ Source: [PlainEnglish.io](https://miro.medium.com/max/618/1*0poukmfxSJxjiY3-b6CK
 - Changing properties on elements
 - Listening for events like clicks
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Selecting Elements in the DOM
 
@@ -82,11 +75,11 @@ Source: [PlainEnglish.io](https://miro.medium.com/max/618/1*0poukmfxSJxjiY3-b6CK
 
 To access the DOM, we make use of the document object.
 
-This object has properties and functions that we use to access our HTML elements which we can manipulate with [[javascript]].
+This object has properties and functions that we use to access our HTML elements which we can manipulate with javascript.
 
 #### Different Methods
 
-[[javascript]] has quite a few different methods for selecting elements in the DOM
+javascript has quite a few different methods for selecting elements in the DOM
 
 We're going to be starting with one method call `getElementById`.
 
@@ -176,7 +169,7 @@ However, you can not use common methods like **_push, pop, indexOf or includes_*
 
 It's almost identical to a HTMLCollection except it can include special kinds of nodes. You will not need to worry about this for now!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### DOM Manipulation
 
@@ -193,11 +186,11 @@ hi.innerText = 'Something new!';
 
 ### Recap
 
-- The DOM allows is to use [[javascript]] to manipulate HTML
+- The DOM allows is to use javascript to manipulate HTML
 - We can use methods like `querySelector` to access elements on the page
 - Using the DOM we can modify elements and attributes
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Modifying the DOM
 
@@ -296,7 +289,7 @@ If you need to access the HTML of an element, you can use `innerHTML`. This will
 
 You will yourself using `innerText` more commonly, there are some security concerns when using `innerHTML` if you're not careful.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Modifying HTML
 
@@ -320,7 +313,7 @@ console.log(mainGreeting.innerText);
 
 Another reason it’s less common to use innerHTML is that you need the string to be valid HTML for everything to work, which can be quite tedious to build
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Modifying styling
 
@@ -369,7 +362,7 @@ Make sure to [camelCase](https://techterms.com/definition/camelcase)!
 mainHeading.style.backgroundColor = 'green';
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Modifying Attributes
 
@@ -466,7 +459,7 @@ console.log(firstInput.value);
 "Just added some value!"
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Manipulating classes
 
@@ -509,7 +502,7 @@ mainHeading.classList.toggle('top-heading'); // true
 mainHeading.classList.contains('top-heading'); // true
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Changing Multiple Elements
 
@@ -536,7 +529,7 @@ for (let listItem of listItems) {
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Working with the DOM
 
@@ -547,7 +540,7 @@ To create an HTML element, we can use the [createElement](https://developer.mozi
 This just makes an empty element, so if we want to add any text, attributes or styling we will have to do that on another line
 
 ```javascript
-const newButton == document.createElement("button");
+const newButton = document.createElement("button");
 const newUnorderedList = document.createElement("ul");
 const newDiv = document.createElement("div");
 
@@ -555,13 +548,13 @@ newDiv.innerText = "a brand new div!";
 newDiv.style.color = "tomato";
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Appending Elements
 
 After you create an element, you need to place it in the DOM to see it. You can do this using the [append](https://developer.mozilla.org/en-US/docs/Web/API/Element/append) method.
 
-`append` is a method that a parent element calls and you pass in the child element that you would like to place inside of the parent element
+`append` is a method that a parent element calls, and you pass in the child element that you would like to place inside of the parent element
 
 ```javascript
 const ul = document.querySelector('ul');
@@ -574,7 +567,7 @@ ul.append(newLi);
 
 `append` will place the element as the last child in the parent. If you would like the element to be the first child, you can use the `prepend` method.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Removing Elements
 
@@ -590,11 +583,11 @@ ul.remove();
 
 This function can only be called on a single element, so if you need to remove multiple elements you’ll need to call `remove` multiple times.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Finding elements near another element
 
-As you start adding and removing elements in the DOM, there are times where you might want to know not only information about an element, but it’s parents or children.
+As you start adding and removing elements in the DOM, there are times when you might want to know not only information about an element, but it’s parents or children.
 
 You might want to:
 
@@ -674,7 +667,7 @@ console.log(foundDiv.nextElementSibling);
 <div>Here is the second div!</div>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Text Nodes
 
@@ -690,8 +683,4 @@ With most of the common traversal methods, you will not need to worry about text
 
 You will be using other methods less frequently, but know that they exist if you need to see elements near/above/below the element you find.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
-
-None
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

@@ -1,32 +1,22 @@
----
-id: tOuqiBKaWRRB5vOgWViNV
-title: some, every, find and findIndex
-desc: 'Notes for some, every, find and findIndex'
-updated: 1643926755789
-created: 1643920468504
----
+# some, every, find and findIndex
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
 # Table of Contents
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [some/every](#someevery)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [find/findIndex](#findfindindex)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [some/every](#someevery)
+1. [find/findIndex](#findfindindex)
 
 ## Introduction
 
 In this subunit, we'll explore some array methods with more specialized
 applications: **some**, **every**, **find**, and **findindex**. Unlike the methods in the last unit, you won't be using them all of the time, but they are still essential for you to know. You will often use them in conjunction with the methods introduced in the last subunit. Again, these might not be the most conceptually intuitive methods, but stick with it and you'll gain the tools you need to succeed in the professional world.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## some/every
 
@@ -113,7 +103,7 @@ hasQuestionMark('How are you feeling now?'); // true
 - You need to determine if at least one value in an array exists and you have to determine this by using a callback (not includes/indexOf)
 - A simple alternative to using filter and seeing if the array contains at least one element
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### every
 
@@ -184,7 +174,7 @@ allIntegers([5,1,4,3,2.2]) // false
 - You need to determine if every value in an array exists and you have to determine this by using a callback
 - A simple alternative to using filter and seeing if the filtered array is of the same length as the original array
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## find/findIndex
 
@@ -258,7 +248,7 @@ ensureNoSubArrays([1, 2, 3, 4]); // true
 - You need to determine if a value in an array exists and you have to determine this by using a callback
 - A simple alternative to using filter and accessing the first element of the filtered array
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### findIndex
 
@@ -313,11 +303,9 @@ findPositionOfBoolean([1, 3, false, true]); // 2
 findPositionOfBoolean(['no booleans', 'around', 'these parts']); // -1
 ```
 
-#### When You Would Use Findindex
+#### When You Would Use findindex
 
 - You need to determine the index of a value in an array if it exists and you have to determine this by using a callback
 - A better version of indexOf to be used when a callback is necessary
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

@@ -1,29 +1,17 @@
----
-id: ES1Vn6i5CtqChws3ZqFnl
-title: reduce
-desc: 'reduce function notes'
-updated: 1643927343877
-created: 1643926780181
----
+# reduce
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg)
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
 # Table of Contents
 
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[What it does](#what-it-does)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Adding A Second Parameter](#adding-a-second-parameter)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Let's Try Something Else](#lets-try-something-else)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[When You Would Use Reduce](#when-you-would-use-reduce)
-
-1. [Tutorials](#tutorials)
+1. [Introduction](#introduction)
+1. [What it does](#what-it-does)
+1. [Adding A Second Parameter](#adding-a-second-parameter)
+1. [Let's Try Something Else](#lets-try-something-else)
+1. [When You Would Use Reduce](#when-you-would-use-reduce)
 
 ## Introduction
 
@@ -112,6 +100,4 @@ With a final output of:
 - It works for almost everything, but is sometimes overkill
 - When you want to transform an array into another data structure
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

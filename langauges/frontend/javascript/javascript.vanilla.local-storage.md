@@ -1,12 +1,6 @@
----
-id: haN46QFY9zazODx8EaaCS
-title: Local Storage
-desc: 'JS Local Storage Notes'
-updated: 1643920048107
-created: 1643578354375
----
+# Local Storage
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
@@ -14,13 +8,12 @@ created: 1643578354375
 ## Table of Contents
 
 1. [Abbreviations](#abbreviations)
-2. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Introduction](#introduction)
-3. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [localstorage](#localstorage)
-4. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [localstorage vs sessionstorage](#localstorage-vs-sessionstorage)
-5. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Modifying localstorage](#modifying-localstorage)
-6. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Adding Objects to localstorage](#adding-objects-to-localstorage)
-7. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) [Working with JSON in the browser](#working-with-json-in-the-browser)
-8. [Tutorials](#tutorials)
+2. [Introduction](#introduction)
+3. [localstorage](#localstorage)
+4. [localstorage vs sessionstorage](#localstorage-vs-sessionstorage)
+5. [Modifying localstorage](#modifying-localstorage)
+6. [Adding Objects to localstorage](#adding-objects-to-localstorage)
+7. [Working with JSON in the browser](#working-with-json-in-the-browser)
 
 ## Abbreviations
 
@@ -40,7 +33,7 @@ In this subunit, we'll explore **`localstorage`** and see how this is used to pe
 - Add and remove primitives to/from `localstorage`
 - Add and remove objects to/from `localstorage`
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## localstorage
 
@@ -57,7 +50,7 @@ When you read more about localstorage you will also hear about something called 
 - data stored in `localstorage` has no expiration time
 - data stored in `sessionstorage` gets cleared when the browsing session ends
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Modifying localstorage
 
@@ -105,7 +98,7 @@ To clear everything from localstorage we use the clear function
 localstorage.clear();
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Adding Objects to localstorage
 
@@ -130,7 +123,7 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 
 We will be discussing it quite a bit more later on
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Working with JSON in the browser
 
@@ -155,8 +148,4 @@ localstorage.setItem('friends', JSON.stringify(friends));
 JSON.parse(localstorage.getItem('friends'));
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
-
-None
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)

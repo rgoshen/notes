@@ -1,30 +1,16 @@
----
-id: p959Di7l8LftqDFVv9M65
-title: let and const
-desc: 'let and const'
-updated: 1643932970586
-created: 1643930366350
----
+# let and const
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg)
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/default.asp)
 
-# Table of Contents
+## Table of Contents
 
-1. [Abbreviations](#abbreviations)
-
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Introduction](#introduction)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[Reviewing var](#reviewing-var)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[let](#let)
-1. ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)[const](#const)
-
-1. [Tutorials](#tutorials)
-
-## Abbreviations
-
-- \*[]:
+1. [Introduction](#introduction)
+1. [Reviewing var](#reviewing-var)
+1. [let](#let)
+1. [const](#const)
 
 ## Introduction
 
@@ -46,7 +32,7 @@ function greet() {
 }
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## let
 
@@ -112,7 +98,7 @@ let z = 10;
 // SyntaxError: Identifier rzr has already been declared
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## const
 
@@ -136,7 +122,7 @@ console.log(x); // ReferenceError: x is not defined
 ### Comparison of Variable Declaration Keywords
 
 | Keyword   | Can Reassign | Can Redeclare | Can Mutate | Scope Rules    |
-| --------- | ------------ | ------------- | ---------- | -------------- |
+|-----------|--------------|---------------|------------|----------------|
 | **var**   | yes          | yes           | yes        | function scope |
 | **let**   | yes          | no            | yes        | block scope    |
 | **const** | no           | no            | yes        | block scope    |
@@ -146,6 +132,4 @@ console.log(x); // ReferenceError: x is not defined
 - There's really no need to use it
 - Just be careful of block scoping with **let**
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents) |
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
