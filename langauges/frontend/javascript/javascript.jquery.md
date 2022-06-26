@@ -1,12 +1,8 @@
----
-id: UZA8MuVAFkGehs4aTzYCe
-title: jQuery
-desc: 'jQuery Library'
-updated: 1644352140833
-created: 1644339198893
----
+# jQuery
 
-[![jQuery](/assets/images/jQuery_logo.svg){display: block, margin: 0 auto, max-height: 400px}](https://jquery.com/)
+### jQuery Library
+
+[![jQuery](../../../assets/images/jQuery_logo.svg)](https://jquery.com/)
 
 [![jQuery](https://img.shields.io/badge/Docs-jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white)](https://api.jquery.com/) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/jquery/jquery_intro.asp)
@@ -15,17 +11,17 @@ created: 1644339198893
 
 1. [Abbreviations](#abbreviations)
 
-1. ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) [Introduction](#introduction)
+1. [Introduction](#introduction)
 
-1. ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) [jQuery](#jquery)
+1. [jQuery](#jquery)
 
-1. ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) [Including jQuery and Selecting Elements](#including-jquery-and-selecting-elements)
+1. [Including jQuery and Selecting Elements](#including-jquery-and-selecting-elements)
 
-1. ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) [jQuery Methods](#jquery-methods)
+1. [jQuery Methods](#jquery-methods)
 
-1. ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) [Events and Delegation with jQuery](#events-and-delegation-with-jquery)
+1. [Events and Delegation with jQuery](#events-and-delegation-with-jquery)
 
-1. ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) [Wrap Up](#wrap-up)
+1. [Wrap Up](#wrap-up)
 
 ## Abbreviations
 
@@ -50,7 +46,7 @@ DOM operations.
 - Explain what you would or would not use a library like jQuery
 - Compare and contrast jQuery with [[javascript.vanilla]]
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## jQuery
 
@@ -70,7 +66,7 @@ It's a library for:
 - AJAX
 - 77% of the top 1,000,000 most visited pages use it
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Including jQuery and Selecting Elements
 
@@ -105,7 +101,7 @@ $('.carousel-image');
 // this will select ALL the elements with that class
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### What does this give you
 
@@ -126,7 +122,7 @@ $listItems.get(0);
 // the first HTMLElement
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Storing jQuery Objects in variables
 
@@ -147,13 +143,13 @@ console.log($class2Element);
 // nice, this is probably a jQuery object
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## jQuery Methods
 
 ### Common jQuery Methods
 
-A great way to learn these is to compare them to vanilla JS methods
+A great way to learn these are to compare them to vanilla JS methods
 
 - **.val()**
 - **.text()**
@@ -165,7 +161,7 @@ A great way to learn these is to compare them to vanilla JS methods
 - **.append() .prepend()**
 - **.find() .closest() .parent() .next() .prev()**
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### jQuery getter / setter pattern
 
@@ -199,7 +195,7 @@ $("#todo-container)
   .on("click", function(evt){console.log("clicked!")});
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Creating elements
 
@@ -208,7 +204,7 @@ Instead of using `document.createElement("li")` we can simply create an element 
 - `$("<li>")` creates a new li
 - `$("li")` selects existing li
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Waiting for the DOM to load
 
@@ -226,7 +222,7 @@ You may see this version:
 $(document).ready(function () {});
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Events and Delegation with jQuery
 
@@ -246,9 +242,9 @@ $('button').on('click', function () {
 });
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
-### Whay Use on()
+### Why Use on()
 
 In most cases, **click()** and **on("click")** will both get the job done. HOWEVER, there is one key difference:
 
@@ -271,7 +267,7 @@ $('#meme-container').on('click', '.meme', function (evt) {
 - less code
 - more performant
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Event Delegation: Vanilla JS vs. jQuery
 
@@ -308,7 +304,7 @@ $('#meme-container').on('click', '.meme', function (evt) {
 });
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Wrap Up
 
@@ -326,4 +322,4 @@ $('#meme-container').on('click', '.meme', function (evt) {
 > Go for it.
 > But if you're building a library, it's worth asking whether you need a dependency like jQuery.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
