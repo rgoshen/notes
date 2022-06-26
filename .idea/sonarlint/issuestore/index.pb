@@ -125,8 +125,6 @@ R
 "assets/images/step-out-outline.svg,9/1/91f98ef0ba0442f1e6f1f9763cc0f685540e68f6
 S
 #assets/images/step-over-outline.svg,7/1/71e493aac1a7d9213a14ca750a3709b29e4db2c7
-J
-scratch/javascript.ajax.md,3/e/3ee09da90ec2a6811fd9d5bada5412e59ae29900
 L
 scratch/javascript.jquery.md,0/c/0c06233e33e8a6757828edad568ca5e78ff08546
 w

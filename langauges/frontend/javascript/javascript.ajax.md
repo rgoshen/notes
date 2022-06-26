@@ -1,12 +1,6 @@
----
-id: 1tP3J5uAFuZURehRXBzdh
-title: AJAX
-desc: 'AJAX Notes'
-updated: 1644460831772
-created: 1644448669919
----
+# AJAX
 
-![javascript](/assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
+![javascript](../../../assets/images/javaScript.jpeg){display: block, margin: 0 auto, max-height: 400px}
 
 [![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) |
 [![W3 Schools](https://img.shields.io/badge/W3Schools-6DA55F?style=flat&logo=w3c&logoColor=white)](https://www.w3schools.com/js/js_ajax_intro.asp) |
@@ -22,7 +16,6 @@ created: 1644448669919
 1. [Axios API](#axios-api)
 1. [JSON](#json)
 1. [Wrap Up](#wrap-up)
-1. [Tutorials](#tutorials)
 
 ## Abbreviations
 
@@ -42,7 +35,7 @@ We'll introduce you to making AJAX requests using a popular JavaScript library -
 - Use async / await to manage asynchronous code with axios
 - Describe what JSON is
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## AJAX
 
@@ -73,7 +66,7 @@ In all cases:
 </form>
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### AJAX
 
@@ -93,19 +86,19 @@ AJAX is a technique in Javascript for sending requests and receiving responses f
 > The technology is still the same, though, even if the data payload is commonly different.
 > Ultimately, AJAX is a cooler sounding acronym than AJAJ or AJAH.
 
-![Regular Request vs AJAX Request](/assets/images/request-vs-ajax.png)
+![Regular Request vs AJAX Request](../../../assets/images/request-vs-ajax.png)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Why Use AJAX
 
 - Don’t need to reload entire page if just 1 thing is changing
-- Interactive web sites
+- Interactive websites
 - Fewer full page loads from server
   - Your JS can talk to other servers directly
 - Less info has to go across network
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## AJAX with Axios
 
@@ -148,7 +141,7 @@ console.log(card);
 - We want to wait for the promise to have that value before proceeding.
 - But we don’t know when the promise will receive its value!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Handling Asynchronous Code
 
@@ -160,7 +153,7 @@ AJAX requests are asynchronous
 - This means that if we want to use the data we get back from our AJAX requests, we need to wait until the response has been given to us
 - We’re going to use two newer keywords in JS to do this: **async** and **await**!
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Await
 
@@ -177,7 +170,7 @@ The code is asynchronous, but it “waits” for the AJAX request to complete.
 
 ### Async
 
-Outside of all functions (like in the console), you can just use **await**.
+Outside all functions (like in the console), you can just use **await**.
 
 To use in a function, you must mark that function as **async**:
 
@@ -189,13 +182,13 @@ async function getCardInfo() {
 }
 ```
 
-When calling asnyc function, you should await it:
+When calling async function, you should await it:
 
 ```javascript
 let card = await getCardInfo();
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### Callbacks vs Async/Await
 
@@ -204,7 +197,7 @@ let card = await getCardInfo();
 - **async/await** makes it easier to handle chains of requests
   - Modern libraries like Axios return “promises”, which you await
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Axios API
 
@@ -256,7 +249,7 @@ axios.get('/resource', { params: { a: 1, b: 2 } });
 
 Second form is better: you don’t have to worry about how to “url safe quote” characters that aren’t normally legal in URLs.
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ### .post
 
@@ -300,7 +293,7 @@ async function borrowMoney() {
 $('#borrow-btn').on('click', borrowMoney);
 ```
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## JSON
 
@@ -346,7 +339,7 @@ async function getHand() {
 $('#hand-btn').on('click', getHand);
 ```
 
-> **NOTE: GLobal JSON Object**
+> **NOTE: Global JSON Object**
 >
 > JavaScript comes with a global **JSON** object which can convert strings of JSON into JavaScript objects, and vice versa.
 > These methods are J**SON.stringify** (object -> JSON) and **JSON.parse** (JSON -> object).
@@ -371,7 +364,7 @@ JSON.parse('{"name": "Whiskey", "favFood": "popcorn", "birthMonth": 7}');
 > But you may be working with older APIs that expect data in this format, or you may want to work on switching over an older, non-AJAX application to an AJAX one, and find it helpful for the server to receive traditional form-encoded data.
 > For an example of how to do so, see [axios.browser](https://www.npmjs.com/package/axios#browser)
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
 
 ## Wrap Up
 
@@ -390,6 +383,4 @@ JSON.parse('{"name": "Whiskey", "favFood": "popcorn", "birthMonth": 7}');
 - JSON
   - Axios parses JSON responses automatically for us
 
-[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
-
-## Tutorials
+[![toc](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-red)](#table-of-contents)
