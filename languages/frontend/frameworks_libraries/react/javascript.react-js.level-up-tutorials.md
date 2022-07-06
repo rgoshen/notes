@@ -1,21 +1,26 @@
 # React for Everyone
 
-[ReactJS Docs](https://reactjs.org/docs/getting-started.html)
+[ReactJS Docs](https://reactjs.org/docs/getting-started.html) |
+[Level Up Tutorials](https://leveluptutorials.com/)
 
 ## TOC
 
-1. [Understanding Components](#understanding-components)
-2. [What are Props](#what-are-props)
-3. [State in Components with useState](#state-in-cmponents-with-usestate)
-4. [Conditional Rendering](#conditional-rendering)
-5. [Controlled Inputs](#controlled-inputs)
-6. [Looping in React](#looping-in-react)
-7. [Basic Filtering with State](#basic-filtering-with-state)
-8. [Component Creation Flow](#component-creation-flow)
-9. [PropTypes](#proptypes)
-10. [Refs](#refs)
-11. [useEffect 101](#useeffect-101)
-12. [React Router v5](#react-router-v5)
+- [React for Everyone](#react-for-everyone)
+  - [TOC](#toc)
+  - [Abbreviations](#abbreviations)
+  - [Understanding Components](#understanding-components)
+  - [What Are Props](#what-are-props)
+  - [Default Props](#default-props)
+  - [State in Components with useState](#state-in-components-with-usestate)
+  - [Conditional Rendering](#conditional-rendering)
+  - [Controlled Inputs](#controlled-inputs)
+  - [Looping in React](#looping-in-react)
+  - [Basic Filtering with State](#basic-filtering-with-state)
+  - [Component Creation Flow](#component-creation-flow)
+  - [PropTypes](#proptypes)
+  - [Refs](#refs)
+  - [useEffect 101](#useeffect-101)
+  - [React Router v5](#react-router-v5)
 
  Click on [Project](https://github.com/rgoshen/levelup-app) to access the GitHub Project
 
@@ -26,7 +31,7 @@
 ## Understanding Components
 
 - starting in React 18, files do not need `import React from 'react';` at the top of the file anymore.
-	- there is a transformer inside of babel that removes the requirement to have import React statement
+  - there is a transformer inside of babel that removes the requirement to have import React statement
 
 ```javascript
 import './App.css';
@@ -416,7 +421,6 @@ export function MoviesList() {
 
 _src/App.js_
 
-
 ```javascript
 import { MoviesList } from './MoviesList';
 import './App.css';
@@ -633,9 +637,9 @@ refs have changed a lot throughout the lifespan of React but are currently used 
 Uses:
 
 - to get access to the actual DOM and elements on in the DOM
-	- outside the normal React flow
-	- when a ref updates, this does not trigger a rerender of the DOM
-	- can use this to store information and change information without rerendering the component
+  - outside the normal React flow
+  - when a ref updates, this does not trigger a rerender of the DOM
+  - can use this to store information and change information without rerendering the component
 - allows access to actual DOM objects
 - "dumb" inputs as to the controlled inputs in a previous notes
 
@@ -712,8 +716,8 @@ This is a powerful hook and hook helps us to perform actions when a component mo
 - basically the ability to trigger side effects
 - you can tell `useEffect` when to run
 - `useEffect(() => {}, [])`
-	- the empty array after the arrow function tells `useEffect` to run only the first time the component renders (on `componentDidMount`)
-	- if you put some state in the array such as filter, then it would run the `useEffect` when the filter is updated
+  - the empty array after the arrow function tells `useEffect` to run only the first time the component renders (on `componentDidMount`)
+  - if you put some state in the array such as filter, then it would run the `useEffect` when the filter is updated
 
 _src/movies/MoviesList.js_
 
