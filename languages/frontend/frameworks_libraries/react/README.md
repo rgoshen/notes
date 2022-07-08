@@ -8,7 +8,3 @@
 
 1. [React for Everyone](./javascript.react-js-for-everyone.level-up-tutorials.md)
 2. [React Hooks for Everyone](./javascript-react-js-hooks-for-everyone.level-up-tutorials.md)
-
-## Testing
-
-1. [React Testing Crash Course](../../../../testing/react/javascript.react-js.testing.react-testing-crash-course.md)
