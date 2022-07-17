@@ -1,6 +1,6 @@
 # Redux & React for Everyone
 
-![reactjs](assets/images/reactjs.png)
+![reactjs](../../../../assets/images/reactjs.png)
 
 [Levelup Tutorials](https://leveluptutorials.com/) |
 [Reactjs Docs](https://reactjs.org/docs/getting-started.html) |
@@ -59,7 +59,7 @@ const store = createStore(hello);
 console.log(store.getState());
 ```
 
-![output1](assets/images/output_1.png)
+![output1](../../../../assets/images/output_1.png)
 
 [toc](#toc)
 
@@ -105,12 +105,12 @@ store.dispatch({
 console.log(store.getState());
 ```
 
-![first dispatch output](assets/images/first_dispatch_output.png)
+![first dispatch output](../../../../assets/images/first_dispatch_output.png)
 
 - action is an object and describes what the action is supposed to do
 - the store then uses its dispatch method to call the action
 
-![before and after](assets/images/before_after_dispatch.png)
+![before and after](../../../../assets/images/before_after_dispatch.png)
 
 - you can see the above image, the reducer function does not modify state, it completely replaces the state tree
 - in order to nullify this, you need to spread in the state first in each return from the reducer
@@ -131,7 +131,7 @@ const greeting = (state = defaultState, action) => {
 };
 ```
 
-![modified reducer output](assets/images/spread_state_modified_reducer.png)
+![modified reducer output](../../../../assets/images/spread_state_modified_reducer.png)
 
 [toc](#toc)
 
@@ -180,7 +180,7 @@ store.dispatch({
 console.log(store.getState());
 ```
 
-![output](assets/images/output_2.png)
+![output](../../../../assets/images/output_2.png)
 
 [toc](#toc)
 
@@ -389,7 +389,8 @@ const rootReducer = combineReducers({
 export default rootReducer;
 ```
 
-![react dev tool](assets/images/toggle_reactDevTool.png)![redux dev tool](assets/images/toggle_reduxDevTool.png)
+![react dev tool](../../../../assets/images/toggle_reactDevTool.png)
+![redux dev tool](../../../../assets/images/toggle_reduxDevTool.png)
 
 [toc](#toc)
 
@@ -443,7 +444,7 @@ export default connect(mapStateToProps)(Toggle);
 - Toggle has access to dispatch because it is a prop of connect
 - in React dev Tools if you select the Toggle component, you will see in the props section `dispatch()`
 
-![react dev tools](assets/images/toggle_reactDevTool.png)
+![react dev tools](../../../../assets/images/toggle_reactDevTool.png)
 
 - after adding an `onClick` event to the toggle button, have the arrow function return `dispatch({type: 'TOGGLE_MESSAGE'})`, you will see below in the screen shot, the toggle action fires
   - this tells Redux on this event, dispatch 'TOGGLE_MESSAGE' action
@@ -451,11 +452,11 @@ export default connect(mapStateToProps)(Toggle);
   - the reducer then looks for that action type
   - once it finds the action type, it will return whatever that type says to return, in this instance initially it just returns state (we will actually have it return new state where it will toggle `messageVisibility` to the opposite of whatever it is currently in state as
 
-![inital toggle action](assets/images/initial_toggle_action.gif)
+![inital toggle action](../../../../assets/images/initial_toggle_action.gif)
 
 - modify the reducer to actually return what we want it to return, `{...state, messageVisibility: !state.messageVisibility}`
 
-![update reducer](assets/images/updated_reducer_action.gif)
+![update reducer](../../../../assets/images/updated_reducer_action.gif)
 
 [toc](#toc)
 
@@ -682,7 +683,7 @@ const App = () => (
 export default App;
 ```
 
-![logger output](assets/images/logger_ouput.png)
+![logger output](../../../../assets/images/logger_ouput.png)
 
 [toc](#toc)
 
@@ -861,19 +862,25 @@ class MoviesList extends PureComponent {
     const { movies } = this.props;
     return (
       <MovieGrid>
-        {movies.map(movie => <Movie key={movie.id} movie={movie} />)}
+        {movies.map((movie) => (
+          <Movie key={movie.id} movie={movie} />
+        ))}
       </MovieGrid>
     );
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   movies: state.movies.movies,
 });
 
-const mapDispatchToProps = dispatch => bindActionCreators({
-  getMovies,
-}, dispatch);
+const mapDispatchToProps = (dispatch) =>
+  bindActionCreators(
+    {
+      getMovies,
+    },
+    dispatch
+  );
 
 export default connect(mapStateToProps, mapDispatchToProps)(MoviesList);
 
@@ -910,7 +917,7 @@ export default function (state = initialState, action) {
 }
 ```
 
-_src/features/movies/MoviesList.js
+\_src/features/movies/MoviesList.js
 
 ```javascript
 /* eslint react/no-did-mount-set-state: 0 */
